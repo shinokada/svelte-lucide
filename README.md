@@ -1,7 +1,6 @@
 [![npm version](https://badgen.net/npm/v/svelte-lucide)](https://www.npmjs.com/package/svelte-lucide)
 [![license](https://badgen.net/npm/license/svelte-lucide)](https://github.com/shinokada/svelte-lucide/blob/main/LICENSE)
 
-
 # Svelte-Lucide
 
 [Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte
@@ -12,7 +11,7 @@
 npm i -D svelte-lucide
 ```
 
-In your file:
+In a svelte file:
 
 ```html
 <script>
@@ -23,6 +22,12 @@ In your file:
 <Activity />
 <Airplay />
 ```
+
+## REPL
+
+[Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb?version=3.47.0)
+
+
 
 ## Size
 
@@ -81,4 +86,28 @@ As an example the dark mode class is `dark`.
 <Accessibility class="text-blue-700 dark:text-red-500" />
 <Activity class="text-red-700 dark:text-green-500" />
 <Airplay class="text-green-500 dark:text-blue-500" />
+```
+
+## Import all
+
+[REPL](https://svelte.dev/repl/6b2057d58c3841fc9f37b67960f02e27?version=3.47.0)
+
+Use `import * as Icon from 'svelte-lucide`.
+
+```html
+<script>
+	import * as Icon from 'svelte-lucide'
+</script>
+
+<h1>Size</h1>
+<Icon.Activity size="30"/>
+<Icon.Activity size="40"/>
+<Icon.Activity size="50"/>
+
+<h1>CSS HEX color</h1>
+<Icon.Bike color="#c61515" size="40"/>
+
+<h1>Tailwind CSS</h1>
+<Icon.Users class="text-blue-500" />
+<Icon.Users class="text-pink-700" />
 ```
