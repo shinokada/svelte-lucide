@@ -44,7 +44,7 @@ Use the `size` prop to change the size of icons.
 
 ## CSS HEX Colors
 
-Use the `color` prop to change colors.
+Use the `color` prop to change colors with HEX color code.
 
 ```html
 <script>
@@ -58,7 +58,7 @@ Use the `color` prop to change colors.
 
 ## Tailwind CSS suport
 
-Use the `class` prop to change colors and css.
+Use the `class` prop to change colors and add additional css.
 
 ```html
 <script>
