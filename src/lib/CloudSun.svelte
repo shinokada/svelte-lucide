@@ -1,0 +1,18 @@
+<script>export let size="24"; export let color="currentColor";</script><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round" class={$$props.class}
+>
+  <path d="M12 2v2" />
+  <path d="m5.22 5.22 1.42 1.42" />
+  <path d="M20 12h2" />
+  <path d="M15.97 12.5A4 4 0 0 0 9.5 8.88" />
+  <path d="M13.63 22A3.3 3.3 0 0 0 17 18.79a3.3 3.3 0 0 0-3.38-3.22h-1.34A5.23 5.23 0 0 0 7.25 12 5.13 5.13 0 0 0 2 17c0 2.76 2.35 5 5.25 5h6.38z" />
+  <path d="m17.36 6.64 1.42-1.42" />
+</svg>

@@ -1,0 +1,16 @@
+<script>export let size="24"; export let color="currentColor";</script><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round" class={$$props.class}
+>
+  <polyline points="17 11 21 7 17 3" />
+  <line x1="21" y1="7" x2="9" y2="7" />
+  <polyline points="7 21 3 17 7 13" />
+  <line x1="15" y1="17" x2="3" y2="17" />
+</svg>

@@ -1,23 +1,9 @@
-# svelte-lucideicons 
+# Svelte-Lucideicons
 
-## Overview
+[Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte
 
+## Installation
 
-## Requirement
-
-
-## Usage
-
-
-## Features
-
-
-## Reference
-
-
-## Author
-
-
-## License
-
-Please see license.txt.
+```sh
+npm i -D svelte-lucide
+```
