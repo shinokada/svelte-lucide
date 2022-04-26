@@ -23,10 +23,9 @@ In a svelte file:
 <Airplay />
 ```
 
-## REPL
+### REPL
 
 [Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb?version=3.47.0)
-
 
 
 ## Size
@@ -39,11 +38,11 @@ Use the `size` prop to change the size of icons.
 </script>
 
 <Accessibility size="30" />
-<Activity size="40" />
-<Airplay size="50" />
+<Activity size="42" />
+<Airplay size="51" />
 ```
 
-## Color
+## CSS HEX Colors
 
 Use the `color` prop to change colors.
 
@@ -59,24 +58,23 @@ Use the `color` prop to change colors.
 
 ## Tailwind CSS suport
 
-Use the `class` prop to change colors:
-
+Use the `class` prop to change colors and css.
 
 ```html
 <script>
   import { Accessibility, Activity, Airplay } from "svlete-lucide";
 </script>
 
-<Accessibility class="text-blue-700" />
+<Accessibility class="text-blue-700 mr-4" />
 <Activity class="text-red-700" />
 <Airplay class="text-green-500" />
 ```
 
 ## Dark mode with Tailwind CSS
 
-If you use the dark mode on your website with Tailwind CSS, add it to the `class` prop.
+If you use the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
 
-As an example the dark mode class is `dark`.
+Let's use `dark` for the dark mode class as an example.
 
 ```html
 <script>
