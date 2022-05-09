@@ -5,6 +5,10 @@
 
 [Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte
 
+## Icon list
+
+[Icon list](https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md)
+
 ## Installation
 
 ```sh
