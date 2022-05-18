@@ -3,7 +3,8 @@
 
 # Svelte-Lucide
 
-[Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte
+- [Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte.
+- Support all major CSS frameworks using the `class` prop.
 
 ## Icon list
 
@@ -60,9 +61,11 @@ Use the `color` prop to change colors with HEX color code.
 <Airplay color="#3fe537" />
 ```
 
-## Tailwind CSS suport
+## CSS frameworks suport
 
 Use the `class` prop to change colors and add additional css.
+
+Tailwind example:
 
 ```html
 <script>
@@ -74,9 +77,15 @@ Use the `class` prop to change colors and add additional css.
 <Airplay class="text-green-500" />
 ```
 
+Bootstrap example:
+
+```html
+<Accessibility class="position-absolute top-0 px-1" />
+```
+
 ## Dark mode with Tailwind CSS
 
-If you use the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
 
 Let's use `dark` for the dark mode class as an example.
 
