@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/shinokada/svelte-lucide/compare/v0.2.0...v0.2.1) (2022-12-15)
+
+
+### Bug Fixes
+
+* sveltekit 1.0.0 ([e2b45be](https://github.com/shinokada/svelte-lucide/commit/e2b45be603dc219068d53ee46c990f9c3940fe15))
+
 ## [0.2.0](https://github.com/shinokada/svelte-lucide/compare/v0.1.6...v0.2.0) (2022-10-13)
 
 
