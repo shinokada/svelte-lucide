@@ -1,8 +1,17 @@
-[![npm version](https://badgen.net/npm/v/svelte-lucide)](https://www.npmjs.com/package/svelte-lucide)
-[![license](https://badgen.net/npm/license/svelte-lucide)](https://github.com/shinokada/svelte-lucide/blob/main/LICENSE)
+<h1 align="center">Svelte-Lucide</h1>
 
-# Svelte-Lucide
+<p align="center">
+<a href="https://shinokada.github.io/svelte-lucide/">Svelte-File-Icons</a>
+</p>
 
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-lucide" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-lucide" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-lucide.svg" alt="npm"></a>
+</p>
+
+[Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte. Support all major CSS frameworks using the `class` prop.
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide1.webp" />
@@ -11,18 +20,17 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide4.webp" />
 </p>
 
-- [Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte.
-- Support all major CSS frameworks using the `class` prop.
-
-## Icon list
-
-[Icon list](https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md)
-
 ## Installation
 
 ```sh
 npm i -D svelte-lucide
 ```
+
+## Icon list
+
+[Icon list](https://github.com/shinokada/svelte-lucide/blob/main/docs/icon-list.md)
+
+## Usage
 
 In a svelte file:
 
