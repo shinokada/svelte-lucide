@@ -44,7 +44,7 @@ In a svelte file:
 <Airplay />
 ```
 
-### REPL
+## REPL
 
 [Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb?version=3.47.0)
 
@@ -142,10 +142,3 @@ Use `import * as Icon from 'svelte-lucide`.
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-- [Svelte-Ionicons](https://www.npmjs.com/package/svelte-ionicons)
-- [Svelte-Awesome-Icons](https://www.npmjs.com/package/svelte-awesome-icons)
-- [Svelte-heros](https://github.com/shinokada/svelte-heros)
-- [Svelte-lucide](https://github.com/shinokada/svelte-lucide)
-- [Svelte-flags](https://www.npmjs.com/package/svelte-flags)
-- [Svlete-simples](https://github.com/shinokada/svelte-simples)
-- [Svelte-feathers](https://github.com/shinokada/svelte-feathers)
