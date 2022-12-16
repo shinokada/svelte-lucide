@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/shinokada/svelte-lucide/compare/v0.2.2...v0.2.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* move files from docs to root since npmjs does not show README. ([cb6ea53](https://github.com/shinokada/svelte-lucide/commit/cb6ea535cd6020eb25b54fddf1c5b8f056286df7))
+
 ### [0.2.2](https://github.com/shinokada/svelte-lucide/compare/v0.2.1...v0.2.2) (2022-12-15)
 
 ### [0.2.1](https://github.com/shinokada/svelte-lucide/compare/v0.2.0...v0.2.1) (2022-12-15)
