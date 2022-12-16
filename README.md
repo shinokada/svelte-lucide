@@ -1,38 +1,144 @@
-# create-svelte
+<h1 align="center">Svelte-Lucide</h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+<a href="https://shinokada.github.io/svelte-lucide/">Svelte-File-Icons</a>
+</p>
 
-## Creating a project
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-lucide" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-lucide" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-lucide.svg" alt="npm"></a>
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+[Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte. Support all major CSS frameworks using the `class` prop.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<p align="center">
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide1.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide3.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide4.webp" />
+</p>
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Installation
+
+```sh
+npm i -D svelte-lucide
 ```
 
-## Developing
+## Icon list
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[Icon list](https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md)
 
-```bash
-npm run dev
+## Usage
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+In a svelte file:
+
+```html
+<script>
+  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+</script>
+
+<Accessibility />
+<Activity />
+<Airplay />
 ```
 
-## Building
+## REPL
 
-To create a production version of your app:
+[Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb)
 
-```bash
-npm run build
+
+## Size
+
+Use the `size` prop to change the size of icons.
+
+```html
+<script>
+  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+</script>
+
+<Accessibility size="30" />
+<Activity size="42" />
+<Airplay size="51" />
 ```
 
-You can preview the production build with `npm run preview`.
+## CSS HEX Colors
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Use the `color` prop to change colors with HEX color code.
+
+```html
+<script>
+  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+</script>
+
+<Accessibility color="#c61515" />
+<Activity color="#3759e5" />
+<Airplay color="#3fe537" />
+```
+
+## CSS frameworks suport
+
+Use the `class` prop to change colors and add additional css.
+
+Tailwind example:
+
+```html
+<script>
+  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+</script>
+
+<Accessibility class="text-blue-700 mr-4" />
+<Activity class="text-red-700" />
+<Airplay class="text-green-500" />
+```
+
+Bootstrap example:
+
+```html
+<Accessibility class="position-absolute top-0 px-1" />
+```
+
+## Dark mode with Tailwind CSS
+
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+
+Let's use `dark` for the dark mode class as an example.
+
+```html
+<script>
+  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+</script>
+
+<Accessibility class="text-blue-700 dark:text-red-500" />
+<Activity class="text-red-700 dark:text-green-500" />
+<Airplay class="text-green-500 dark:text-blue-500" />
+```
+
+## Import all
+
+[REPL](https://svelte.dev/repl/6b2057d58c3841fc9f37b67960f02e27)
+
+Use `import * as Icon from 'svelte-lucide`.
+
+```html
+<script>
+	import * as Icon from 'svelte-lucide'
+</script>
+
+<h1>Size</h1>
+<Icon.Activity size="30"/>
+<Icon.Activity size="40"/>
+<Icon.Activity size="50"/>
+
+<h1>CSS HEX color</h1>
+<Icon.Bike color="#c61515" size="40"/>
+
+<h1>Tailwind CSS</h1>
+<Icon.Users class="text-blue-500" />
+<Icon.Users class="text-pink-700" />
+```
+
+## Other icons
+
+- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
