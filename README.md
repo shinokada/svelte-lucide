@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Lucide</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-lucide/">Svelte-File-Icons</a>
+<a href="https://svelte-lucide.codewithshin.com/">Svelte-File-Icons</a>
 </p>
 
 <p align="center">
