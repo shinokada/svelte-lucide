@@ -1,6 +1,6 @@
 {
 	"name": "svelte-lucide",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "Lucide-icon components for Sveltejs",
 	"author": {
 		"name": "Shinichi Okada",

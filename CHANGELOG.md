@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/shinokada/svelte-lucide/compare/v0.2.3...v0.2.4) (2022-12-25)
+
+
+### Bug Fixes
+
+* url updates ([c34bd07](https://github.com/shinokada/svelte-lucide/commit/c34bd074a8f1777036c10cb11b1551fe72fc177c))
+* useTabs false in .prettierrc ([0ceed39](https://github.com/shinokada/svelte-lucide/commit/0ceed39ac7f2a8d2c62c58e04be3649896529ace))
+
 ### [0.2.3](https://github.com/shinokada/svelte-lucide/compare/v0.2.2...v0.2.3) (2022-12-16)
 
 
