@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/shinokada/svelte-lucide/compare/v0.2.4...v0.2.5) (2023-01-30)
+
+
+### Features
+
+* add pwa ([f837fb6](https://github.com/shinokada/svelte-lucide/commit/f837fb6aa4067f2d40ddd2a35545507344339449))
+
+
+### Bug Fixes
+
+* add search and ga ([5cf0b3f](https://github.com/shinokada/svelte-lucide/commit/5cf0b3f102e49ed1ba339c730ff9491a3aa5ca88))
+
 ### [0.2.4](https://github.com/shinokada/svelte-lucide/compare/v0.2.3...v0.2.4) (2022-12-25)
 
 
