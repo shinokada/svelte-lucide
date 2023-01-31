@@ -15,10 +15,7 @@
 [Lucide-icons](https://github.com/lucide-icons/lucide) for Svelte. Support all major CSS frameworks using the `class` prop.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-lucide/main/static/images/lucide4.webp" />
+<img src="/static/images/lucide.png" />
 </p>
 
 ## Installation
