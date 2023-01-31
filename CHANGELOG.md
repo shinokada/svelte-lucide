@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/shinokada/svelte-lucide/compare/v0.2.7...v0.2.8) (2023-01-31)
+
+
+### Bug Fixes
+
+* add service-worker in index.html ([c887ba3](https://github.com/shinokada/svelte-lucide/commit/c887ba3169be10d7a85e3a701d8e56432e9b6eed))
+* image width ([49b74e3](https://github.com/shinokada/svelte-lucide/commit/49b74e3b8e720f34c2a5efffbcd48b460f61f36e))
+
 ### [0.2.7](https://github.com/shinokada/svelte-lucide/compare/v0.2.6...v0.2.7) (2023-01-31)
 
 
