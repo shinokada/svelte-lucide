@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.9](https://github.com/shinokada/svelte-lucide/compare/v0.2.8...v0.2.9) (2023-02-01)
+
+
+### Bug Fixes
+
+* add optimized image ([b100832](https://github.com/shinokada/svelte-lucide/commit/b1008323341427c78938b4b850a4bd923a8dd8a0))
+* badges target, height, and add links to crossOriginLinks ([24da217](https://github.com/shinokada/svelte-lucide/commit/24da2175564ec728ccb0de63fd43d353c2760f21))
+* favicon link ([815f2ec](https://github.com/shinokada/svelte-lucide/commit/815f2ec030203f15c57913d5db59432ef4a7e091))
+
 ### [0.2.8](https://github.com/shinokada/svelte-lucide/compare/v0.2.7...v0.2.8) (2023-01-31)
 
 
