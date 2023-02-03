@@ -1,1192 +1,877 @@
-import StarHalf from './StarHalf.svelte'
-import ChevronUp from './ChevronUp.svelte'
-import Sunrise from './Sunrise.svelte'
-import AlignHorizontalSpaceBetween from './AlignHorizontalSpaceBetween.svelte'
-import SignalMedium from './SignalMedium.svelte'
-import EyeOff from './EyeOff.svelte'
-import MessageSquare from './MessageSquare.svelte'
-import Binary from './Binary.svelte'
-import ScanLine from './ScanLine.svelte'
-import Ruler from './Ruler.svelte'
-import ArrowDown from './ArrowDown.svelte'
-import ArrowDownRight from './ArrowDownRight.svelte'
-import ArrowBigDown from './ArrowBigDown.svelte'
-import MoveDiagonal2 from './MoveDiagonal2.svelte'
-import StretchHorizontal from './StretchHorizontal.svelte'
-import LogIn from './LogIn.svelte'
-import LayoutList from './LayoutList.svelte'
-import DivideSquare from './DivideSquare.svelte'
-import FolderPlus from './FolderPlus.svelte'
-import ToggleRight from './ToggleRight.svelte'
-import PhoneOutgoing from './PhoneOutgoing.svelte'
-import Building2 from './Building2.svelte'
-import Users from './Users.svelte'
-import Waves from './Waves.svelte'
-import BatteryFull from './BatteryFull.svelte'
-import Verified from './Verified.svelte'
-import Briefcase from './Briefcase.svelte'
-import Bike from './Bike.svelte'
-import PhoneForwarded from './PhoneForwarded.svelte'
-import Unlock from './Unlock.svelte'
-import PhoneIncoming from './PhoneIncoming.svelte'
-import Undo from './Undo.svelte'
-import CornerUpRight from './CornerUpRight.svelte'
-import Clock12 from './Clock12.svelte'
-import Laptop from './Laptop.svelte'
-import SkipForward from './SkipForward.svelte'
-import Flag from './Flag.svelte'
-import BatteryLow from './BatteryLow.svelte'
-import LayoutGrid from './LayoutGrid.svelte'
-import ArrowBigLeft from './ArrowBigLeft.svelte'
-import ArrowLeft from './ArrowLeft.svelte'
-import Youtube from './Youtube.svelte'
-import ClipboardCheck from './ClipboardCheck.svelte'
-import Bell from './Bell.svelte'
-import ArrowRight from './ArrowRight.svelte'
-import Shrink from './Shrink.svelte'
-import Globe from './Globe.svelte'
-import GripHorizontal from './GripHorizontal.svelte'
-import ListOrdered from './ListOrdered.svelte'
-import FlaskConical from './FlaskConical.svelte'
-import PauseOctagon from './PauseOctagon.svelte'
-import ExternalLink from './ExternalLink.svelte'
-import Gauge from './Gauge.svelte'
-import BarChart2 from './BarChart2.svelte'
-import ChevronRight from './ChevronRight.svelte'
-import Globe2 from './Globe2.svelte'
-import Vibrate from './Vibrate.svelte'
-import Link2Off from './Link2Off.svelte'
-import Megaphone from './Megaphone.svelte'
-import SortDesc from './SortDesc.svelte'
-import ArrowUpLeft from './ArrowUpLeft.svelte'
-import Box from './Box.svelte'
-import Loader2 from './Loader2.svelte'
-import Gem from './Gem.svelte'
-import Dice2 from './Dice2.svelte'
-import FileX2 from './FileX2.svelte'
-import ThermometerSnowflake from './ThermometerSnowflake.svelte'
-import Haze from './Haze.svelte'
-import GitPullRequest from './GitPullRequest.svelte'
-import PlusSquare from './PlusSquare.svelte'
-import Terminal from './Terminal.svelte'
-import Target from './Target.svelte'
-import ThumbsDown from './ThumbsDown.svelte'
-import ListX from './ListX.svelte'
-import Navigation from './Navigation.svelte'
-import Clock2 from './Clock2.svelte'
-import Sunset from './Sunset.svelte'
-import Bot from './Bot.svelte'
-import Link from './Link.svelte'
-import CornerDownRight from './CornerDownRight.svelte'
-import Paperclip from './Paperclip.svelte'
-import FolderMinus from './FolderMinus.svelte'
-import Contrast from './Contrast.svelte'
-import Asterisk from './Asterisk.svelte'
-import PackagePlus from './PackagePlus.svelte'
-import ArrowUp from './ArrowUp.svelte'
-import LifeBuoy from './LifeBuoy.svelte'
-import SmartphoneCharging from './SmartphoneCharging.svelte'
-import Pipette from './Pipette.svelte'
-import Library from './Library.svelte'
-import BarChart from './BarChart.svelte'
-import Palmtree from './Palmtree.svelte'
-import MousePointerClick from './MousePointerClick.svelte'
-import SidebarClose from './SidebarClose.svelte'
-import Maximize from './Maximize.svelte'
-import DivideCircle from './DivideCircle.svelte'
-import Figma from './Figma.svelte'
-import Infinity from './Infinity.svelte'
-import Trello from './Trello.svelte'
-import Save from './Save.svelte'
-import Superscript from './Superscript.svelte'
-import Thermometer from './Thermometer.svelte'
-import CornerDownLeft from './CornerDownLeft.svelte'
-import Droplet from './Droplet.svelte'
-import Smartphone from './Smartphone.svelte'
-import Outdent from './Outdent.svelte'
-import CloudDrizzle from './CloudDrizzle.svelte'
-import AlignRight from './AlignRight.svelte'
-import MessageCircle from './MessageCircle.svelte'
-import Aperture from './Aperture.svelte'
-import AlignHorizontalJustifyCenter from './AlignHorizontalJustifyCenter.svelte'
-import MonitorOff from './MonitorOff.svelte'
-import ChevronsUp from './ChevronsUp.svelte'
-import Code2 from './Code2.svelte'
-import Import from './Import.svelte'
-import TrendingDown from './TrendingDown.svelte'
-import AlignHorizontalDistributeEnd from './AlignHorizontalDistributeEnd.svelte'
-import AlignHorizontalSpaceAround from './AlignHorizontalSpaceAround.svelte'
-import Scan from './Scan.svelte'
-import Umbrella from './Umbrella.svelte'
-import Axe from './Axe.svelte'
-import Rss from './Rss.svelte'
-import Command from './Command.svelte'
-import AlignStartHorizontal from './AlignStartHorizontal.svelte'
-import PlusCircle from './PlusCircle.svelte'
-import Snowflake from './Snowflake.svelte'
-import Gavel from './Gavel.svelte'
-import Power from './Power.svelte'
-import Check from './Check.svelte'
-import Laptop2 from './Laptop2.svelte'
-import BellPlus from './BellPlus.svelte'
-import File from './File.svelte'
-import BookmarkMinus from './BookmarkMinus.svelte'
-import AlarmClock from './AlarmClock.svelte'
-import Repeat from './Repeat.svelte'
-import PenTool from './PenTool.svelte'
-import Quote from './Quote.svelte'
-import Inbox from './Inbox.svelte'
-import PiggyBank from './PiggyBank.svelte'
-import ZoomIn from './ZoomIn.svelte'
-import BatteryCharging from './BatteryCharging.svelte'
-import PieChart from './PieChart.svelte'
-import FileInput from './FileInput.svelte'
-import Shuffle from './Shuffle.svelte'
-import Strikethrough from './Strikethrough.svelte'
-import Clock10 from './Clock10.svelte'
-import Contact from './Contact.svelte'
-import Volume1 from './Volume1.svelte'
-import Map from './Map.svelte'
-import MousePointer2 from './MousePointer2.svelte'
-import MousePointer from './MousePointer.svelte'
-import Milestone from './Milestone.svelte'
-import Github from './Github.svelte'
-import Heart from './Heart.svelte'
-import Lightbulb from './Lightbulb.svelte'
-import BluetoothSearching from './BluetoothSearching.svelte'
-import FileMinus from './FileMinus.svelte'
-import Dice4 from './Dice4.svelte'
-import Clock8 from './Clock8.svelte'
-import BellOff from './BellOff.svelte'
-import Database from './Database.svelte'
-import VideoOff from './VideoOff.svelte'
-import ScreenShareOff from './ScreenShareOff.svelte'
-import SidebarOpen from './SidebarOpen.svelte'
-import Frown from './Frown.svelte'
-import CloudMoon from './CloudMoon.svelte'
-import FlagTriangleRight from './FlagTriangleRight.svelte'
-import Chrome from './Chrome.svelte'
-import Wallet from './Wallet.svelte'
-import Triangle from './Triangle.svelte'
-import SignalLow from './SignalLow.svelte'
-import Clock4 from './Clock4.svelte'
-import Files from './Files.svelte'
-import Cross from './Cross.svelte'
-import Gamepad2 from './Gamepad2.svelte'
-import Compass from './Compass.svelte'
-import Facebook from './Facebook.svelte'
-import XSquare from './XSquare.svelte'
-import GitMerge from './GitMerge.svelte'
-import AlignCenter from './AlignCenter.svelte'
-import ListChecks from './ListChecks.svelte'
-import Pointer from './Pointer.svelte'
-import UserMinus from './UserMinus.svelte'
-import User from './User.svelte'
-import X from './X.svelte'
-import GitBranch from './GitBranch.svelte'
-import ChevronLeft from './ChevronLeft.svelte'
-import UserPlus from './UserPlus.svelte'
-import LogOut from './LogOut.svelte'
-import Hammer from './Hammer.svelte'
-import LayoutTemplate from './LayoutTemplate.svelte'
-import RadioReceiver from './RadioReceiver.svelte'
-import Calculator from './Calculator.svelte'
-import Anchor from './Anchor.svelte'
-import TerminalSquare from './TerminalSquare.svelte'
-import RefreshCw from './RefreshCw.svelte'
-import History from './History.svelte'
-import Bookmark from './Bookmark.svelte'
-import ArrowDownCircle from './ArrowDownCircle.svelte'
-import PackageCheck from './PackageCheck.svelte'
-import Euro from './Euro.svelte'
-import Currency from './Currency.svelte'
-import ChevronDown from './ChevronDown.svelte'
-import RussianRuble from './RussianRuble.svelte'
-import PersonStanding from './PersonStanding.svelte'
-import ImagePlus from './ImagePlus.svelte'
-import FunctionSquare from './FunctionSquare.svelte'
-import Tornado from './Tornado.svelte'
-import AlignHorizontalDistributeStart from './AlignHorizontalDistributeStart.svelte'
-import ClipboardCopy from './ClipboardCopy.svelte'
-import Option from './Option.svelte'
-import Columns from './Columns.svelte'
-import CloudRain from './CloudRain.svelte'
-import ReplyAll from './ReplyAll.svelte'
-import Film from './Film.svelte'
-import Instagram from './Instagram.svelte'
-import HardDrive from './HardDrive.svelte'
-import ChevronsLeft from './ChevronsLeft.svelte'
-import Timer from './Timer.svelte'
-import Bus from './Bus.svelte'
-import CheckCircle2 from './CheckCircle2.svelte'
-import Copyleft from './Copyleft.svelte'
-import Wind from './Wind.svelte'
-import AlignVerticalJustifyEnd from './AlignVerticalJustifyEnd.svelte'
-import Sun from './Sun.svelte'
-import Highlighter from './Highlighter.svelte'
-import MoreVertical from './MoreVertical.svelte'
-import SignalZero from './SignalZero.svelte'
-import Key from './Key.svelte'
-import WrapText from './WrapText.svelte'
-import XCircle from './XCircle.svelte'
-import Twitch from './Twitch.svelte'
-import Unlink2 from './Unlink2.svelte'
-import AtSign from './AtSign.svelte'
-import FlashlightOff from './FlashlightOff.svelte'
-import AlertTriangle from './AlertTriangle.svelte'
-import Shovel from './Shovel.svelte'
-import RotateCw from './RotateCw.svelte'
-import PhoneMissed from './PhoneMissed.svelte'
-import EqualNot from './EqualNot.svelte'
-import ZoomOut from './ZoomOut.svelte'
-import Bug from './Bug.svelte'
-import FlaskRound from './FlaskRound.svelte'
-import Podcast from './Podcast.svelte'
-import Inspect from './Inspect.svelte'
-import ClipboardList from './ClipboardList.svelte'
-import ShieldAlert from './ShieldAlert.svelte'
-import Italic from './Italic.svelte'
-import Bold from './Bold.svelte'
-import AlignVerticalSpaceBetween from './AlignVerticalSpaceBetween.svelte'
-import Octagon from './Octagon.svelte'
-import PowerOff from './PowerOff.svelte'
-import Delete from './Delete.svelte'
-import Voicemail from './Voicemail.svelte'
-import Clock6 from './Clock6.svelte'
-import ThumbsUp from './ThumbsUp.svelte'
-import ShieldOff from './ShieldOff.svelte'
-import Scissors from './Scissors.svelte'
-import Rocket from './Rocket.svelte'
-import AlignHorizontalDistributeCenter from './AlignHorizontalDistributeCenter.svelte'
-import Accessibility from './Accessibility.svelte'
-import Bluetooth from './Bluetooth.svelte'
-import TimerOff from './TimerOff.svelte'
-import AlignCenterVertical from './AlignCenterVertical.svelte'
-import Redo from './Redo.svelte'
-import CornerLeftUp from './CornerLeftUp.svelte'
-import AlignVerticalDistributeStart from './AlignVerticalDistributeStart.svelte'
-import Share2 from './Share2.svelte'
-import IndianRupee from './IndianRupee.svelte'
-import Activity from './Activity.svelte'
-import FastForward from './FastForward.svelte'
-import MicOff from './MicOff.svelte'
-import StopCircle from './StopCircle.svelte'
-import Dice6 from './Dice6.svelte'
-import ChevronsDown from './ChevronsDown.svelte'
-import Video from './Video.svelte'
-import Edit2 from './Edit2.svelte'
-import Landmark from './Landmark.svelte'
-import AlarmMinus from './AlarmMinus.svelte'
-import Crown from './Crown.svelte'
-import GitBranchPlus from './GitBranchPlus.svelte'
-import Menu from './Menu.svelte'
-import FormInput from './FormInput.svelte'
-import TimerReset from './TimerReset.svelte'
-import Tv2 from './Tv2.svelte'
-import Expand from './Expand.svelte'
-import PackageX from './PackageX.svelte'
-import Drumstick from './Drumstick.svelte'
-import Settings from './Settings.svelte'
-import Subscript from './Subscript.svelte'
-import PackageSearch from './PackageSearch.svelte'
-import Droplets from './Droplets.svelte'
-import Shield from './Shield.svelte'
-import ShoppingBag from './ShoppingBag.svelte'
-import Cloud from './Cloud.svelte'
-import AlignVerticalDistributeEnd from './AlignVerticalDistributeEnd.svelte'
-import Settings2 from './Settings2.svelte'
-import Dice3 from './Dice3.svelte'
-import FileX from './FileX.svelte'
-import GitFork from './GitFork.svelte'
-import BookmarkPlus from './BookmarkPlus.svelte'
-import AlarmCheck from './AlarmCheck.svelte'
-import Music from './Music.svelte'
-import Sliders from './Sliders.svelte'
-import Ghost from './Ghost.svelte'
-import Layout from './Layout.svelte'
-import RefreshCcw from './RefreshCcw.svelte'
-import Printer from './Printer.svelte'
-import Grab from './Grab.svelte'
-import WifiOff from './WifiOff.svelte'
-import ShieldCheck from './ShieldCheck.svelte'
-import Clock3 from './Clock3.svelte'
-import ServerOff from './ServerOff.svelte'
-import BatteryMedium from './BatteryMedium.svelte'
-import Clock from './Clock.svelte'
-import VolumeX from './VolumeX.svelte'
-import Volume from './Volume.svelte'
-import Edit from './Edit.svelte'
-import Camera from './Camera.svelte'
-import FileCode from './FileCode.svelte'
-import AlignHorizontalJustifyStart from './AlignHorizontalJustifyStart.svelte'
-import ArrowBigRight from './ArrowBigRight.svelte'
-import JapaneseYen from './JapaneseYen.svelte'
-import MinusSquare from './MinusSquare.svelte'
-import Indent from './Indent.svelte'
-import Pencil from './Pencil.svelte'
-import LocateFixed from './LocateFixed.svelte'
-import Square from './Square.svelte'
-import CloudFog from './CloudFog.svelte'
-import ToggleLeft from './ToggleLeft.svelte'
-import Headphones from './Headphones.svelte'
-import Repeat1 from './Repeat1.svelte'
-import FileMinus2 from './FileMinus2.svelte'
-import Filter from './Filter.svelte'
-import Skull from './Skull.svelte'
-import Building from './Building.svelte'
-import Codepen from './Codepen.svelte'
-import Wrench from './Wrench.svelte'
-import Volume2 from './Volume2.svelte'
-import Book from './Book.svelte'
-import Egg from './Egg.svelte'
-import Webcam from './Webcam.svelte'
-import AlarmClockOff from './AlarmClockOff.svelte'
-import AlignEndHorizontal from './AlignEndHorizontal.svelte'
-import Hexagon from './Hexagon.svelte'
-import MoreHorizontal from './MoreHorizontal.svelte'
-import Hash from './Hash.svelte'
-import CornerLeftDown from './CornerLeftDown.svelte'
-import PauseCircle from './PauseCircle.svelte'
-import Mouse from './Mouse.svelte'
-import Image from './Image.svelte'
-import Code from './Code.svelte'
-import BluetoothOff from './BluetoothOff.svelte'
-import ClipboardX from './ClipboardX.svelte'
-import Beaker from './Beaker.svelte'
-import StretchVertical from './StretchVertical.svelte'
-import ChevronsDownUp from './ChevronsDownUp.svelte'
-import Glasses from './Glasses.svelte'
-import ChevronLast from './ChevronLast.svelte'
-import PoundSterling from './PoundSterling.svelte'
-import Tv from './Tv.svelte'
-import LocateOff from './LocateOff.svelte'
-import Speaker from './Speaker.svelte'
-import AlignVerticalJustifyCenter from './AlignVerticalJustifyCenter.svelte'
-import FlagTriangleLeft from './FlagTriangleLeft.svelte'
-import TextCursor from './TextCursor.svelte'
-import AlignLeft from './AlignLeft.svelte'
-import View from './View.svelte'
-import ChevronsRightLeft from './ChevronsRightLeft.svelte'
-import MapPin from './MapPin.svelte'
-import CornerRightDown from './CornerRightDown.svelte'
-import Play from './Play.svelte'
-import MonitorSpeaker from './MonitorSpeaker.svelte'
-import Clock11 from './Clock11.svelte'
-import Mail from './Mail.svelte'
-import Disc from './Disc.svelte'
-import SwissFranc from './SwissFranc.svelte'
-import HelpCircle from './HelpCircle.svelte'
-import Zap from './Zap.svelte'
-import DownloadCloud from './DownloadCloud.svelte'
-import Lock from './Lock.svelte'
-import Minimize from './Minimize.svelte'
-import Regex from './Regex.svelte'
-import Signal from './Signal.svelte'
-import CloudOff from './CloudOff.svelte'
-import Circle from './Circle.svelte'
-import Sheet from './Sheet.svelte'
-import AlignCenterHorizontal from './AlignCenterHorizontal.svelte'
-import MoveHorizontal from './MoveHorizontal.svelte'
-import AlignVerticalDistributeCenter from './AlignVerticalDistributeCenter.svelte'
-import Scale from './Scale.svelte'
-import HandMetal from './HandMetal.svelte'
-import MinusCircle from './MinusCircle.svelte'
-import Trash from './Trash.svelte'
-import Calendar from './Calendar.svelte'
-import RockingChair from './RockingChair.svelte'
-import Brush from './Brush.svelte'
-import Pause from './Pause.svelte'
-import Folder from './Folder.svelte'
-import ArrowBigUp from './ArrowBigUp.svelte'
-import BoxSelect from './BoxSelect.svelte'
-import AlignVerticalSpaceAround from './AlignVerticalSpaceAround.svelte'
-import Gamepad from './Gamepad.svelte'
-import FilePlus2 from './FilePlus2.svelte'
-import ImageMinus from './ImageMinus.svelte'
-import DollarSign from './DollarSign.svelte'
-import SortAsc from './SortAsc.svelte'
-import SkipBack from './SkipBack.svelte'
-import PackageMinus from './PackageMinus.svelte'
-import Baseline from './Baseline.svelte'
-import Hand from './Hand.svelte'
-import Clock1 from './Clock1.svelte'
-import CornerUpLeft from './CornerUpLeft.svelte'
-import FlagOff from './FlagOff.svelte'
-import Unlink from './Unlink.svelte'
-import SignalHigh from './SignalHigh.svelte'
-import CameraOff from './CameraOff.svelte'
-import Shirt from './Shirt.svelte'
-import Album from './Album.svelte'
-import Reply from './Reply.svelte'
-import BluetoothConnected from './BluetoothConnected.svelte'
-import Sidebar from './Sidebar.svelte'
-import Cloudy from './Cloudy.svelte'
-import BookOpen from './BookOpen.svelte'
-import Slack from './Slack.svelte'
-import Flashlight from './Flashlight.svelte'
-import Send from './Send.svelte'
-import Watch from './Watch.svelte'
-import Dice1 from './Dice1.svelte'
-import FileCheck2 from './FileCheck2.svelte'
-import Hourglass from './Hourglass.svelte'
-import Plane from './Plane.svelte'
-import Clipboard from './Clipboard.svelte'
-import Pocket from './Pocket.svelte'
-import Award from './Award.svelte'
-import Home from './Home.svelte'
-import Eraser from './Eraser.svelte'
-import Languages from './Languages.svelte'
-import UserCheck from './UserCheck.svelte'
-import ListMinus from './ListMinus.svelte'
-import Maximize2 from './Maximize2.svelte'
-import SeparatorVertical from './SeparatorVertical.svelte'
-import Network from './Network.svelte'
-import Type from './Type.svelte'
-import ArrowDownLeft from './ArrowDownLeft.svelte'
-import Minimize2 from './Minimize2.svelte'
-import Feather from './Feather.svelte'
-import Search from './Search.svelte'
-import Tent from './Tent.svelte'
-import XOctagon from './XOctagon.svelte'
-import PlayCircle from './PlayCircle.svelte'
-import Cpu from './Cpu.svelte'
-import Copy from './Copy.svelte'
-import Tag from './Tag.svelte'
-import ArrowRightCircle from './ArrowRightCircle.svelte'
-import LayoutDashboard from './LayoutDashboard.svelte'
-import ArrowUpRight from './ArrowUpRight.svelte'
-import Pin from './Pin.svelte'
-import Wand from './Wand.svelte'
-import Minus from './Minus.svelte'
-import Link2 from './Link2.svelte'
-import Trash2 from './Trash2.svelte'
-import TrendingUp from './TrendingUp.svelte'
-import Divide from './Divide.svelte'
-import GripVertical from './GripVertical.svelte'
-import Package from './Package.svelte'
-import ServerCrash from './ServerCrash.svelte'
-import CornerRightUp from './CornerRightUp.svelte'
-import FileCheck from './FileCheck.svelte'
-import Codesandbox from './Codesandbox.svelte'
-import ChevronsUpDown from './ChevronsUpDown.svelte'
-import ListPlus from './ListPlus.svelte'
-import SwitchCamera from './SwitchCamera.svelte'
-import Download from './Download.svelte'
-import Upload from './Upload.svelte'
-import Flame from './Flame.svelte'
-import Gift from './Gift.svelte'
-import Cast from './Cast.svelte'
-import Car from './Car.svelte'
-import Banknote from './Banknote.svelte'
-import Copyright from './Copyright.svelte'
-import Palette from './Palette.svelte'
-import Star from './Star.svelte'
-import UserX from './UserX.svelte'
-import Layers from './Layers.svelte'
-import FileDigit from './FileDigit.svelte'
-import Info from './Info.svelte'
-import Eye from './Eye.svelte'
-import Dribbble from './Dribbble.svelte'
-import Phone from './Phone.svelte'
-import Carrot from './Carrot.svelte'
-import Mic from './Mic.svelte'
-import Lasso from './Lasso.svelte'
-import GitCommit from './GitCommit.svelte'
-import Move from './Move.svelte'
-import AlignEndVertical from './AlignEndVertical.svelte'
-import UploadCloud from './UploadCloud.svelte'
-import AlertCircle from './AlertCircle.svelte'
-import Loader from './Loader.svelte'
-import CloudRainWind from './CloudRainWind.svelte'
-import ZapOff from './ZapOff.svelte'
-import Truck from './Truck.svelte'
-import Wifi from './Wifi.svelte'
-import Gitlab from './Gitlab.svelte'
-import PhoneOff from './PhoneOff.svelte'
-import Percent from './Percent.svelte'
-import Dice5 from './Dice5.svelte'
-import Server from './Server.svelte'
-import Clock9 from './Clock9.svelte'
-import Keyboard from './Keyboard.svelte'
-import MountainSnow from './MountainSnow.svelte'
-import ChevronFirst from './ChevronFirst.svelte'
-import Smile from './Smile.svelte'
-import Clock5 from './Clock5.svelte'
-import BellMinus from './BellMinus.svelte'
-import CheckCircle from './CheckCircle.svelte'
-import Cookie from './Cookie.svelte'
-import TextCursorInput from './TextCursorInput.svelte'
-import CreditCard from './CreditCard.svelte'
-import CloudLightning from './CloudLightning.svelte'
-import ChevronsLeftRight from './ChevronsLeftRight.svelte'
-import Crosshair from './Crosshair.svelte'
-import Table from './Table.svelte'
-import Ticket from './Ticket.svelte'
-import Archive from './Archive.svelte'
-import ScreenShare from './ScreenShare.svelte'
-import ShoppingCart from './ShoppingCart.svelte'
-import HardHat from './HardHat.svelte'
-import Underline from './Underline.svelte'
-import Sprout from './Sprout.svelte'
-import Slash from './Slash.svelte'
-import ThermometerSun from './ThermometerSun.svelte'
-import ArrowLeftCircle from './ArrowLeftCircle.svelte'
-import Sigma from './Sigma.svelte'
-import CloudSnow from './CloudSnow.svelte'
-import AlignVerticalJustifyStart from './AlignVerticalJustifyStart.svelte'
-import Mountain from './Mountain.svelte'
-import Locate from './Locate.svelte'
-import Tablet from './Tablet.svelte'
-import Share from './Share.svelte'
-import BellRing from './BellRing.svelte'
-import Monitor from './Monitor.svelte'
-import FilePlus from './FilePlus.svelte'
-import GraduationCap from './GraduationCap.svelte'
-import Clock7 from './Clock7.svelte'
-import Linkedin from './Linkedin.svelte'
-import Navigation2 from './Navigation2.svelte'
-import Edit3 from './Edit3.svelte'
-import SeparatorHorizontal from './SeparatorHorizontal.svelte'
-import Equal from './Equal.svelte'
-import ArrowLeftRight from './ArrowLeftRight.svelte'
-import CloudSun from './CloudSun.svelte'
-import MoveDiagonal from './MoveDiagonal.svelte'
-import ImageOff from './ImageOff.svelte'
-import RotateCcw from './RotateCcw.svelte'
-import Battery from './Battery.svelte'
-import Twitter from './Twitter.svelte'
-import FileText from './FileText.svelte'
-import QrCode from './QrCode.svelte'
-import List from './List.svelte'
-import Clover from './Clover.svelte'
-import CheckSquare from './CheckSquare.svelte'
-import Rewind from './Rewind.svelte'
-import FolderOpen from './FolderOpen.svelte'
-import LassoSelect from './LassoSelect.svelte'
-import LightbulbOff from './LightbulbOff.svelte'
-import ChevronsRight from './ChevronsRight.svelte'
-import PhoneCall from './PhoneCall.svelte'
-import FileOutput from './FileOutput.svelte'
-import CircleSlashed from './CircleSlashed.svelte'
-import ArrowUpCircle from './ArrowUpCircle.svelte'
-import Coffee from './Coffee.svelte'
-import HeartOff from './HeartOff.svelte'
-import Plus from './Plus.svelte'
-import AlignStartVertical from './AlignStartVertical.svelte'
-import MoveVertical from './MoveVertical.svelte'
-import Grid from './Grid.svelte'
-import FileSearch from './FileSearch.svelte'
-import Bitcoin from './Bitcoin.svelte'
-import CloudHail from './CloudHail.svelte'
-import AlignJustify from './AlignJustify.svelte'
-import PlugZap from './PlugZap.svelte'
-import Meh from './Meh.svelte'
-import Coins from './Coins.svelte'
-import AlignHorizontalJustifyEnd from './AlignHorizontalJustifyEnd.svelte'
-import Moon from './Moon.svelte'
-import AlertOctagon from './AlertOctagon.svelte'
-import Airplay from './Airplay.svelte'
-import Radio from './Radio.svelte'
-import ShieldClose from './ShieldClose.svelte'
-import Framer from './Framer.svelte'
-import Crop from './Crop.svelte'
-import Forward from './Forward.svelte'
-import AlarmPlus from './AlarmPlus.svelte'
-import Frame from './Frame.svelte'
-export {
-StarHalf,
-ChevronUp,
-Sunrise,
-AlignHorizontalSpaceBetween,
-SignalMedium,
-EyeOff,
-MessageSquare,
-Binary,
-ScanLine,
-Ruler,
-ArrowDown,
-ArrowDownRight,
-ArrowBigDown,
-MoveDiagonal2,
-StretchHorizontal,
-LogIn,
-LayoutList,
-DivideSquare,
-FolderPlus,
-ToggleRight,
-PhoneOutgoing,
-Building2,
-Users,
-Waves,
-BatteryFull,
-Verified,
-Briefcase,
-Bike,
-PhoneForwarded,
-Unlock,
-PhoneIncoming,
-Undo,
-CornerUpRight,
-Clock12,
-Laptop,
-SkipForward,
-Flag,
-BatteryLow,
-LayoutGrid,
-ArrowBigLeft,
-ArrowLeft,
-Youtube,
-ClipboardCheck,
-Bell,
-ArrowRight,
-Shrink,
-Globe,
-GripHorizontal,
-ListOrdered,
-FlaskConical,
-PauseOctagon,
-ExternalLink,
-Gauge,
-BarChart2,
-ChevronRight,
-Globe2,
-Vibrate,
-Link2Off,
-Megaphone,
-SortDesc,
-ArrowUpLeft,
-Box,
-Loader2,
-Gem,
-Dice2,
-FileX2,
-ThermometerSnowflake,
-Haze,
-GitPullRequest,
-PlusSquare,
-Terminal,
-Target,
-ThumbsDown,
-ListX,
-Navigation,
-Clock2,
-Sunset,
-Bot,
-Link,
-CornerDownRight,
-Paperclip,
-FolderMinus,
-Contrast,
-Asterisk,
-PackagePlus,
-ArrowUp,
-LifeBuoy,
-SmartphoneCharging,
-Pipette,
-Library,
-BarChart,
-Palmtree,
-MousePointerClick,
-SidebarClose,
-Maximize,
-DivideCircle,
-Figma,
-Infinity,
-Trello,
-Save,
-Superscript,
-Thermometer,
-CornerDownLeft,
-Droplet,
-Smartphone,
-Outdent,
-CloudDrizzle,
-AlignRight,
-MessageCircle,
-Aperture,
-AlignHorizontalJustifyCenter,
-MonitorOff,
-ChevronsUp,
-Code2,
-Import,
-TrendingDown,
-AlignHorizontalDistributeEnd,
-AlignHorizontalSpaceAround,
-Scan,
-Umbrella,
-Axe,
-Rss,
-Command,
-AlignStartHorizontal,
-PlusCircle,
-Snowflake,
-Gavel,
-Power,
-Check,
-Laptop2,
-BellPlus,
-File,
-BookmarkMinus,
-AlarmClock,
-Repeat,
-PenTool,
-Quote,
-Inbox,
-PiggyBank,
-ZoomIn,
-BatteryCharging,
-PieChart,
-FileInput,
-Shuffle,
-Strikethrough,
-Clock10,
-Contact,
-Volume1,
-Map,
-MousePointer2,
-MousePointer,
-Milestone,
-Github,
-Heart,
-Lightbulb,
-BluetoothSearching,
-FileMinus,
-Dice4,
-Clock8,
-BellOff,
-Database,
-VideoOff,
-ScreenShareOff,
-SidebarOpen,
-Frown,
-CloudMoon,
-FlagTriangleRight,
-Chrome,
-Wallet,
-Triangle,
-SignalLow,
-Clock4,
-Files,
-Cross,
-Gamepad2,
-Compass,
-Facebook,
-XSquare,
-GitMerge,
-AlignCenter,
-ListChecks,
-Pointer,
-UserMinus,
-User,
-X,
-GitBranch,
-ChevronLeft,
-UserPlus,
-LogOut,
-Hammer,
-LayoutTemplate,
-RadioReceiver,
-Calculator,
-Anchor,
-TerminalSquare,
-RefreshCw,
-History,
-Bookmark,
-ArrowDownCircle,
-PackageCheck,
-Euro,
-Currency,
-ChevronDown,
-RussianRuble,
-PersonStanding,
-ImagePlus,
-FunctionSquare,
-Tornado,
-AlignHorizontalDistributeStart,
-ClipboardCopy,
-Option,
-Columns,
-CloudRain,
-ReplyAll,
-Film,
-Instagram,
-HardDrive,
-ChevronsLeft,
-Timer,
-Bus,
-CheckCircle2,
-Copyleft,
-Wind,
-AlignVerticalJustifyEnd,
-Sun,
-Highlighter,
-MoreVertical,
-SignalZero,
-Key,
-WrapText,
-XCircle,
-Twitch,
-Unlink2,
-AtSign,
-FlashlightOff,
-AlertTriangle,
-Shovel,
-RotateCw,
-PhoneMissed,
-EqualNot,
-ZoomOut,
-Bug,
-FlaskRound,
-Podcast,
-Inspect,
-ClipboardList,
-ShieldAlert,
-Italic,
-Bold,
-AlignVerticalSpaceBetween,
-Octagon,
-PowerOff,
-Delete,
-Voicemail,
-Clock6,
-ThumbsUp,
-ShieldOff,
-Scissors,
-Rocket,
-AlignHorizontalDistributeCenter,
-Accessibility,
-Bluetooth,
-TimerOff,
-AlignCenterVertical,
-Redo,
-CornerLeftUp,
-AlignVerticalDistributeStart,
-Share2,
-IndianRupee,
-Activity,
-FastForward,
-MicOff,
-StopCircle,
-Dice6,
-ChevronsDown,
-Video,
-Edit2,
-Landmark,
-AlarmMinus,
-Crown,
-GitBranchPlus,
-Menu,
-FormInput,
-TimerReset,
-Tv2,
-Expand,
-PackageX,
-Drumstick,
-Settings,
-Subscript,
-PackageSearch,
-Droplets,
-Shield,
-ShoppingBag,
-Cloud,
-AlignVerticalDistributeEnd,
-Settings2,
-Dice3,
-FileX,
-GitFork,
-BookmarkPlus,
-AlarmCheck,
-Music,
-Sliders,
-Ghost,
-Layout,
-RefreshCcw,
-Printer,
-Grab,
-WifiOff,
-ShieldCheck,
-Clock3,
-ServerOff,
-BatteryMedium,
-Clock,
-VolumeX,
-Volume,
-Edit,
-Camera,
-FileCode,
-AlignHorizontalJustifyStart,
-ArrowBigRight,
-JapaneseYen,
-MinusSquare,
-Indent,
-Pencil,
-LocateFixed,
-Square,
-CloudFog,
-ToggleLeft,
-Headphones,
-Repeat1,
-FileMinus2,
-Filter,
-Skull,
-Building,
-Codepen,
-Wrench,
-Volume2,
-Book,
-Egg,
-Webcam,
-AlarmClockOff,
-AlignEndHorizontal,
-Hexagon,
-MoreHorizontal,
-Hash,
-CornerLeftDown,
-PauseCircle,
-Mouse,
-Image,
-Code,
-BluetoothOff,
-ClipboardX,
-Beaker,
-StretchVertical,
-ChevronsDownUp,
-Glasses,
-ChevronLast,
-PoundSterling,
-Tv,
-LocateOff,
-Speaker,
-AlignVerticalJustifyCenter,
-FlagTriangleLeft,
-TextCursor,
-AlignLeft,
-View,
-ChevronsRightLeft,
-MapPin,
-CornerRightDown,
-Play,
-MonitorSpeaker,
-Clock11,
-Mail,
-Disc,
-SwissFranc,
-HelpCircle,
-Zap,
-DownloadCloud,
-Lock,
-Minimize,
-Regex,
-Signal,
-CloudOff,
-Circle,
-Sheet,
-AlignCenterHorizontal,
-MoveHorizontal,
-AlignVerticalDistributeCenter,
-Scale,
-HandMetal,
-MinusCircle,
-Trash,
-Calendar,
-RockingChair,
-Brush,
-Pause,
-Folder,
-ArrowBigUp,
-BoxSelect,
-AlignVerticalSpaceAround,
-Gamepad,
-FilePlus2,
-ImageMinus,
-DollarSign,
-SortAsc,
-SkipBack,
-PackageMinus,
-Baseline,
-Hand,
-Clock1,
-CornerUpLeft,
-FlagOff,
-Unlink,
-SignalHigh,
-CameraOff,
-Shirt,
-Album,
-Reply,
-BluetoothConnected,
-Sidebar,
-Cloudy,
-BookOpen,
-Slack,
-Flashlight,
-Send,
-Watch,
-Dice1,
-FileCheck2,
-Hourglass,
-Plane,
-Clipboard,
-Pocket,
-Award,
-Home,
-Eraser,
-Languages,
-UserCheck,
-ListMinus,
-Maximize2,
-SeparatorVertical,
-Network,
-Type,
-ArrowDownLeft,
-Minimize2,
-Feather,
-Search,
-Tent,
-XOctagon,
-PlayCircle,
-Cpu,
-Copy,
-Tag,
-ArrowRightCircle,
-LayoutDashboard,
-ArrowUpRight,
-Pin,
-Wand,
-Minus,
-Link2,
-Trash2,
-TrendingUp,
-Divide,
-GripVertical,
-Package,
-ServerCrash,
-CornerRightUp,
-FileCheck,
-Codesandbox,
-ChevronsUpDown,
-ListPlus,
-SwitchCamera,
-Download,
-Upload,
-Flame,
-Gift,
-Cast,
-Car,
-Banknote,
-Copyright,
-Palette,
-Star,
-UserX,
-Layers,
-FileDigit,
-Info,
-Eye,
-Dribbble,
-Phone,
-Carrot,
-Mic,
-Lasso,
-GitCommit,
-Move,
-AlignEndVertical,
-UploadCloud,
-AlertCircle,
-Loader,
-CloudRainWind,
-ZapOff,
-Truck,
-Wifi,
-Gitlab,
-PhoneOff,
-Percent,
-Dice5,
-Server,
-Clock9,
-Keyboard,
-MountainSnow,
-ChevronFirst,
-Smile,
-Clock5,
-BellMinus,
-CheckCircle,
-Cookie,
-TextCursorInput,
-CreditCard,
-CloudLightning,
-ChevronsLeftRight,
-Crosshair,
-Table,
-Ticket,
-Archive,
-ScreenShare,
-ShoppingCart,
-HardHat,
-Underline,
-Sprout,
-Slash,
-ThermometerSun,
-ArrowLeftCircle,
-Sigma,
-CloudSnow,
-AlignVerticalJustifyStart,
-Mountain,
-Locate,
-Tablet,
-Share,
-BellRing,
-Monitor,
-FilePlus,
-GraduationCap,
-Clock7,
-Linkedin,
-Navigation2,
-Edit3,
-SeparatorHorizontal,
-Equal,
-ArrowLeftRight,
-CloudSun,
-MoveDiagonal,
-ImageOff,
-RotateCcw,
-Battery,
-Twitter,
-FileText,
-QrCode,
-List,
-Clover,
-CheckSquare,
-Rewind,
-FolderOpen,
-LassoSelect,
-LightbulbOff,
-ChevronsRight,
-PhoneCall,
-FileOutput,
-CircleSlashed,
-ArrowUpCircle,
-Coffee,
-HeartOff,
-Plus,
-AlignStartVertical,
-MoveVertical,
-Grid,
-FileSearch,
-Bitcoin,
-CloudHail,
-AlignJustify,
-PlugZap,
-Meh,
-Coins,
-AlignHorizontalJustifyEnd,
-Moon,
-AlertOctagon,
-Airplay,
-Radio,
-ShieldClose,
-Framer,
-Crop,
-Forward,
-AlarmPlus,
-Frame,
-}
+export { default as Accessibility } from './Accessibility.svelte';
+export { default as Activity } from './Activity.svelte';
+export { default as AirVent } from './AirVent.svelte';
+export { default as Airplay } from './Airplay.svelte';
+export { default as AlarmCheck } from './AlarmCheck.svelte';
+export { default as AlarmClock } from './AlarmClock.svelte';
+export { default as AlarmClockOff } from './AlarmClockOff.svelte';
+export { default as AlarmMinus } from './AlarmMinus.svelte';
+export { default as AlarmPlus } from './AlarmPlus.svelte';
+export { default as Album } from './Album.svelte';
+export { default as AlertCircle } from './AlertCircle.svelte';
+export { default as AlertOctagon } from './AlertOctagon.svelte';
+export { default as AlertTriangle } from './AlertTriangle.svelte';
+export { default as AlignCenter } from './AlignCenter.svelte';
+export { default as AlignCenterHorizontal } from './AlignCenterHorizontal.svelte';
+export { default as AlignCenterVertical } from './AlignCenterVertical.svelte';
+export { default as AlignEndHorizontal } from './AlignEndHorizontal.svelte';
+export { default as AlignEndVertical } from './AlignEndVertical.svelte';
+export { default as AlignHorizontalDistributeCenter } from './AlignHorizontalDistributeCenter.svelte';
+export { default as AlignHorizontalDistributeEnd } from './AlignHorizontalDistributeEnd.svelte';
+export { default as AlignHorizontalDistributeStart } from './AlignHorizontalDistributeStart.svelte';
+export { default as AlignHorizontalJustifyCenter } from './AlignHorizontalJustifyCenter.svelte';
+export { default as AlignHorizontalJustifyEnd } from './AlignHorizontalJustifyEnd.svelte';
+export { default as AlignHorizontalJustifyStart } from './AlignHorizontalJustifyStart.svelte';
+export { default as AlignHorizontalSpaceAround } from './AlignHorizontalSpaceAround.svelte';
+export { default as AlignHorizontalSpaceBetween } from './AlignHorizontalSpaceBetween.svelte';
+export { default as AlignJustify } from './AlignJustify.svelte';
+export { default as AlignLeft } from './AlignLeft.svelte';
+export { default as AlignRight } from './AlignRight.svelte';
+export { default as AlignStartHorizontal } from './AlignStartHorizontal.svelte';
+export { default as AlignStartVertical } from './AlignStartVertical.svelte';
+export { default as AlignVerticalDistributeCenter } from './AlignVerticalDistributeCenter.svelte';
+export { default as AlignVerticalDistributeEnd } from './AlignVerticalDistributeEnd.svelte';
+export { default as AlignVerticalDistributeStart } from './AlignVerticalDistributeStart.svelte';
+export { default as AlignVerticalJustifyCenter } from './AlignVerticalJustifyCenter.svelte';
+export { default as AlignVerticalJustifyEnd } from './AlignVerticalJustifyEnd.svelte';
+export { default as AlignVerticalJustifyStart } from './AlignVerticalJustifyStart.svelte';
+export { default as AlignVerticalSpaceAround } from './AlignVerticalSpaceAround.svelte';
+export { default as AlignVerticalSpaceBetween } from './AlignVerticalSpaceBetween.svelte';
+export { default as Anchor } from './Anchor.svelte';
+export { default as Angry } from './Angry.svelte';
+export { default as Annoyed } from './Annoyed.svelte';
+export { default as Aperture } from './Aperture.svelte';
+export { default as Apple } from './Apple.svelte';
+export { default as Archive } from './Archive.svelte';
+export { default as ArchiveRestore } from './ArchiveRestore.svelte';
+export { default as Armchair } from './Armchair.svelte';
+export { default as ArrowBigDown } from './ArrowBigDown.svelte';
+export { default as ArrowBigLeft } from './ArrowBigLeft.svelte';
+export { default as ArrowBigRight } from './ArrowBigRight.svelte';
+export { default as ArrowBigUp } from './ArrowBigUp.svelte';
+export { default as ArrowDown } from './ArrowDown.svelte';
+export { default as ArrowDownCircle } from './ArrowDownCircle.svelte';
+export { default as ArrowDownLeft } from './ArrowDownLeft.svelte';
+export { default as ArrowDownRight } from './ArrowDownRight.svelte';
+export { default as ArrowLeft } from './ArrowLeft.svelte';
+export { default as ArrowLeftCircle } from './ArrowLeftCircle.svelte';
+export { default as ArrowLeftRight } from './ArrowLeftRight.svelte';
+export { default as ArrowRight } from './ArrowRight.svelte';
+export { default as ArrowRightCircle } from './ArrowRightCircle.svelte';
+export { default as ArrowUp } from './ArrowUp.svelte';
+export { default as ArrowUpCircle } from './ArrowUpCircle.svelte';
+export { default as ArrowUpDown } from './ArrowUpDown.svelte';
+export { default as ArrowUpLeft } from './ArrowUpLeft.svelte';
+export { default as ArrowUpRight } from './ArrowUpRight.svelte';
+export { default as Asterisk } from './Asterisk.svelte';
+export { default as AtSign } from './AtSign.svelte';
+export { default as Award } from './Award.svelte';
+export { default as Axe } from './Axe.svelte';
+export { default as Axis3d } from './Axis3d.svelte';
+export { default as Baby } from './Baby.svelte';
+export { default as Backpack } from './Backpack.svelte';
+export { default as BaggageClaim } from './BaggageClaim.svelte';
+export { default as Banana } from './Banana.svelte';
+export { default as Banknote } from './Banknote.svelte';
+export { default as BarChart } from './BarChart.svelte';
+export { default as BarChart2 } from './BarChart2.svelte';
+export { default as BarChart3 } from './BarChart3.svelte';
+export { default as BarChart4 } from './BarChart4.svelte';
+export { default as BarChartHorizontal } from './BarChartHorizontal.svelte';
+export { default as Baseline } from './Baseline.svelte';
+export { default as Bath } from './Bath.svelte';
+export { default as Battery } from './Battery.svelte';
+export { default as BatteryCharging } from './BatteryCharging.svelte';
+export { default as BatteryFull } from './BatteryFull.svelte';
+export { default as BatteryLow } from './BatteryLow.svelte';
+export { default as BatteryMedium } from './BatteryMedium.svelte';
+export { default as BatteryWarning } from './BatteryWarning.svelte';
+export { default as Beaker } from './Beaker.svelte';
+export { default as Bean } from './Bean.svelte';
+export { default as BeanOff } from './BeanOff.svelte';
+export { default as Bed } from './Bed.svelte';
+export { default as BedDouble } from './BedDouble.svelte';
+export { default as BedSingle } from './BedSingle.svelte';
+export { default as Beef } from './Beef.svelte';
+export { default as Beer } from './Beer.svelte';
+export { default as Bell } from './Bell.svelte';
+export { default as BellMinus } from './BellMinus.svelte';
+export { default as BellOff } from './BellOff.svelte';
+export { default as BellPlus } from './BellPlus.svelte';
+export { default as BellRing } from './BellRing.svelte';
+export { default as Bike } from './Bike.svelte';
+export { default as Binary } from './Binary.svelte';
+export { default as Bitcoin } from './Bitcoin.svelte';
+export { default as Bluetooth } from './Bluetooth.svelte';
+export { default as BluetoothConnected } from './BluetoothConnected.svelte';
+export { default as BluetoothOff } from './BluetoothOff.svelte';
+export { default as BluetoothSearching } from './BluetoothSearching.svelte';
+export { default as Bold } from './Bold.svelte';
+export { default as Bomb } from './Bomb.svelte';
+export { default as Bone } from './Bone.svelte';
+export { default as Book } from './Book.svelte';
+export { default as BookOpen } from './BookOpen.svelte';
+export { default as BookOpenCheck } from './BookOpenCheck.svelte';
+export { default as Bookmark } from './Bookmark.svelte';
+export { default as BookmarkMinus } from './BookmarkMinus.svelte';
+export { default as BookmarkPlus } from './BookmarkPlus.svelte';
+export { default as Bot } from './Bot.svelte';
+export { default as Box } from './Box.svelte';
+export { default as BoxSelect } from './BoxSelect.svelte';
+export { default as Boxes } from './Boxes.svelte';
+export { default as Briefcase } from './Briefcase.svelte';
+export { default as Brush } from './Brush.svelte';
+export { default as Bug } from './Bug.svelte';
+export { default as Building } from './Building.svelte';
+export { default as Building2 } from './Building2.svelte';
+export { default as Bus } from './Bus.svelte';
+export { default as Cake } from './Cake.svelte';
+export { default as Calculator } from './Calculator.svelte';
+export { default as Calendar } from './Calendar.svelte';
+export { default as CalendarCheck } from './CalendarCheck.svelte';
+export { default as CalendarCheck2 } from './CalendarCheck2.svelte';
+export { default as CalendarClock } from './CalendarClock.svelte';
+export { default as CalendarDays } from './CalendarDays.svelte';
+export { default as CalendarHeart } from './CalendarHeart.svelte';
+export { default as CalendarMinus } from './CalendarMinus.svelte';
+export { default as CalendarOff } from './CalendarOff.svelte';
+export { default as CalendarPlus } from './CalendarPlus.svelte';
+export { default as CalendarRange } from './CalendarRange.svelte';
+export { default as CalendarSearch } from './CalendarSearch.svelte';
+export { default as CalendarX } from './CalendarX.svelte';
+export { default as CalendarX2 } from './CalendarX2.svelte';
+export { default as Camera } from './Camera.svelte';
+export { default as CameraOff } from './CameraOff.svelte';
+export { default as Candy } from './Candy.svelte';
+export { default as CandyOff } from './CandyOff.svelte';
+export { default as Car } from './Car.svelte';
+export { default as Carrot } from './Carrot.svelte';
+export { default as Cast } from './Cast.svelte';
+export { default as Cat } from './Cat.svelte';
+export { default as Check } from './Check.svelte';
+export { default as CheckCheck } from './CheckCheck.svelte';
+export { default as CheckCircle } from './CheckCircle.svelte';
+export { default as CheckCircle2 } from './CheckCircle2.svelte';
+export { default as CheckSquare } from './CheckSquare.svelte';
+export { default as ChefHat } from './ChefHat.svelte';
+export { default as Cherry } from './Cherry.svelte';
+export { default as ChevronDown } from './ChevronDown.svelte';
+export { default as ChevronFirst } from './ChevronFirst.svelte';
+export { default as ChevronLast } from './ChevronLast.svelte';
+export { default as ChevronLeft } from './ChevronLeft.svelte';
+export { default as ChevronRight } from './ChevronRight.svelte';
+export { default as ChevronUp } from './ChevronUp.svelte';
+export { default as ChevronsDown } from './ChevronsDown.svelte';
+export { default as ChevronsDownUp } from './ChevronsDownUp.svelte';
+export { default as ChevronsLeft } from './ChevronsLeft.svelte';
+export { default as ChevronsLeftRight } from './ChevronsLeftRight.svelte';
+export { default as ChevronsRight } from './ChevronsRight.svelte';
+export { default as ChevronsRightLeft } from './ChevronsRightLeft.svelte';
+export { default as ChevronsUp } from './ChevronsUp.svelte';
+export { default as ChevronsUpDown } from './ChevronsUpDown.svelte';
+export { default as Chrome } from './Chrome.svelte';
+export { default as Cigarette } from './Cigarette.svelte';
+export { default as CigaretteOff } from './CigaretteOff.svelte';
+export { default as Circle } from './Circle.svelte';
+export { default as CircleDot } from './CircleDot.svelte';
+export { default as CircleEllipsis } from './CircleEllipsis.svelte';
+export { default as CircleSlashed } from './CircleSlashed.svelte';
+export { default as Citrus } from './Citrus.svelte';
+export { default as Clapperboard } from './Clapperboard.svelte';
+export { default as Clipboard } from './Clipboard.svelte';
+export { default as ClipboardCheck } from './ClipboardCheck.svelte';
+export { default as ClipboardCopy } from './ClipboardCopy.svelte';
+export { default as ClipboardEdit } from './ClipboardEdit.svelte';
+export { default as ClipboardList } from './ClipboardList.svelte';
+export { default as ClipboardSignature } from './ClipboardSignature.svelte';
+export { default as ClipboardType } from './ClipboardType.svelte';
+export { default as ClipboardX } from './ClipboardX.svelte';
+export { default as Clock } from './Clock.svelte';
+export { default as Clock1 } from './Clock1.svelte';
+export { default as Clock10 } from './Clock10.svelte';
+export { default as Clock11 } from './Clock11.svelte';
+export { default as Clock12 } from './Clock12.svelte';
+export { default as Clock2 } from './Clock2.svelte';
+export { default as Clock3 } from './Clock3.svelte';
+export { default as Clock4 } from './Clock4.svelte';
+export { default as Clock5 } from './Clock5.svelte';
+export { default as Clock6 } from './Clock6.svelte';
+export { default as Clock7 } from './Clock7.svelte';
+export { default as Clock8 } from './Clock8.svelte';
+export { default as Clock9 } from './Clock9.svelte';
+export { default as Cloud } from './Cloud.svelte';
+export { default as CloudCog } from './CloudCog.svelte';
+export { default as CloudDrizzle } from './CloudDrizzle.svelte';
+export { default as CloudFog } from './CloudFog.svelte';
+export { default as CloudHail } from './CloudHail.svelte';
+export { default as CloudLightning } from './CloudLightning.svelte';
+export { default as CloudMoon } from './CloudMoon.svelte';
+export { default as CloudMoonRain } from './CloudMoonRain.svelte';
+export { default as CloudOff } from './CloudOff.svelte';
+export { default as CloudRain } from './CloudRain.svelte';
+export { default as CloudRainWind } from './CloudRainWind.svelte';
+export { default as CloudSnow } from './CloudSnow.svelte';
+export { default as CloudSun } from './CloudSun.svelte';
+export { default as CloudSunRain } from './CloudSunRain.svelte';
+export { default as Cloudy } from './Cloudy.svelte';
+export { default as Clover } from './Clover.svelte';
+export { default as Code } from './Code.svelte';
+export { default as Code2 } from './Code2.svelte';
+export { default as Codepen } from './Codepen.svelte';
+export { default as Codesandbox } from './Codesandbox.svelte';
+export { default as Coffee } from './Coffee.svelte';
+export { default as Cog } from './Cog.svelte';
+export { default as Coins } from './Coins.svelte';
+export { default as Columns } from './Columns.svelte';
+export { default as Command } from './Command.svelte';
+export { default as Compass } from './Compass.svelte';
+export { default as Component } from './Component.svelte';
+export { default as ConciergeBell } from './ConciergeBell.svelte';
+export { default as Contact } from './Contact.svelte';
+export { default as Contrast } from './Contrast.svelte';
+export { default as Cookie } from './Cookie.svelte';
+export { default as Copy } from './Copy.svelte';
+export { default as Copyleft } from './Copyleft.svelte';
+export { default as Copyright } from './Copyright.svelte';
+export { default as CornerDownLeft } from './CornerDownLeft.svelte';
+export { default as CornerDownRight } from './CornerDownRight.svelte';
+export { default as CornerLeftDown } from './CornerLeftDown.svelte';
+export { default as CornerLeftUp } from './CornerLeftUp.svelte';
+export { default as CornerRightDown } from './CornerRightDown.svelte';
+export { default as CornerRightUp } from './CornerRightUp.svelte';
+export { default as CornerUpLeft } from './CornerUpLeft.svelte';
+export { default as CornerUpRight } from './CornerUpRight.svelte';
+export { default as Cpu } from './Cpu.svelte';
+export { default as CreditCard } from './CreditCard.svelte';
+export { default as Croissant } from './Croissant.svelte';
+export { default as Crop } from './Crop.svelte';
+export { default as Cross } from './Cross.svelte';
+export { default as Crosshair } from './Crosshair.svelte';
+export { default as Crown } from './Crown.svelte';
+export { default as CupSoda } from './CupSoda.svelte';
+export { default as CurlyBraces } from './CurlyBraces.svelte';
+export { default as Currency } from './Currency.svelte';
+export { default as Database } from './Database.svelte';
+export { default as DatabaseBackup } from './DatabaseBackup.svelte';
+export { default as Delete } from './Delete.svelte';
+export { default as Diamond } from './Diamond.svelte';
+export { default as Dice1 } from './Dice1.svelte';
+export { default as Dice2 } from './Dice2.svelte';
+export { default as Dice3 } from './Dice3.svelte';
+export { default as Dice4 } from './Dice4.svelte';
+export { default as Dice5 } from './Dice5.svelte';
+export { default as Dice6 } from './Dice6.svelte';
+export { default as Dices } from './Dices.svelte';
+export { default as Diff } from './Diff.svelte';
+export { default as Disc } from './Disc.svelte';
+export { default as Divide } from './Divide.svelte';
+export { default as DivideCircle } from './DivideCircle.svelte';
+export { default as DivideSquare } from './DivideSquare.svelte';
+export { default as Dna } from './Dna.svelte';
+export { default as DnaOff } from './DnaOff.svelte';
+export { default as Dog } from './Dog.svelte';
+export { default as DollarSign } from './DollarSign.svelte';
+export { default as Download } from './Download.svelte';
+export { default as DownloadCloud } from './DownloadCloud.svelte';
+export { default as Dribbble } from './Dribbble.svelte';
+export { default as Droplet } from './Droplet.svelte';
+export { default as Droplets } from './Droplets.svelte';
+export { default as Drumstick } from './Drumstick.svelte';
+export { default as Dumbbell } from './Dumbbell.svelte';
+export { default as Ear } from './Ear.svelte';
+export { default as EarOff } from './EarOff.svelte';
+export { default as Edit } from './Edit.svelte';
+export { default as Edit2 } from './Edit2.svelte';
+export { default as Edit3 } from './Edit3.svelte';
+export { default as Egg } from './Egg.svelte';
+export { default as EggFried } from './EggFried.svelte';
+export { default as EggOff } from './EggOff.svelte';
+export { default as Equal } from './Equal.svelte';
+export { default as EqualNot } from './EqualNot.svelte';
+export { default as Eraser } from './Eraser.svelte';
+export { default as Euro } from './Euro.svelte';
+export { default as Expand } from './Expand.svelte';
+export { default as ExternalLink } from './ExternalLink.svelte';
+export { default as Eye } from './Eye.svelte';
+export { default as EyeOff } from './EyeOff.svelte';
+export { default as Facebook } from './Facebook.svelte';
+export { default as Factory } from './Factory.svelte';
+export { default as Fan } from './Fan.svelte';
+export { default as FastForward } from './FastForward.svelte';
+export { default as Feather } from './Feather.svelte';
+export { default as Figma } from './Figma.svelte';
+export { default as File } from './File.svelte';
+export { default as FileArchive } from './FileArchive.svelte';
+export { default as FileAudio } from './FileAudio.svelte';
+export { default as FileAudio2 } from './FileAudio2.svelte';
+export { default as FileAxis3d } from './FileAxis3d.svelte';
+export { default as FileBadge } from './FileBadge.svelte';
+export { default as FileBadge2 } from './FileBadge2.svelte';
+export { default as FileBarChart } from './FileBarChart.svelte';
+export { default as FileBarChart2 } from './FileBarChart2.svelte';
+export { default as FileBox } from './FileBox.svelte';
+export { default as FileCheck } from './FileCheck.svelte';
+export { default as FileCheck2 } from './FileCheck2.svelte';
+export { default as FileClock } from './FileClock.svelte';
+export { default as FileCode } from './FileCode.svelte';
+export { default as FileCog } from './FileCog.svelte';
+export { default as FileCog2 } from './FileCog2.svelte';
+export { default as FileDiff } from './FileDiff.svelte';
+export { default as FileDigit } from './FileDigit.svelte';
+export { default as FileDown } from './FileDown.svelte';
+export { default as FileEdit } from './FileEdit.svelte';
+export { default as FileHeart } from './FileHeart.svelte';
+export { default as FileImage } from './FileImage.svelte';
+export { default as FileInput } from './FileInput.svelte';
+export { default as FileJson } from './FileJson.svelte';
+export { default as FileJson2 } from './FileJson2.svelte';
+export { default as FileKey } from './FileKey.svelte';
+export { default as FileKey2 } from './FileKey2.svelte';
+export { default as FileLineChart } from './FileLineChart.svelte';
+export { default as FileLock } from './FileLock.svelte';
+export { default as FileLock2 } from './FileLock2.svelte';
+export { default as FileMinus } from './FileMinus.svelte';
+export { default as FileMinus2 } from './FileMinus2.svelte';
+export { default as FileOutput } from './FileOutput.svelte';
+export { default as FilePieChart } from './FilePieChart.svelte';
+export { default as FilePlus } from './FilePlus.svelte';
+export { default as FilePlus2 } from './FilePlus2.svelte';
+export { default as FileQuestion } from './FileQuestion.svelte';
+export { default as FileScan } from './FileScan.svelte';
+export { default as FileSearch } from './FileSearch.svelte';
+export { default as FileSearch2 } from './FileSearch2.svelte';
+export { default as FileSignature } from './FileSignature.svelte';
+export { default as FileSpreadsheet } from './FileSpreadsheet.svelte';
+export { default as FileSymlink } from './FileSymlink.svelte';
+export { default as FileTerminal } from './FileTerminal.svelte';
+export { default as FileText } from './FileText.svelte';
+export { default as FileType } from './FileType.svelte';
+export { default as FileType2 } from './FileType2.svelte';
+export { default as FileUp } from './FileUp.svelte';
+export { default as FileVideo } from './FileVideo.svelte';
+export { default as FileVideo2 } from './FileVideo2.svelte';
+export { default as FileVolume } from './FileVolume.svelte';
+export { default as FileVolume2 } from './FileVolume2.svelte';
+export { default as FileWarning } from './FileWarning.svelte';
+export { default as FileX } from './FileX.svelte';
+export { default as FileX2 } from './FileX2.svelte';
+export { default as Files } from './Files.svelte';
+export { default as Film } from './Film.svelte';
+export { default as Filter } from './Filter.svelte';
+export { default as Fingerprint } from './Fingerprint.svelte';
+export { default as Fish } from './Fish.svelte';
+export { default as Flag } from './Flag.svelte';
+export { default as FlagOff } from './FlagOff.svelte';
+export { default as FlagTriangleLeft } from './FlagTriangleLeft.svelte';
+export { default as FlagTriangleRight } from './FlagTriangleRight.svelte';
+export { default as Flame } from './Flame.svelte';
+export { default as Flashlight } from './Flashlight.svelte';
+export { default as FlashlightOff } from './FlashlightOff.svelte';
+export { default as FlaskConical } from './FlaskConical.svelte';
+export { default as FlaskConicalOff } from './FlaskConicalOff.svelte';
+export { default as FlaskRound } from './FlaskRound.svelte';
+export { default as FlipHorizontal } from './FlipHorizontal.svelte';
+export { default as FlipHorizontal2 } from './FlipHorizontal2.svelte';
+export { default as FlipVertical } from './FlipVertical.svelte';
+export { default as FlipVertical2 } from './FlipVertical2.svelte';
+export { default as Flower } from './Flower.svelte';
+export { default as Flower2 } from './Flower2.svelte';
+export { default as Focus } from './Focus.svelte';
+export { default as Folder } from './Folder.svelte';
+export { default as FolderArchive } from './FolderArchive.svelte';
+export { default as FolderCheck } from './FolderCheck.svelte';
+export { default as FolderClock } from './FolderClock.svelte';
+export { default as FolderClosed } from './FolderClosed.svelte';
+export { default as FolderCog } from './FolderCog.svelte';
+export { default as FolderCog2 } from './FolderCog2.svelte';
+export { default as FolderDown } from './FolderDown.svelte';
+export { default as FolderEdit } from './FolderEdit.svelte';
+export { default as FolderHeart } from './FolderHeart.svelte';
+export { default as FolderInput } from './FolderInput.svelte';
+export { default as FolderKey } from './FolderKey.svelte';
+export { default as FolderLock } from './FolderLock.svelte';
+export { default as FolderMinus } from './FolderMinus.svelte';
+export { default as FolderOpen } from './FolderOpen.svelte';
+export { default as FolderOutput } from './FolderOutput.svelte';
+export { default as FolderPlus } from './FolderPlus.svelte';
+export { default as FolderSearch } from './FolderSearch.svelte';
+export { default as FolderSearch2 } from './FolderSearch2.svelte';
+export { default as FolderSymlink } from './FolderSymlink.svelte';
+export { default as FolderTree } from './FolderTree.svelte';
+export { default as FolderUp } from './FolderUp.svelte';
+export { default as FolderX } from './FolderX.svelte';
+export { default as Folders } from './Folders.svelte';
+export { default as FormInput } from './FormInput.svelte';
+export { default as Forward } from './Forward.svelte';
+export { default as Frame } from './Frame.svelte';
+export { default as Framer } from './Framer.svelte';
+export { default as Frown } from './Frown.svelte';
+export { default as Fuel } from './Fuel.svelte';
+export { default as FunctionSquare } from './FunctionSquare.svelte';
+export { default as Gamepad } from './Gamepad.svelte';
+export { default as Gamepad2 } from './Gamepad2.svelte';
+export { default as Gauge } from './Gauge.svelte';
+export { default as Gavel } from './Gavel.svelte';
+export { default as Gem } from './Gem.svelte';
+export { default as Ghost } from './Ghost.svelte';
+export { default as Gift } from './Gift.svelte';
+export { default as GitBranch } from './GitBranch.svelte';
+export { default as GitBranchPlus } from './GitBranchPlus.svelte';
+export { default as GitCommit } from './GitCommit.svelte';
+export { default as GitCompare } from './GitCompare.svelte';
+export { default as GitFork } from './GitFork.svelte';
+export { default as GitMerge } from './GitMerge.svelte';
+export { default as GitPullRequest } from './GitPullRequest.svelte';
+export { default as GitPullRequestClosed } from './GitPullRequestClosed.svelte';
+export { default as GitPullRequestDraft } from './GitPullRequestDraft.svelte';
+export { default as Github } from './Github.svelte';
+export { default as Gitlab } from './Gitlab.svelte';
+export { default as GlassWater } from './GlassWater.svelte';
+export { default as Glasses } from './Glasses.svelte';
+export { default as Globe } from './Globe.svelte';
+export { default as Globe2 } from './Globe2.svelte';
+export { default as Grab } from './Grab.svelte';
+export { default as GraduationCap } from './GraduationCap.svelte';
+export { default as Grape } from './Grape.svelte';
+export { default as Grid } from './Grid.svelte';
+export { default as GripHorizontal } from './GripHorizontal.svelte';
+export { default as GripVertical } from './GripVertical.svelte';
+export { default as Hammer } from './Hammer.svelte';
+export { default as Hand } from './Hand.svelte';
+export { default as HandMetal } from './HandMetal.svelte';
+export { default as HardDrive } from './HardDrive.svelte';
+export { default as HardHat } from './HardHat.svelte';
+export { default as Hash } from './Hash.svelte';
+export { default as Haze } from './Haze.svelte';
+export { default as Heading } from './Heading.svelte';
+export { default as Heading1 } from './Heading1.svelte';
+export { default as Heading2 } from './Heading2.svelte';
+export { default as Heading3 } from './Heading3.svelte';
+export { default as Heading4 } from './Heading4.svelte';
+export { default as Heading5 } from './Heading5.svelte';
+export { default as Heading6 } from './Heading6.svelte';
+export { default as Headphones } from './Headphones.svelte';
+export { default as Heart } from './Heart.svelte';
+export { default as HeartCrack } from './HeartCrack.svelte';
+export { default as HeartHandshake } from './HeartHandshake.svelte';
+export { default as HeartOff } from './HeartOff.svelte';
+export { default as HeartPulse } from './HeartPulse.svelte';
+export { default as HelpCircle } from './HelpCircle.svelte';
+export { default as Hexagon } from './Hexagon.svelte';
+export { default as Highlighter } from './Highlighter.svelte';
+export { default as History } from './History.svelte';
+export { default as Home } from './Home.svelte';
+export { default as Hop } from './Hop.svelte';
+export { default as HopOff } from './HopOff.svelte';
+export { default as Hourglass } from './Hourglass.svelte';
+export { default as IceCream } from './IceCream.svelte';
+export { default as IceCream2 } from './IceCream2.svelte';
+export { default as Image } from './Image.svelte';
+export { default as ImageMinus } from './ImageMinus.svelte';
+export { default as ImageOff } from './ImageOff.svelte';
+export { default as ImagePlus } from './ImagePlus.svelte';
+export { default as Import } from './Import.svelte';
+export { default as Inbox } from './Inbox.svelte';
+export { default as Indent } from './Indent.svelte';
+export { default as IndianRupee } from './IndianRupee.svelte';
+export { default as Infinity } from './Infinity.svelte';
+export { default as Info } from './Info.svelte';
+export { default as Inspect } from './Inspect.svelte';
+export { default as Instagram } from './Instagram.svelte';
+export { default as Italic } from './Italic.svelte';
+export { default as JapaneseYen } from './JapaneseYen.svelte';
+export { default as Joystick } from './Joystick.svelte';
+export { default as Key } from './Key.svelte';
+export { default as Keyboard } from './Keyboard.svelte';
+export { default as Lamp } from './Lamp.svelte';
+export { default as LampCeiling } from './LampCeiling.svelte';
+export { default as LampDesk } from './LampDesk.svelte';
+export { default as LampFloor } from './LampFloor.svelte';
+export { default as LampWallDown } from './LampWallDown.svelte';
+export { default as LampWallUp } from './LampWallUp.svelte';
+export { default as Landmark } from './Landmark.svelte';
+export { default as Languages } from './Languages.svelte';
+export { default as Laptop } from './Laptop.svelte';
+export { default as Laptop2 } from './Laptop2.svelte';
+export { default as Lasso } from './Lasso.svelte';
+export { default as LassoSelect } from './LassoSelect.svelte';
+export { default as Laugh } from './Laugh.svelte';
+export { default as Layers } from './Layers.svelte';
+export { default as Layout } from './Layout.svelte';
+export { default as LayoutDashboard } from './LayoutDashboard.svelte';
+export { default as LayoutGrid } from './LayoutGrid.svelte';
+export { default as LayoutList } from './LayoutList.svelte';
+export { default as LayoutTemplate } from './LayoutTemplate.svelte';
+export { default as Leaf } from './Leaf.svelte';
+export { default as Library } from './Library.svelte';
+export { default as LifeBuoy } from './LifeBuoy.svelte';
+export { default as Lightbulb } from './Lightbulb.svelte';
+export { default as LightbulbOff } from './LightbulbOff.svelte';
+export { default as LineChart } from './LineChart.svelte';
+export { default as Link } from './Link.svelte';
+export { default as Link2 } from './Link2.svelte';
+export { default as Link2Off } from './Link2Off.svelte';
+export { default as Linkedin } from './Linkedin.svelte';
+export { default as List } from './List.svelte';
+export { default as ListChecks } from './ListChecks.svelte';
+export { default as ListEnd } from './ListEnd.svelte';
+export { default as ListMinus } from './ListMinus.svelte';
+export { default as ListMusic } from './ListMusic.svelte';
+export { default as ListOrdered } from './ListOrdered.svelte';
+export { default as ListPlus } from './ListPlus.svelte';
+export { default as ListStart } from './ListStart.svelte';
+export { default as ListVideo } from './ListVideo.svelte';
+export { default as ListX } from './ListX.svelte';
+export { default as Loader } from './Loader.svelte';
+export { default as Loader2 } from './Loader2.svelte';
+export { default as Locate } from './Locate.svelte';
+export { default as LocateFixed } from './LocateFixed.svelte';
+export { default as LocateOff } from './LocateOff.svelte';
+export { default as Lock } from './Lock.svelte';
+export { default as LogIn } from './LogIn.svelte';
+export { default as LogOut } from './LogOut.svelte';
+export { default as Luggage } from './Luggage.svelte';
+export { default as Magnet } from './Magnet.svelte';
+export { default as Mail } from './Mail.svelte';
+export { default as MailCheck } from './MailCheck.svelte';
+export { default as MailMinus } from './MailMinus.svelte';
+export { default as MailOpen } from './MailOpen.svelte';
+export { default as MailPlus } from './MailPlus.svelte';
+export { default as MailQuestion } from './MailQuestion.svelte';
+export { default as MailSearch } from './MailSearch.svelte';
+export { default as MailWarning } from './MailWarning.svelte';
+export { default as MailX } from './MailX.svelte';
+export { default as Mails } from './Mails.svelte';
+export { default as Map } from './Map.svelte';
+export { default as MapPin } from './MapPin.svelte';
+export { default as MapPinOff } from './MapPinOff.svelte';
+export { default as Martini } from './Martini.svelte';
+export { default as Maximize } from './Maximize.svelte';
+export { default as Maximize2 } from './Maximize2.svelte';
+export { default as Medal } from './Medal.svelte';
+export { default as Megaphone } from './Megaphone.svelte';
+export { default as MegaphoneOff } from './MegaphoneOff.svelte';
+export { default as Meh } from './Meh.svelte';
+export { default as Menu } from './Menu.svelte';
+export { default as MessageCircle } from './MessageCircle.svelte';
+export { default as MessageSquare } from './MessageSquare.svelte';
+export { default as Mic } from './Mic.svelte';
+export { default as Mic2 } from './Mic2.svelte';
+export { default as MicOff } from './MicOff.svelte';
+export { default as Microscope } from './Microscope.svelte';
+export { default as Microwave } from './Microwave.svelte';
+export { default as Milestone } from './Milestone.svelte';
+export { default as Milk } from './Milk.svelte';
+export { default as MilkOff } from './MilkOff.svelte';
+export { default as Minimize } from './Minimize.svelte';
+export { default as Minimize2 } from './Minimize2.svelte';
+export { default as Minus } from './Minus.svelte';
+export { default as MinusCircle } from './MinusCircle.svelte';
+export { default as MinusSquare } from './MinusSquare.svelte';
+export { default as Monitor } from './Monitor.svelte';
+export { default as MonitorOff } from './MonitorOff.svelte';
+export { default as MonitorSmartphone } from './MonitorSmartphone.svelte';
+export { default as MonitorSpeaker } from './MonitorSpeaker.svelte';
+export { default as Moon } from './Moon.svelte';
+export { default as MoreHorizontal } from './MoreHorizontal.svelte';
+export { default as MoreVertical } from './MoreVertical.svelte';
+export { default as Mountain } from './Mountain.svelte';
+export { default as MountainSnow } from './MountainSnow.svelte';
+export { default as Mouse } from './Mouse.svelte';
+export { default as MousePointer } from './MousePointer.svelte';
+export { default as MousePointer2 } from './MousePointer2.svelte';
+export { default as MousePointerClick } from './MousePointerClick.svelte';
+export { default as Move } from './Move.svelte';
+export { default as Move3d } from './Move3d.svelte';
+export { default as MoveDiagonal } from './MoveDiagonal.svelte';
+export { default as MoveDiagonal2 } from './MoveDiagonal2.svelte';
+export { default as MoveHorizontal } from './MoveHorizontal.svelte';
+export { default as MoveVertical } from './MoveVertical.svelte';
+export { default as Music } from './Music.svelte';
+export { default as Music2 } from './Music2.svelte';
+export { default as Music3 } from './Music3.svelte';
+export { default as Music4 } from './Music4.svelte';
+export { default as Navigation } from './Navigation.svelte';
+export { default as Navigation2 } from './Navigation2.svelte';
+export { default as Navigation2Off } from './Navigation2Off.svelte';
+export { default as NavigationOff } from './NavigationOff.svelte';
+export { default as Network } from './Network.svelte';
+export { default as Newspaper } from './Newspaper.svelte';
+export { default as Nut } from './Nut.svelte';
+export { default as NutOff } from './NutOff.svelte';
+export { default as Octagon } from './Octagon.svelte';
+export { default as Option } from './Option.svelte';
+export { default as Outdent } from './Outdent.svelte';
+export { default as Package } from './Package.svelte';
+export { default as Package2 } from './Package2.svelte';
+export { default as PackageCheck } from './PackageCheck.svelte';
+export { default as PackageMinus } from './PackageMinus.svelte';
+export { default as PackageOpen } from './PackageOpen.svelte';
+export { default as PackagePlus } from './PackagePlus.svelte';
+export { default as PackageSearch } from './PackageSearch.svelte';
+export { default as PackageX } from './PackageX.svelte';
+export { default as PaintBucket } from './PaintBucket.svelte';
+export { default as Paintbrush } from './Paintbrush.svelte';
+export { default as Paintbrush2 } from './Paintbrush2.svelte';
+export { default as Palette } from './Palette.svelte';
+export { default as Palmtree } from './Palmtree.svelte';
+export { default as Paperclip } from './Paperclip.svelte';
+export { default as PartyPopper } from './PartyPopper.svelte';
+export { default as Pause } from './Pause.svelte';
+export { default as PauseCircle } from './PauseCircle.svelte';
+export { default as PauseOctagon } from './PauseOctagon.svelte';
+export { default as PenTool } from './PenTool.svelte';
+export { default as Pencil } from './Pencil.svelte';
+export { default as Percent } from './Percent.svelte';
+export { default as PersonStanding } from './PersonStanding.svelte';
+export { default as Phone } from './Phone.svelte';
+export { default as PhoneCall } from './PhoneCall.svelte';
+export { default as PhoneForwarded } from './PhoneForwarded.svelte';
+export { default as PhoneIncoming } from './PhoneIncoming.svelte';
+export { default as PhoneMissed } from './PhoneMissed.svelte';
+export { default as PhoneOff } from './PhoneOff.svelte';
+export { default as PhoneOutgoing } from './PhoneOutgoing.svelte';
+export { default as PieChart } from './PieChart.svelte';
+export { default as PiggyBank } from './PiggyBank.svelte';
+export { default as Pilcrow } from './Pilcrow.svelte';
+export { default as Pin } from './Pin.svelte';
+export { default as PinOff } from './PinOff.svelte';
+export { default as Pipette } from './Pipette.svelte';
+export { default as Pizza } from './Pizza.svelte';
+export { default as Plane } from './Plane.svelte';
+export { default as Play } from './Play.svelte';
+export { default as PlayCircle } from './PlayCircle.svelte';
+export { default as Plug } from './Plug.svelte';
+export { default as Plug2 } from './Plug2.svelte';
+export { default as PlugZap } from './PlugZap.svelte';
+export { default as Plus } from './Plus.svelte';
+export { default as PlusCircle } from './PlusCircle.svelte';
+export { default as PlusSquare } from './PlusSquare.svelte';
+export { default as Pocket } from './Pocket.svelte';
+export { default as Podcast } from './Podcast.svelte';
+export { default as Pointer } from './Pointer.svelte';
+export { default as PoundSterling } from './PoundSterling.svelte';
+export { default as Power } from './Power.svelte';
+export { default as PowerOff } from './PowerOff.svelte';
+export { default as Printer } from './Printer.svelte';
+export { default as Puzzle } from './Puzzle.svelte';
+export { default as QrCode } from './QrCode.svelte';
+export { default as Quote } from './Quote.svelte';
+export { default as Radio } from './Radio.svelte';
+export { default as RadioReceiver } from './RadioReceiver.svelte';
+export { default as RectangleHorizontal } from './RectangleHorizontal.svelte';
+export { default as RectangleVertical } from './RectangleVertical.svelte';
+export { default as Recycle } from './Recycle.svelte';
+export { default as Redo } from './Redo.svelte';
+export { default as Redo2 } from './Redo2.svelte';
+export { default as RefreshCcw } from './RefreshCcw.svelte';
+export { default as RefreshCw } from './RefreshCw.svelte';
+export { default as Refrigerator } from './Refrigerator.svelte';
+export { default as Regex } from './Regex.svelte';
+export { default as Repeat } from './Repeat.svelte';
+export { default as Repeat1 } from './Repeat1.svelte';
+export { default as Reply } from './Reply.svelte';
+export { default as ReplyAll } from './ReplyAll.svelte';
+export { default as Rewind } from './Rewind.svelte';
+export { default as Rocket } from './Rocket.svelte';
+export { default as RockingChair } from './RockingChair.svelte';
+export { default as Rotate3d } from './Rotate3d.svelte';
+export { default as RotateCcw } from './RotateCcw.svelte';
+export { default as RotateCw } from './RotateCw.svelte';
+export { default as Rss } from './Rss.svelte';
+export { default as Ruler } from './Ruler.svelte';
+export { default as RussianRuble } from './RussianRuble.svelte';
+export { default as Sailboat } from './Sailboat.svelte';
+export { default as Salad } from './Salad.svelte';
+export { default as Sandwich } from './Sandwich.svelte';
+export { default as Save } from './Save.svelte';
+export { default as Scale } from './Scale.svelte';
+export { default as Scale3d } from './Scale3d.svelte';
+export { default as Scaling } from './Scaling.svelte';
+export { default as Scan } from './Scan.svelte';
+export { default as ScanFace } from './ScanFace.svelte';
+export { default as ScanLine } from './ScanLine.svelte';
+export { default as Scissors } from './Scissors.svelte';
+export { default as ScreenShare } from './ScreenShare.svelte';
+export { default as ScreenShareOff } from './ScreenShareOff.svelte';
+export { default as Scroll } from './Scroll.svelte';
+export { default as Search } from './Search.svelte';
+export { default as Send } from './Send.svelte';
+export { default as SeparatorHorizontal } from './SeparatorHorizontal.svelte';
+export { default as SeparatorVertical } from './SeparatorVertical.svelte';
+export { default as Server } from './Server.svelte';
+export { default as ServerCog } from './ServerCog.svelte';
+export { default as ServerCrash } from './ServerCrash.svelte';
+export { default as ServerOff } from './ServerOff.svelte';
+export { default as Settings } from './Settings.svelte';
+export { default as Settings2 } from './Settings2.svelte';
+export { default as Share } from './Share.svelte';
+export { default as Share2 } from './Share2.svelte';
+export { default as Sheet } from './Sheet.svelte';
+export { default as Shield } from './Shield.svelte';
+export { default as ShieldAlert } from './ShieldAlert.svelte';
+export { default as ShieldCheck } from './ShieldCheck.svelte';
+export { default as ShieldClose } from './ShieldClose.svelte';
+export { default as ShieldOff } from './ShieldOff.svelte';
+export { default as Shirt } from './Shirt.svelte';
+export { default as ShoppingBag } from './ShoppingBag.svelte';
+export { default as ShoppingCart } from './ShoppingCart.svelte';
+export { default as Shovel } from './Shovel.svelte';
+export { default as ShowerHead } from './ShowerHead.svelte';
+export { default as Shrink } from './Shrink.svelte';
+export { default as Shrub } from './Shrub.svelte';
+export { default as Shuffle } from './Shuffle.svelte';
+export { default as Sidebar } from './Sidebar.svelte';
+export { default as SidebarClose } from './SidebarClose.svelte';
+export { default as SidebarOpen } from './SidebarOpen.svelte';
+export { default as Sigma } from './Sigma.svelte';
+export { default as Signal } from './Signal.svelte';
+export { default as SignalHigh } from './SignalHigh.svelte';
+export { default as SignalLow } from './SignalLow.svelte';
+export { default as SignalMedium } from './SignalMedium.svelte';
+export { default as SignalZero } from './SignalZero.svelte';
+export { default as Siren } from './Siren.svelte';
+export { default as SkipBack } from './SkipBack.svelte';
+export { default as SkipForward } from './SkipForward.svelte';
+export { default as Skull } from './Skull.svelte';
+export { default as Slack } from './Slack.svelte';
+export { default as Slash } from './Slash.svelte';
+export { default as Slice } from './Slice.svelte';
+export { default as Sliders } from './Sliders.svelte';
+export { default as SlidersHorizontal } from './SlidersHorizontal.svelte';
+export { default as Smartphone } from './Smartphone.svelte';
+export { default as SmartphoneCharging } from './SmartphoneCharging.svelte';
+export { default as Smile } from './Smile.svelte';
+export { default as SmilePlus } from './SmilePlus.svelte';
+export { default as Snowflake } from './Snowflake.svelte';
+export { default as Sofa } from './Sofa.svelte';
+export { default as SortAsc } from './SortAsc.svelte';
+export { default as SortDesc } from './SortDesc.svelte';
+export { default as Soup } from './Soup.svelte';
+export { default as Speaker } from './Speaker.svelte';
+export { default as Spline } from './Spline.svelte';
+export { default as Sprout } from './Sprout.svelte';
+export { default as Square } from './Square.svelte';
+export { default as Star } from './Star.svelte';
+export { default as StarHalf } from './StarHalf.svelte';
+export { default as StarOff } from './StarOff.svelte';
+export { default as Stethoscope } from './Stethoscope.svelte';
+export { default as Sticker } from './Sticker.svelte';
+export { default as StickyNote } from './StickyNote.svelte';
+export { default as StopCircle } from './StopCircle.svelte';
+export { default as StretchHorizontal } from './StretchHorizontal.svelte';
+export { default as StretchVertical } from './StretchVertical.svelte';
+export { default as Strikethrough } from './Strikethrough.svelte';
+export { default as Subscript } from './Subscript.svelte';
+export { default as Subtitles } from './Subtitles.svelte';
+export { default as Sun } from './Sun.svelte';
+export { default as SunDim } from './SunDim.svelte';
+export { default as SunMedium } from './SunMedium.svelte';
+export { default as SunMoon } from './SunMoon.svelte';
+export { default as SunSnow } from './SunSnow.svelte';
+export { default as Sunrise } from './Sunrise.svelte';
+export { default as Sunset } from './Sunset.svelte';
+export { default as Superscript } from './Superscript.svelte';
+export { default as SwissFranc } from './SwissFranc.svelte';
+export { default as SwitchCamera } from './SwitchCamera.svelte';
+export { default as Sword } from './Sword.svelte';
+export { default as Swords } from './Swords.svelte';
+export { default as Syringe } from './Syringe.svelte';
+export { default as Table } from './Table.svelte';
+export { default as Table2 } from './Table2.svelte';
+export { default as Tablet } from './Tablet.svelte';
+export { default as Tag } from './Tag.svelte';
+export { default as Tags } from './Tags.svelte';
+export { default as Target } from './Target.svelte';
+export { default as Tent } from './Tent.svelte';
+export { default as Terminal } from './Terminal.svelte';
+export { default as TerminalSquare } from './TerminalSquare.svelte';
+export { default as TextCursor } from './TextCursor.svelte';
+export { default as TextCursorInput } from './TextCursorInput.svelte';
+export { default as Thermometer } from './Thermometer.svelte';
+export { default as ThermometerSnowflake } from './ThermometerSnowflake.svelte';
+export { default as ThermometerSun } from './ThermometerSun.svelte';
+export { default as ThumbsDown } from './ThumbsDown.svelte';
+export { default as ThumbsUp } from './ThumbsUp.svelte';
+export { default as Ticket } from './Ticket.svelte';
+export { default as Timer } from './Timer.svelte';
+export { default as TimerOff } from './TimerOff.svelte';
+export { default as TimerReset } from './TimerReset.svelte';
+export { default as ToggleLeft } from './ToggleLeft.svelte';
+export { default as ToggleRight } from './ToggleRight.svelte';
+export { default as Tornado } from './Tornado.svelte';
+export { default as ToyBrick } from './ToyBrick.svelte';
+export { default as Train } from './Train.svelte';
+export { default as Trash } from './Trash.svelte';
+export { default as Trash2 } from './Trash2.svelte';
+export { default as TreeDeciduous } from './TreeDeciduous.svelte';
+export { default as TreePine } from './TreePine.svelte';
+export { default as Trees } from './Trees.svelte';
+export { default as Trello } from './Trello.svelte';
+export { default as TrendingDown } from './TrendingDown.svelte';
+export { default as TrendingUp } from './TrendingUp.svelte';
+export { default as Triangle } from './Triangle.svelte';
+export { default as Trophy } from './Trophy.svelte';
+export { default as Truck } from './Truck.svelte';
+export { default as Tv } from './Tv.svelte';
+export { default as Tv2 } from './Tv2.svelte';
+export { default as Twitch } from './Twitch.svelte';
+export { default as Twitter } from './Twitter.svelte';
+export { default as Type } from './Type.svelte';
+export { default as Umbrella } from './Umbrella.svelte';
+export { default as Underline } from './Underline.svelte';
+export { default as Undo } from './Undo.svelte';
+export { default as Undo2 } from './Undo2.svelte';
+export { default as Unlink } from './Unlink.svelte';
+export { default as Unlink2 } from './Unlink2.svelte';
+export { default as Unlock } from './Unlock.svelte';
+export { default as Upload } from './Upload.svelte';
+export { default as UploadCloud } from './UploadCloud.svelte';
+export { default as Usb } from './Usb.svelte';
+export { default as User } from './User.svelte';
+export { default as UserCheck } from './UserCheck.svelte';
+export { default as UserCog } from './UserCog.svelte';
+export { default as UserMinus } from './UserMinus.svelte';
+export { default as UserPlus } from './UserPlus.svelte';
+export { default as UserX } from './UserX.svelte';
+export { default as Users } from './Users.svelte';
+export { default as Utensils } from './Utensils.svelte';
+export { default as UtensilsCrossed } from './UtensilsCrossed.svelte';
+export { default as Vegan } from './Vegan.svelte';
+export { default as VenetianMask } from './VenetianMask.svelte';
+export { default as Verified } from './Verified.svelte';
+export { default as Vibrate } from './Vibrate.svelte';
+export { default as VibrateOff } from './VibrateOff.svelte';
+export { default as Video } from './Video.svelte';
+export { default as VideoOff } from './VideoOff.svelte';
+export { default as View } from './View.svelte';
+export { default as Voicemail } from './Voicemail.svelte';
+export { default as Volume } from './Volume.svelte';
+export { default as Volume1 } from './Volume1.svelte';
+export { default as Volume2 } from './Volume2.svelte';
+export { default as VolumeX } from './VolumeX.svelte';
+export { default as Wallet } from './Wallet.svelte';
+export { default as Wand } from './Wand.svelte';
+export { default as Wand2 } from './Wand2.svelte';
+export { default as Watch } from './Watch.svelte';
+export { default as Waves } from './Waves.svelte';
+export { default as Webcam } from './Webcam.svelte';
+export { default as Webhook } from './Webhook.svelte';
+export { default as Wheat } from './Wheat.svelte';
+export { default as WheatOff } from './WheatOff.svelte';
+export { default as Wifi } from './Wifi.svelte';
+export { default as WifiOff } from './WifiOff.svelte';
+export { default as Wind } from './Wind.svelte';
+export { default as Wine } from './Wine.svelte';
+export { default as WineOff } from './WineOff.svelte';
+export { default as WrapText } from './WrapText.svelte';
+export { default as Wrench } from './Wrench.svelte';
+export { default as X } from './X.svelte';
+export { default as XCircle } from './XCircle.svelte';
+export { default as XOctagon } from './XOctagon.svelte';
+export { default as XSquare } from './XSquare.svelte';
+export { default as Youtube } from './Youtube.svelte';
+export { default as Zap } from './Zap.svelte';
+export { default as ZapOff } from './ZapOff.svelte';
+export { default as ZoomIn } from './ZoomIn.svelte';
+export { default as ZoomOut } from './ZoomOut.svelte';
