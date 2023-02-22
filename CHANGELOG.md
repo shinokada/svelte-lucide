@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/shinokada/svelte-lucide/compare/v0.3.1...v0.4.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([5f8278b](https://github.com/shinokada/svelte-lucide/commit/5f8278bef030eede9561590339aab9ccebaff67e))
+* new svelte packaging system ([dc75259](https://github.com/shinokada/svelte-lucide/commit/dc752593ade91fbc2d7d36826d4b62a859885b46))
+
+
+### Bug Fixes
+
+* add back to home ([7e76624](https://github.com/shinokada/svelte-lucide/commit/7e766240eca1a01b733778c7bf7c166031221c0e))
+* update index.html ([a9970f8](https://github.com/shinokada/svelte-lucide/commit/a9970f8009fe9714a7131b2e72d384b3e51467e5))
+
 ### [0.3.1](https://github.com/shinokada/svelte-lucide/compare/v0.3.0...v0.3.1) (2023-02-03)
 
 ## [0.3.0](https://github.com/shinokada/svelte-lucide/compare/v0.2.9...v0.3.0) (2023-02-03)
