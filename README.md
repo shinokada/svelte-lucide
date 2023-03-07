@@ -185,7 +185,7 @@ Use `import * as Icon from 'svelte-lucide`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-lucide'
+  import * as Icon from 'svelte-lucide'
 </script>
 
 <h1>Size</h1>
