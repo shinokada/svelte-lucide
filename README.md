@@ -48,6 +48,38 @@ In a svelte file:
 <Airplay />
 ```
 
+## Faster compiling
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import Accessibility from 'svelte-lucide/Accessibility.svelte';
+</script>
+
+<Accessibility />
+```
+
+If you are TypeScript user, **this require `"typescript": "^5.0.0"`.**
+
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
+```
+
 ## REPL
 
 [Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb)
@@ -117,6 +149,32 @@ Let's use `dark` for the dark mode class as an example.
 <Accessibility class="text-blue-700 dark:text-red-500" />
 <Activity class="text-red-700 dark:text-green-500" />
 <Airplay class="text-green-500 dark:text-blue-500" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<Airplay tabindex="-1" />
+```
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<Airplay tabindex="0" />
+```
+
+## Using svelte:component
+
+```html
+<script>
+  import { Airplay } from 'svelte-lucide';
+</script>
+
+<svelte:component this="{Airplay}" />
 ```
 
 ## Import all
