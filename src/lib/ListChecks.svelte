@@ -7,11 +7,11 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <line x1="10" y1="6" x2="21" y2="6" />
-  <line x1="10" y1="12" x2="21" y2="12" />
-  <line x1="10" y1="18" x2="21" y2="18" />
+  <line x1="10" x2="21" y1="6" y2="6" />
+  <line x1="10" x2="21" y1="12" y2="12" />
+  <line x1="10" x2="21" y1="18" y2="18" />
   <polyline points="3 6 4 7 6 5" />
   <polyline points="3 12 4 13 6 11" />
   <polyline points="3 18 4 19 6 17" />

@@ -7,13 +7,13 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
   <rect
-    x="12"
-    y="1"
     width="15.56"
     height="15.56"
+    x="12"
+    y="1"
     rx="2.41"
     transform="rotate(45 12 1)"
   />

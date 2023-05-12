@@ -7,8 +7,8 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <line x1="7" y1="17" x2="17" y2="7" />
+  <line x1="7" x2="17" y1="17" y2="7" />
   <polyline points="7 7 17 7 17 17" />
 </svg>

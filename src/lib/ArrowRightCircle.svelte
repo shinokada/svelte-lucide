@@ -7,9 +7,9 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
   <circle cx="12" cy="12" r="10" />
   <polyline points="12 16 16 12 12 8" />
-  <line x1="8" y1="12" x2="16" y2="12" />
+  <line x1="8" x2="16" y1="12" y2="12" />
 </svg>

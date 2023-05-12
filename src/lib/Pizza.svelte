@@ -7,11 +7,11 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
   <path d="M15 11h.01" />
   <path d="M11 15h.01" />
   <path d="M16 16h.01" />
-  <path d="m2 16 20 6-6-20c-3.36.9-6.42 2.67-8.88 5.12A19.876 19.876 0 0 0 2 16Z" />
-  <path d="M17 6c-6.29 1.47-9.43 5.13-11 11" />
+  <path d="m2 16 20 6-6-20A20 20 0 0 0 2 16" />
+  <path d="M5.71 17.11a17.04 17.04 0 0 1 11.4-11.4" />
 </svg>

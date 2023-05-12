@@ -7,7 +7,7 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <path d="M9 3h6v11h4l-7 7-7-7h4z" />
+  <path d="M15 6v6h4l-7 7-7-7h4V6h6z" />
 </svg>

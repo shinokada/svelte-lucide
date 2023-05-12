@@ -7,7 +7,7 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
   <path d="M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z" />
   <path d="m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z" />

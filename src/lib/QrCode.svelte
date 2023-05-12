@@ -7,11 +7,11 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <rect x="3" y="3" width="5" height="5" rx="1" />
-  <rect x="16" y="3" width="5" height="5" rx="1" />
-  <rect x="3" y="16" width="5" height="5" rx="1" />
+  <rect width="5" height="5" x="3" y="3" rx="1" />
+  <rect width="5" height="5" x="16" y="3" rx="1" />
+  <rect width="5" height="5" x="3" y="16" rx="1" />
   <path d="M21 16h-3a2 2 0 0 0-2 2v3" />
   <path d="M21 21v.01" />
   <path d="M12 7v3a2 2 0 0 1-2 2H7" />

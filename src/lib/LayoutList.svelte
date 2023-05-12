@@ -7,12 +7,12 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <rect x="3" y="14" width="7" height="7" />
-  <rect x="3" y="3" width="7" height="7" />
-  <line x1="14" y1="4" x2="21" y2="4" />
-  <line x1="14" y1="9" x2="21" y2="9" />
-  <line x1="14" y1="15" x2="21" y2="15" />
-  <line x1="14" y1="20" x2="21" y2="20" />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <rect width="7" height="7" x="3" y="3" rx="1" />
+  <line x1="14" x2="21" y1="4" y2="4" />
+  <line x1="14" x2="21" y1="9" y2="9" />
+  <line x1="14" x2="21" y1="15" y2="15" />
+  <line x1="14" x2="21" y1="20" y2="20" />
 </svg>

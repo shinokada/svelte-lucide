@@ -7,8 +7,8 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class}
+  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
 >
-  <rect x="4" y="2" width="6" height="20" rx="2" />
-  <rect x="14" y="2" width="6" height="20" rx="2" />
+  <rect width="6" height="20" x="4" y="2" rx="2" />
+  <rect width="6" height="20" x="14" y="2" rx="2" />
 </svg>
