@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.3](https://github.com/shinokada/svelte-lucide/compare/v0.6.2...v0.6.3) (2023-05-31)
+
+
+### Features
+
+* add component docs ([df38036](https://github.com/shinokada/svelte-lucide/commit/df380368be3f68fdc983fe10783279c6f9115aa4))
+
 ### [0.6.2](https://github.com/shinokada/svelte-lucide/compare/v0.6.1...v0.6.2) (2023-05-12)
 
 ### [0.6.1](https://github.com/shinokada/svelte-lucide/compare/v0.5.2...v0.6.1) (2023-05-12)
