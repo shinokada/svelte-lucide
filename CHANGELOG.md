@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.3](https://github.com/shinokada/svelte-lucide/compare/v0.6.2...v0.6.3) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([df38036](https://github.com/shinokada/svelte-lucide/commit/df380368be3f68fdc983fe10783279c6f9115aa4))
+- add component docs ([df38036](https://github.com/shinokada/svelte-lucide/commit/df380368be3f68fdc983fe10783279c6f9115aa4))
 
 ### [0.6.2](https://github.com/shinokada/svelte-lucide/compare/v0.6.1...v0.6.2) (2023-05-12)
 

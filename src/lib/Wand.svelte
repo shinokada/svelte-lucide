@@ -37,7 +37,7 @@
 
 <!--
 @component
-[Go to Document](https://svelte-flags.codewithshin.com/)
+[Go to Document](https://svelte-lucide.codewithshin.com/)
 ## Props
 @prop size = '24';
 @prop color = 'currentColor';
