@@ -1,4 +1,9 @@
-<script>export let size="24"; export let color="currentColor";</script><svg
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+</script>
+
+<svg
   xmlns="http://www.w3.org/2000/svg"
   width={size}
   height={size}
@@ -7,7 +12,17 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
+  stroke-linejoin="round"
+  class={$$props.class}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
 >
   <circle cx="9" cy="12" r="1" />
   <circle cx="15" cy="12" r="1" />
@@ -15,3 +30,21 @@
   <path d="m12.5 17-.5-1-.5 1h1z" />
   <path d="M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20" />
 </svg>
+
+<!--
+@component
+[Go to Document](https://svelte-flags.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

@@ -1,4 +1,9 @@
-<script>export let size="24"; export let color="currentColor";</script><svg
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+</script>
+
+<svg
   xmlns="http://www.w3.org/2000/svg"
   width={size}
   height={size}
@@ -7,10 +12,40 @@
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
-  stroke-linejoin="round" class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus 
+  stroke-linejoin="round"
+  class={$$props.class}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
 >
-  <path d="M16 22h2c.5 0 1-.2 1.4-.6.4-.4.6-.9.6-1.4V7.5L14.5 2H6c-.5 0-1 .2-1.4.6C4.2 3 4 3.5 4 4v3" />
+  <path
+    d="M16 22h2c.5 0 1-.2 1.4-.6.4-.4.6-.9.6-1.4V7.5L14.5 2H6c-.5 0-1 .2-1.4.6C4.2 3 4 3.5 4 4v3"
+  />
   <polyline points="14 2 14 8 20 8" />
   <circle cx="8" cy="16" r="6" />
   <path d="M9.5 17.5 8 16.25V14" />
 </svg>
+
+<!--
+@component
+[Go to Document](https://svelte-flags.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = 'currentColor';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

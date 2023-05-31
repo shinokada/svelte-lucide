@@ -42,7 +42,7 @@ In a svelte file:
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
 </script>
 
 <Accessibility />
@@ -86,14 +86,13 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 [Demo 1](https://svelte.dev/repl/89542341632d4827ab30491ef95df6eb)
 
-
 ## Size
 
 Use the `size` prop to change the size of icons.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
 </script>
 
 <Accessibility size="30" />
@@ -107,7 +106,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
 </script>
 
 <Accessibility color="#c61515" />
@@ -123,7 +122,7 @@ Tailwind example:
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
 </script>
 
 <Accessibility class="text-blue-700 mr-4" />
@@ -145,7 +144,7 @@ Let's use `dark` for the dark mode class as an example.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from "svlete-lucide";
+  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
 </script>
 
 <Accessibility class="text-blue-700 dark:text-red-500" />
@@ -201,16 +200,16 @@ Use `import * as Icon from 'svelte-lucide`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-lucide'
+  import * as Icon from 'svelte-lucide';
 </script>
 
 <h1>Size</h1>
-<Icon.Activity size="30"/>
-<Icon.Activity size="40"/>
-<Icon.Activity size="50"/>
+<Icon.Activity size="30" />
+<Icon.Activity size="40" />
+<Icon.Activity size="50" />
 
 <h1>CSS HEX color</h1>
-<Icon.Bike color="#c61515" size="40"/>
+<Icon.Bike color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
 <Icon.Users class="text-blue-500" />

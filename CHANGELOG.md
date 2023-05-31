@@ -6,120 +6,105 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.1](https://github.com/shinokada/svelte-lucide/compare/v0.5.2...v0.6.1) (2023-05-12)
 
-
 ### Features
 
-* add events ([73d83fd](https://github.com/shinokada/svelte-lucide/commit/73d83fddeca030f94c6d7c4d3b5616813e74d4f6))
+- add events ([73d83fd](https://github.com/shinokada/svelte-lucide/commit/73d83fddeca030f94c6d7c4d3b5616813e74d4f6))
 
 ### [0.5.2](https://github.com/shinokada/svelte-lucide/compare/v0.5.1...v0.5.2) (2023-03-07)
 
 ### [0.5.1](https://github.com/shinokada/svelte-lucide/compare/v0.4.1...v0.5.1) (2023-03-07)
 
-
 ### Features
 
-* add script add-exports and update README ([dcbe46a](https://github.com/shinokada/svelte-lucide/commit/dcbe46a67270ccd2e87d75e2b346ccda0c640043))
+- add script add-exports and update README ([dcbe46a](https://github.com/shinokada/svelte-lucide/commit/dcbe46a67270ccd2e87d75e2b346ccda0c640043))
 
 ### [0.4.1](https://github.com/shinokada/svelte-lucide/compare/v0.3.1...v0.4.1) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([5f8278b](https://github.com/shinokada/svelte-lucide/commit/5f8278bef030eede9561590339aab9ccebaff67e))
-* new svelte packaging system ([dc75259](https://github.com/shinokada/svelte-lucide/commit/dc752593ade91fbc2d7d36826d4b62a859885b46))
-
+- add microsoft webmaster tools meta tag ([5f8278b](https://github.com/shinokada/svelte-lucide/commit/5f8278bef030eede9561590339aab9ccebaff67e))
+- new svelte packaging system ([dc75259](https://github.com/shinokada/svelte-lucide/commit/dc752593ade91fbc2d7d36826d4b62a859885b46))
 
 ### Bug Fixes
 
-* add back to home ([7e76624](https://github.com/shinokada/svelte-lucide/commit/7e766240eca1a01b733778c7bf7c166031221c0e))
-* update index.html ([a9970f8](https://github.com/shinokada/svelte-lucide/commit/a9970f8009fe9714a7131b2e72d384b3e51467e5))
+- add back to home ([7e76624](https://github.com/shinokada/svelte-lucide/commit/7e766240eca1a01b733778c7bf7c166031221c0e))
+- update index.html ([a9970f8](https://github.com/shinokada/svelte-lucide/commit/a9970f8009fe9714a7131b2e72d384b3e51467e5))
 
 ### [0.3.1](https://github.com/shinokada/svelte-lucide/compare/v0.3.0...v0.3.1) (2023-02-03)
 
 ## [0.3.0](https://github.com/shinokada/svelte-lucide/compare/v0.2.9...v0.3.0) (2023-02-03)
 
-
 ### Bug Fixes
 
-* update index.js ([59c456b](https://github.com/shinokada/svelte-lucide/commit/59c456b90c8634b770756616b27469c908f4a2ab))
+- update index.js ([59c456b](https://github.com/shinokada/svelte-lucide/commit/59c456b90c8634b770756616b27469c908f4a2ab))
 
 ### [0.2.9](https://github.com/shinokada/svelte-lucide/compare/v0.2.8...v0.2.9) (2023-02-01)
 
-
 ### Bug Fixes
 
-* add optimized image ([b100832](https://github.com/shinokada/svelte-lucide/commit/b1008323341427c78938b4b850a4bd923a8dd8a0))
-* badges target, height, and add links to crossOriginLinks ([24da217](https://github.com/shinokada/svelte-lucide/commit/24da2175564ec728ccb0de63fd43d353c2760f21))
-* favicon link ([815f2ec](https://github.com/shinokada/svelte-lucide/commit/815f2ec030203f15c57913d5db59432ef4a7e091))
+- add optimized image ([b100832](https://github.com/shinokada/svelte-lucide/commit/b1008323341427c78938b4b850a4bd923a8dd8a0))
+- badges target, height, and add links to crossOriginLinks ([24da217](https://github.com/shinokada/svelte-lucide/commit/24da2175564ec728ccb0de63fd43d353c2760f21))
+- favicon link ([815f2ec](https://github.com/shinokada/svelte-lucide/commit/815f2ec030203f15c57913d5db59432ef4a7e091))
 
 ### [0.2.8](https://github.com/shinokada/svelte-lucide/compare/v0.2.7...v0.2.8) (2023-01-31)
 
-
 ### Bug Fixes
 
-* add service-worker in index.html ([c887ba3](https://github.com/shinokada/svelte-lucide/commit/c887ba3169be10d7a85e3a701d8e56432e9b6eed))
-* image width ([49b74e3](https://github.com/shinokada/svelte-lucide/commit/49b74e3b8e720f34c2a5efffbcd48b460f61f36e))
+- add service-worker in index.html ([c887ba3](https://github.com/shinokada/svelte-lucide/commit/c887ba3169be10d7a85e3a701d8e56432e9b6eed))
+- image width ([49b74e3](https://github.com/shinokada/svelte-lucide/commit/49b74e3b8e720f34c2a5efffbcd48b460f61f36e))
 
 ### [0.2.7](https://github.com/shinokada/svelte-lucide/compare/v0.2.6...v0.2.7) (2023-01-31)
 
-
 ### Bug Fixes
 
-* image ([0e7c7e7](https://github.com/shinokada/svelte-lucide/commit/0e7c7e7389c528ec91bf982f47d473f23f484e7e))
+- image ([0e7c7e7](https://github.com/shinokada/svelte-lucide/commit/0e7c7e7389c528ec91bf982f47d473f23f484e7e))
 
 ### [0.2.6](https://github.com/shinokada/svelte-lucide/compare/v0.2.5...v0.2.6) (2023-01-30)
 
-
 ### Features
 
-* add pwa ([31e4a41](https://github.com/shinokada/svelte-lucide/commit/31e4a416540cfc5f7634f841455c2722cba5850f))
+- add pwa ([31e4a41](https://github.com/shinokada/svelte-lucide/commit/31e4a416540cfc5f7634f841455c2722cba5850f))
 
 ### [0.2.5](https://github.com/shinokada/svelte-lucide/compare/v0.2.4...v0.2.5) (2023-01-30)
 
-
 ### Features
 
-* add pwa ([f837fb6](https://github.com/shinokada/svelte-lucide/commit/f837fb6aa4067f2d40ddd2a35545507344339449))
-
+- add pwa ([f837fb6](https://github.com/shinokada/svelte-lucide/commit/f837fb6aa4067f2d40ddd2a35545507344339449))
 
 ### Bug Fixes
 
-* add search and ga ([5cf0b3f](https://github.com/shinokada/svelte-lucide/commit/5cf0b3f102e49ed1ba339c730ff9491a3aa5ca88))
+- add search and ga ([5cf0b3f](https://github.com/shinokada/svelte-lucide/commit/5cf0b3f102e49ed1ba339c730ff9491a3aa5ca88))
 
 ### [0.2.4](https://github.com/shinokada/svelte-lucide/compare/v0.2.3...v0.2.4) (2022-12-25)
 
-
 ### Bug Fixes
 
-* url updates ([c34bd07](https://github.com/shinokada/svelte-lucide/commit/c34bd074a8f1777036c10cb11b1551fe72fc177c))
-* useTabs false in .prettierrc ([0ceed39](https://github.com/shinokada/svelte-lucide/commit/0ceed39ac7f2a8d2c62c58e04be3649896529ace))
+- url updates ([c34bd07](https://github.com/shinokada/svelte-lucide/commit/c34bd074a8f1777036c10cb11b1551fe72fc177c))
+- useTabs false in .prettierrc ([0ceed39](https://github.com/shinokada/svelte-lucide/commit/0ceed39ac7f2a8d2c62c58e04be3649896529ace))
 
 ### [0.2.3](https://github.com/shinokada/svelte-lucide/compare/v0.2.2...v0.2.3) (2022-12-16)
 
-
 ### Bug Fixes
 
-* move files from docs to root since npmjs does not show README. ([cb6ea53](https://github.com/shinokada/svelte-lucide/commit/cb6ea535cd6020eb25b54fddf1c5b8f056286df7))
+- move files from docs to root since npmjs does not show README. ([cb6ea53](https://github.com/shinokada/svelte-lucide/commit/cb6ea535cd6020eb25b54fddf1c5b8f056286df7))
 
 ### [0.2.2](https://github.com/shinokada/svelte-lucide/compare/v0.2.1...v0.2.2) (2022-12-15)
 
 ### [0.2.1](https://github.com/shinokada/svelte-lucide/compare/v0.2.0...v0.2.1) (2022-12-15)
 
-
 ### Bug Fixes
 
-* sveltekit 1.0.0 ([e2b45be](https://github.com/shinokada/svelte-lucide/commit/e2b45be603dc219068d53ee46c990f9c3940fe15))
+- sveltekit 1.0.0 ([e2b45be](https://github.com/shinokada/svelte-lucide/commit/e2b45be603dc219068d53ee46c990f9c3940fe15))
 
 ## [0.2.0](https://github.com/shinokada/svelte-lucide/compare/v0.1.6...v0.2.0) (2022-10-13)
 
-
 ### ⚠ BREAKING CHANGES
 
-* add color and add img to README
+- add color and add img to README
 
 ### Features
 
-* add color and add img to README ([3243fee](https://github.com/shinokada/svelte-lucide/commit/3243fee540f548a3d74dc11733645a4783815edf))
+- add color and add img to README ([3243fee](https://github.com/shinokada/svelte-lucide/commit/3243fee540f548a3d74dc11733645a4783815edf))
 
 ### [0.1.6](https://github.com/shinokada/svelte-lucide/compare/v0.1.5...v0.1.6) (2022-05-18)
 
@@ -135,7 +120,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## 0.1.0 (2022-04-26)
 
-
 ### Features
 
-* add css color and tailwind support ([58d5b04](https://github.com/shinokada/svelte-lucideicons/commit/58d5b04a72602bb99a004fe9868b46a2eb6b2c1d))
+- add css color and tailwind support ([58d5b04](https://github.com/shinokada/svelte-lucideicons/commit/58d5b04a72602bb99a004fe9868b46a2eb6b2c1d))
