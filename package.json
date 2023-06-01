@@ -1,6 +1,6 @@
 {
   "name": "svelte-lucide",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "description": "Lucide-icon components for Sveltejs",
   "author": {
     "name": "Shinichi Okada",
@@ -509,6 +509,46 @@
     "./Backpack.svelte": {
       "types": "./dist/Backpack.svelte.d.ts",
       "svelte": "./dist/Backpack.svelte"
+    },
+    "./Badge.svelte": {
+      "types": "./dist/Badge.svelte.d.ts",
+      "svelte": "./dist/Badge.svelte"
+    },
+    "./BadgeAlert.svelte": {
+      "types": "./dist/BadgeAlert.svelte.d.ts",
+      "svelte": "./dist/BadgeAlert.svelte"
+    },
+    "./BadgeCheck.svelte": {
+      "types": "./dist/BadgeCheck.svelte.d.ts",
+      "svelte": "./dist/BadgeCheck.svelte"
+    },
+    "./BadgeDollarSign.svelte": {
+      "types": "./dist/BadgeDollarSign.svelte.d.ts",
+      "svelte": "./dist/BadgeDollarSign.svelte"
+    },
+    "./BadgeHelp.svelte": {
+      "types": "./dist/BadgeHelp.svelte.d.ts",
+      "svelte": "./dist/BadgeHelp.svelte"
+    },
+    "./BadgeInfo.svelte": {
+      "types": "./dist/BadgeInfo.svelte.d.ts",
+      "svelte": "./dist/BadgeInfo.svelte"
+    },
+    "./BadgeMinus.svelte": {
+      "types": "./dist/BadgeMinus.svelte.d.ts",
+      "svelte": "./dist/BadgeMinus.svelte"
+    },
+    "./BadgePercent.svelte": {
+      "types": "./dist/BadgePercent.svelte.d.ts",
+      "svelte": "./dist/BadgePercent.svelte"
+    },
+    "./BadgePlus.svelte": {
+      "types": "./dist/BadgePlus.svelte.d.ts",
+      "svelte": "./dist/BadgePlus.svelte"
+    },
+    "./BadgeX.svelte": {
+      "types": "./dist/BadgeX.svelte.d.ts",
+      "svelte": "./dist/BadgeX.svelte"
     },
     "./BaggageClaim.svelte": {
       "types": "./dist/BaggageClaim.svelte.d.ts",
@@ -1038,6 +1078,10 @@
       "types": "./dist/Circle.svelte.d.ts",
       "svelte": "./dist/Circle.svelte"
     },
+    "./CircleDollarSign.svelte": {
+      "types": "./dist/CircleDollarSign.svelte.d.ts",
+      "svelte": "./dist/CircleDollarSign.svelte"
+    },
     "./CircleDot.svelte": {
       "types": "./dist/CircleDot.svelte.d.ts",
       "svelte": "./dist/CircleDot.svelte"
@@ -1225,6 +1269,10 @@
     "./Clover.svelte": {
       "types": "./dist/Clover.svelte.d.ts",
       "svelte": "./dist/Clover.svelte"
+    },
+    "./Club.svelte": {
+      "types": "./dist/Club.svelte.d.ts",
+      "svelte": "./dist/Club.svelte"
     },
     "./Code.svelte": {
       "types": "./dist/Code.svelte.d.ts",
@@ -1458,6 +1506,10 @@
       "types": "./dist/Disc2.svelte.d.ts",
       "svelte": "./dist/Disc2.svelte"
     },
+    "./Disc3.svelte": {
+      "types": "./dist/Disc3.svelte.d.ts",
+      "svelte": "./dist/Disc3.svelte"
+    },
     "./Divide.svelte": {
       "types": "./dist/Divide.svelte.d.ts",
       "svelte": "./dist/Divide.svelte"
@@ -1609,6 +1661,10 @@
     "./Feather.svelte": {
       "types": "./dist/Feather.svelte.d.ts",
       "svelte": "./dist/Feather.svelte"
+    },
+    "./FerrisWheel.svelte": {
+      "types": "./dist/FerrisWheel.svelte.d.ts",
+      "svelte": "./dist/FerrisWheel.svelte"
     },
     "./Figma.svelte": {
       "types": "./dist/Figma.svelte.d.ts",
@@ -2806,6 +2862,14 @@
       "types": "./dist/Monitor.svelte.d.ts",
       "svelte": "./dist/Monitor.svelte"
     },
+    "./MonitorCheck.svelte": {
+      "types": "./dist/MonitorCheck.svelte.d.ts",
+      "svelte": "./dist/MonitorCheck.svelte"
+    },
+    "./MonitorDot.svelte": {
+      "types": "./dist/MonitorDot.svelte.d.ts",
+      "svelte": "./dist/MonitorDot.svelte"
+    },
     "./MonitorDown.svelte": {
       "types": "./dist/MonitorDown.svelte.d.ts",
       "svelte": "./dist/MonitorDown.svelte"
@@ -2813,6 +2877,14 @@
     "./MonitorOff.svelte": {
       "types": "./dist/MonitorOff.svelte.d.ts",
       "svelte": "./dist/MonitorOff.svelte"
+    },
+    "./MonitorPause.svelte": {
+      "types": "./dist/MonitorPause.svelte.d.ts",
+      "svelte": "./dist/MonitorPause.svelte"
+    },
+    "./MonitorPlay.svelte": {
+      "types": "./dist/MonitorPlay.svelte.d.ts",
+      "svelte": "./dist/MonitorPlay.svelte"
     },
     "./MonitorSmartphone.svelte": {
       "types": "./dist/MonitorSmartphone.svelte.d.ts",
@@ -2822,9 +2894,17 @@
       "types": "./dist/MonitorSpeaker.svelte.d.ts",
       "svelte": "./dist/MonitorSpeaker.svelte"
     },
+    "./MonitorStop.svelte": {
+      "types": "./dist/MonitorStop.svelte.d.ts",
+      "svelte": "./dist/MonitorStop.svelte"
+    },
     "./MonitorUp.svelte": {
       "types": "./dist/MonitorUp.svelte.d.ts",
       "svelte": "./dist/MonitorUp.svelte"
+    },
+    "./MonitorX.svelte": {
+      "types": "./dist/MonitorX.svelte.d.ts",
+      "svelte": "./dist/MonitorX.svelte"
     },
     "./Moon.svelte": {
       "types": "./dist/Moon.svelte.d.ts",
@@ -2882,9 +2962,41 @@
       "types": "./dist/MoveDiagonal2.svelte.d.ts",
       "svelte": "./dist/MoveDiagonal2.svelte"
     },
+    "./MoveDown.svelte": {
+      "types": "./dist/MoveDown.svelte.d.ts",
+      "svelte": "./dist/MoveDown.svelte"
+    },
+    "./MoveDownLeft.svelte": {
+      "types": "./dist/MoveDownLeft.svelte.d.ts",
+      "svelte": "./dist/MoveDownLeft.svelte"
+    },
+    "./MoveDownRight.svelte": {
+      "types": "./dist/MoveDownRight.svelte.d.ts",
+      "svelte": "./dist/MoveDownRight.svelte"
+    },
     "./MoveHorizontal.svelte": {
       "types": "./dist/MoveHorizontal.svelte.d.ts",
       "svelte": "./dist/MoveHorizontal.svelte"
+    },
+    "./MoveLeft.svelte": {
+      "types": "./dist/MoveLeft.svelte.d.ts",
+      "svelte": "./dist/MoveLeft.svelte"
+    },
+    "./MoveRight.svelte": {
+      "types": "./dist/MoveRight.svelte.d.ts",
+      "svelte": "./dist/MoveRight.svelte"
+    },
+    "./MoveUp.svelte": {
+      "types": "./dist/MoveUp.svelte.d.ts",
+      "svelte": "./dist/MoveUp.svelte"
+    },
+    "./MoveUpLeft.svelte": {
+      "types": "./dist/MoveUpLeft.svelte.d.ts",
+      "svelte": "./dist/MoveUpLeft.svelte"
+    },
+    "./MoveUpRight.svelte": {
+      "types": "./dist/MoveUpRight.svelte.d.ts",
+      "svelte": "./dist/MoveUpRight.svelte"
     },
     "./MoveVertical.svelte": {
       "types": "./dist/MoveVertical.svelte.d.ts",
@@ -3166,6 +3278,10 @@
       "types": "./dist/Pi.svelte.d.ts",
       "svelte": "./dist/Pi.svelte"
     },
+    "./PiSquare.svelte": {
+      "types": "./dist/PiSquare.svelte.d.ts",
+      "svelte": "./dist/PiSquare.svelte"
+    },
     "./PictureInPicture.svelte": {
       "types": "./dist/PictureInPicture.svelte.d.ts",
       "svelte": "./dist/PictureInPicture.svelte"
@@ -3185,6 +3301,10 @@
     "./Pilcrow.svelte": {
       "types": "./dist/Pilcrow.svelte.d.ts",
       "svelte": "./dist/Pilcrow.svelte"
+    },
+    "./PilcrowSquare.svelte": {
+      "types": "./dist/PilcrowSquare.svelte.d.ts",
+      "svelte": "./dist/PilcrowSquare.svelte"
     },
     "./Pill.svelte": {
       "types": "./dist/Pill.svelte.d.ts",
@@ -3225,6 +3345,10 @@
     "./PlayCircle.svelte": {
       "types": "./dist/PlayCircle.svelte.d.ts",
       "svelte": "./dist/PlayCircle.svelte"
+    },
+    "./PlaySquare.svelte": {
+      "types": "./dist/PlaySquare.svelte.d.ts",
+      "svelte": "./dist/PlaySquare.svelte"
     },
     "./Plug.svelte": {
       "types": "./dist/Plug.svelte.d.ts",
@@ -3294,6 +3418,10 @@
       "types": "./dist/Quote.svelte.d.ts",
       "svelte": "./dist/Quote.svelte"
     },
+    "./Radar.svelte": {
+      "types": "./dist/Radar.svelte.d.ts",
+      "svelte": "./dist/Radar.svelte"
+    },
     "./Radiation.svelte": {
       "types": "./dist/Radiation.svelte.d.ts",
       "svelte": "./dist/Radiation.svelte"
@@ -3350,6 +3478,10 @@
       "types": "./dist/RefreshCw.svelte.d.ts",
       "svelte": "./dist/RefreshCw.svelte"
     },
+    "./RefreshCwOff.svelte": {
+      "types": "./dist/RefreshCwOff.svelte.d.ts",
+      "svelte": "./dist/RefreshCwOff.svelte"
+    },
     "./Refrigerator.svelte": {
       "types": "./dist/Refrigerator.svelte.d.ts",
       "svelte": "./dist/Refrigerator.svelte"
@@ -3401,6 +3533,10 @@
     "./RockingChair.svelte": {
       "types": "./dist/RockingChair.svelte.d.ts",
       "svelte": "./dist/RockingChair.svelte"
+    },
+    "./RollerCoaster.svelte": {
+      "types": "./dist/RollerCoaster.svelte.d.ts",
+      "svelte": "./dist/RollerCoaster.svelte"
     },
     "./Rotate3d.svelte": {
       "types": "./dist/Rotate3d.svelte.d.ts",
@@ -3485,6 +3621,10 @@
     "./ScanLine.svelte": {
       "types": "./dist/ScanLine.svelte.d.ts",
       "svelte": "./dist/ScanLine.svelte"
+    },
+    "./ScatterChart.svelte": {
+      "types": "./dist/ScatterChart.svelte.d.ts",
+      "svelte": "./dist/ScatterChart.svelte"
     },
     "./School.svelte": {
       "types": "./dist/School.svelte.d.ts",
@@ -3630,6 +3770,10 @@
       "types": "./dist/Sigma.svelte.d.ts",
       "svelte": "./dist/Sigma.svelte"
     },
+    "./SigmaSquare.svelte": {
+      "types": "./dist/SigmaSquare.svelte.d.ts",
+      "svelte": "./dist/SigmaSquare.svelte"
+    },
     "./Signal.svelte": {
       "types": "./dist/Signal.svelte.d.ts",
       "svelte": "./dist/Signal.svelte"
@@ -3718,6 +3862,14 @@
       "types": "./dist/Space.svelte.d.ts",
       "svelte": "./dist/Space.svelte"
     },
+    "./Spade.svelte": {
+      "types": "./dist/Spade.svelte.d.ts",
+      "svelte": "./dist/Spade.svelte"
+    },
+    "./Sparkle.svelte": {
+      "types": "./dist/Sparkle.svelte.d.ts",
+      "svelte": "./dist/Sparkle.svelte"
+    },
     "./Sparkles.svelte": {
       "types": "./dist/Sparkles.svelte.d.ts",
       "svelte": "./dist/Sparkles.svelte"
@@ -3725,6 +3877,14 @@
     "./Speaker.svelte": {
       "types": "./dist/Speaker.svelte.d.ts",
       "svelte": "./dist/Speaker.svelte"
+    },
+    "./SpellCheck.svelte": {
+      "types": "./dist/SpellCheck.svelte.d.ts",
+      "svelte": "./dist/SpellCheck.svelte"
+    },
+    "./SpellCheck2.svelte": {
+      "types": "./dist/SpellCheck2.svelte.d.ts",
+      "svelte": "./dist/SpellCheck2.svelte"
     },
     "./Spline.svelte": {
       "types": "./dist/Spline.svelte.d.ts",
@@ -3741,6 +3901,10 @@
     "./SplitSquareVertical.svelte": {
       "types": "./dist/SplitSquareVertical.svelte.d.ts",
       "svelte": "./dist/SplitSquareVertical.svelte"
+    },
+    "./SprayCan.svelte": {
+      "types": "./dist/SprayCan.svelte.d.ts",
+      "svelte": "./dist/SprayCan.svelte"
     },
     "./Sprout.svelte": {
       "types": "./dist/Sprout.svelte.d.ts",
@@ -4237,10 +4401,6 @@
     "./VenetianMask.svelte": {
       "types": "./dist/VenetianMask.svelte.d.ts",
       "svelte": "./dist/VenetianMask.svelte"
-    },
-    "./Verified.svelte": {
-      "types": "./dist/Verified.svelte.d.ts",
-      "svelte": "./dist/Verified.svelte"
     },
     "./Vibrate.svelte": {
       "types": "./dist/Vibrate.svelte.d.ts",
