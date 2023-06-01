@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.5](https://github.com/shinokada/svelte-lucide/compare/v0.6.4...v0.6.5) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([446c306](https://github.com/shinokada/svelte-lucide/commit/446c306f73afe258ee09d1be0da456f7a237a7a8))
+
 ### [0.6.4](https://github.com/shinokada/svelte-lucide/compare/v0.6.3...v0.6.4) (2023-05-31)
 
 
