@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let color = 'currentColor';
 </script>
 
@@ -13,7 +14,8 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class={$$props.class}
+  {...$$restProps}
+  {role}
   on:click
   on:keydown
   on:keyup
@@ -47,6 +49,7 @@
 [Go to Document](https://svelte-lucide.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop color = 'currentColor';
 ## Event
 - on:click

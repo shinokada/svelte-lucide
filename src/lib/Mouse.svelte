@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let color = 'currentColor';
 </script>
 
@@ -13,7 +14,8 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class={$$props.class}
+  {...$$restProps}
+  {role}
   on:click
   on:keydown
   on:keyup
@@ -24,8 +26,8 @@
   on:mouseover
   on:mouseout
 >
-  <rect width="12" height="18" x="6" y="3" rx="6" />
-  <path d="M12 7v4" />
+  <rect x="5" y="2" width="14" height="20" rx="7" />
+  <path d="M12 6v4" />
 </svg>
 
 <!--
@@ -33,6 +35,7 @@
 [Go to Document](https://svelte-lucide.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop color = 'currentColor';
 ## Event
 - on:click

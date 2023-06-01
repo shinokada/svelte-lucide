@@ -6,17 +6,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.5](https://github.com/shinokada/svelte-lucide/compare/v0.6.4...v0.6.5) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([446c306](https://github.com/shinokada/svelte-lucide/commit/446c306f73afe258ee09d1be0da456f7a237a7a8))
+- add || ^4.0.0 to peerDependencies ([446c306](https://github.com/shinokada/svelte-lucide/commit/446c306f73afe258ee09d1be0da456f7a237a7a8))
 
 ### [0.6.4](https://github.com/shinokada/svelte-lucide/compare/v0.6.3...v0.6.4) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([a05d424](https://github.com/shinokada/svelte-lucide/commit/a05d4246ec60aefd2e4c4a1c35577290ed67a777))
+- add component docs ([a05d424](https://github.com/shinokada/svelte-lucide/commit/a05d4246ec60aefd2e4c4a1c35577290ed67a777))
 
 ### [0.6.3](https://github.com/shinokada/svelte-lucide/compare/v0.6.2...v0.6.3) (2023-05-31)
 
