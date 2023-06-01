@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.7](https://github.com/shinokada/svelte-lucide/compare/v0.6.6...v0.6.7) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([31e7800](https://github.com/shinokada/svelte-lucide/commit/31e78007c90ed1179a5bad73ddda5a6b7ea0d5c2))
+
 ### [0.6.6](https://github.com/shinokada/svelte-lucide/compare/v0.6.5...v0.6.6) (2023-06-01)
 
 ### [0.6.5](https://github.com/shinokada/svelte-lucide/compare/v0.6.4...v0.6.5) (2023-06-01)
