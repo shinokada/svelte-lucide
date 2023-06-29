@@ -9,6 +9,8 @@
 <div class="flex flex-wrap p-4">
   <Icon.Accessibility size="40" color={random_hex_color_code()} />
   <Icon.Activity size="40" color={random_hex_color_code()} />
+  <Icon.ActivitySquare size="40" color={random_hex_color_code()} />
+  <Icon.AirVent size="40" color={random_hex_color_code()} />
   <Icon.Airplay size="40" color={random_hex_color_code()} />
   <Icon.AlarmCheck size="40" color={random_hex_color_code()} />
   <Icon.AlarmClock size="40" color={random_hex_color_code()} />
@@ -45,84 +47,221 @@
   <Icon.AlignVerticalJustifyStart size="40" color={random_hex_color_code()} />
   <Icon.AlignVerticalSpaceAround size="40" color={random_hex_color_code()} />
   <Icon.AlignVerticalSpaceBetween size="40" color={random_hex_color_code()} />
+  <Icon.Ampersand size="40" color={random_hex_color_code()} />
+  <Icon.Ampersands size="40" color={random_hex_color_code()} />
   <Icon.Anchor size="40" color={random_hex_color_code()} />
+  <Icon.Angry size="40" color={random_hex_color_code()} />
+  <Icon.Annoyed size="40" color={random_hex_color_code()} />
   <Icon.Aperture size="40" color={random_hex_color_code()} />
+  <Icon.AppWindow size="40" color={random_hex_color_code()} />
+  <Icon.Apple size="40" color={random_hex_color_code()} />
   <Icon.Archive size="40" color={random_hex_color_code()} />
+  <Icon.ArchiveRestore size="40" color={random_hex_color_code()} />
+  <Icon.AreaChart size="40" color={random_hex_color_code()} />
+  <Icon.Armchair size="40" color={random_hex_color_code()} />
   <Icon.ArrowBigDown size="40" color={random_hex_color_code()} />
+  <Icon.ArrowBigDownDash size="40" color={random_hex_color_code()} />
   <Icon.ArrowBigLeft size="40" color={random_hex_color_code()} />
+  <Icon.ArrowBigLeftDash size="40" color={random_hex_color_code()} />
   <Icon.ArrowBigRight size="40" color={random_hex_color_code()} />
+  <Icon.ArrowBigRightDash size="40" color={random_hex_color_code()} />
   <Icon.ArrowBigUp size="40" color={random_hex_color_code()} />
+  <Icon.ArrowBigUpDash size="40" color={random_hex_color_code()} />
   <Icon.ArrowDown size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDown01 size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDown10 size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownAZ size="40" color={random_hex_color_code()} />
   <Icon.ArrowDownCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownFromLine size="40" color={random_hex_color_code()} />
   <Icon.ArrowDownLeft size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownLeftFromCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownLeftSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownNarrowWide size="40" color={random_hex_color_code()} />
   <Icon.ArrowDownRight size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownRightFromCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownRightSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownToDot size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownToLine size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownUp size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownWideNarrow size="40" color={random_hex_color_code()} />
+  <Icon.ArrowDownZA size="40" color={random_hex_color_code()} />
   <Icon.ArrowLeft size="40" color={random_hex_color_code()} />
   <Icon.ArrowLeftCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowLeftFromLine size="40" color={random_hex_color_code()} />
   <Icon.ArrowLeftRight size="40" color={random_hex_color_code()} />
+  <Icon.ArrowLeftSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowLeftToLine size="40" color={random_hex_color_code()} />
   <Icon.ArrowRight size="40" color={random_hex_color_code()} />
   <Icon.ArrowRightCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowRightFromLine size="40" color={random_hex_color_code()} />
+  <Icon.ArrowRightLeft size="40" color={random_hex_color_code()} />
+  <Icon.ArrowRightSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowRightToLine size="40" color={random_hex_color_code()} />
   <Icon.ArrowUp size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUp01 size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUp10 size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpAZ size="40" color={random_hex_color_code()} />
   <Icon.ArrowUpCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpDown size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpFromDot size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpFromLine size="40" color={random_hex_color_code()} />
   <Icon.ArrowUpLeft size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpLeftFromCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpLeftSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpNarrowWide size="40" color={random_hex_color_code()} />
   <Icon.ArrowUpRight size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpRightFromCircle size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpRightSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpSquare size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpToLine size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpWideNarrow size="40" color={random_hex_color_code()} />
+  <Icon.ArrowUpZA size="40" color={random_hex_color_code()} />
+  <Icon.ArrowsUpFromLine size="40" color={random_hex_color_code()} />
   <Icon.Asterisk size="40" color={random_hex_color_code()} />
   <Icon.AtSign size="40" color={random_hex_color_code()} />
+  <Icon.Atom size="40" color={random_hex_color_code()} />
   <Icon.Award size="40" color={random_hex_color_code()} />
   <Icon.Axe size="40" color={random_hex_color_code()} />
+  <Icon.Axis3d size="40" color={random_hex_color_code()} />
+  <Icon.Baby size="40" color={random_hex_color_code()} />
+  <Icon.Backpack size="40" color={random_hex_color_code()} />
+  <Icon.Badge size="40" color={random_hex_color_code()} />
+  <Icon.BadgeAlert size="40" color={random_hex_color_code()} />
+  <Icon.BadgeCheck size="40" color={random_hex_color_code()} />
+  <Icon.BadgeDollarSign size="40" color={random_hex_color_code()} />
+  <Icon.BadgeHelp size="40" color={random_hex_color_code()} />
+  <Icon.BadgeInfo size="40" color={random_hex_color_code()} />
+  <Icon.BadgeMinus size="40" color={random_hex_color_code()} />
+  <Icon.BadgePercent size="40" color={random_hex_color_code()} />
+  <Icon.BadgePlus size="40" color={random_hex_color_code()} />
+  <Icon.BadgeX size="40" color={random_hex_color_code()} />
+  <Icon.BaggageClaim size="40" color={random_hex_color_code()} />
+  <Icon.Ban size="40" color={random_hex_color_code()} />
+  <Icon.Banana size="40" color={random_hex_color_code()} />
   <Icon.Banknote size="40" color={random_hex_color_code()} />
   <Icon.BarChart size="40" color={random_hex_color_code()} />
   <Icon.BarChart2 size="40" color={random_hex_color_code()} />
+  <Icon.BarChart3 size="40" color={random_hex_color_code()} />
+  <Icon.BarChart4 size="40" color={random_hex_color_code()} />
+  <Icon.BarChartBig size="40" color={random_hex_color_code()} />
+  <Icon.BarChartHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.BarChartHorizontalBig size="40" color={random_hex_color_code()} />
   <Icon.Baseline size="40" color={random_hex_color_code()} />
+  <Icon.Bath size="40" color={random_hex_color_code()} />
   <Icon.Battery size="40" color={random_hex_color_code()} />
   <Icon.BatteryCharging size="40" color={random_hex_color_code()} />
   <Icon.BatteryFull size="40" color={random_hex_color_code()} />
   <Icon.BatteryLow size="40" color={random_hex_color_code()} />
   <Icon.BatteryMedium size="40" color={random_hex_color_code()} />
+  <Icon.BatteryWarning size="40" color={random_hex_color_code()} />
   <Icon.Beaker size="40" color={random_hex_color_code()} />
+  <Icon.Bean size="40" color={random_hex_color_code()} />
+  <Icon.BeanOff size="40" color={random_hex_color_code()} />
+  <Icon.Bed size="40" color={random_hex_color_code()} />
+  <Icon.BedDouble size="40" color={random_hex_color_code()} />
+  <Icon.BedSingle size="40" color={random_hex_color_code()} />
+  <Icon.Beef size="40" color={random_hex_color_code()} />
+  <Icon.Beer size="40" color={random_hex_color_code()} />
   <Icon.Bell size="40" color={random_hex_color_code()} />
+  <Icon.BellDot size="40" color={random_hex_color_code()} />
   <Icon.BellMinus size="40" color={random_hex_color_code()} />
   <Icon.BellOff size="40" color={random_hex_color_code()} />
   <Icon.BellPlus size="40" color={random_hex_color_code()} />
   <Icon.BellRing size="40" color={random_hex_color_code()} />
   <Icon.Bike size="40" color={random_hex_color_code()} />
   <Icon.Binary size="40" color={random_hex_color_code()} />
+  <Icon.Biohazard size="40" color={random_hex_color_code()} />
+  <Icon.Bird size="40" color={random_hex_color_code()} />
   <Icon.Bitcoin size="40" color={random_hex_color_code()} />
+  <Icon.Blinds size="40" color={random_hex_color_code()} />
   <Icon.Bluetooth size="40" color={random_hex_color_code()} />
   <Icon.BluetoothConnected size="40" color={random_hex_color_code()} />
   <Icon.BluetoothOff size="40" color={random_hex_color_code()} />
   <Icon.BluetoothSearching size="40" color={random_hex_color_code()} />
   <Icon.Bold size="40" color={random_hex_color_code()} />
+  <Icon.Bomb size="40" color={random_hex_color_code()} />
+  <Icon.Bone size="40" color={random_hex_color_code()} />
   <Icon.Book size="40" color={random_hex_color_code()} />
+  <Icon.BookCopy size="40" color={random_hex_color_code()} />
+  <Icon.BookDown size="40" color={random_hex_color_code()} />
+  <Icon.BookKey size="40" color={random_hex_color_code()} />
+  <Icon.BookLock size="40" color={random_hex_color_code()} />
+  <Icon.BookMarked size="40" color={random_hex_color_code()} />
+  <Icon.BookMinus size="40" color={random_hex_color_code()} />
   <Icon.BookOpen size="40" color={random_hex_color_code()} />
+  <Icon.BookOpenCheck size="40" color={random_hex_color_code()} />
+  <Icon.BookPlus size="40" color={random_hex_color_code()} />
+  <Icon.BookTemplate size="40" color={random_hex_color_code()} />
+  <Icon.BookUp size="40" color={random_hex_color_code()} />
+  <Icon.BookUp2 size="40" color={random_hex_color_code()} />
+  <Icon.BookX size="40" color={random_hex_color_code()} />
   <Icon.Bookmark size="40" color={random_hex_color_code()} />
   <Icon.BookmarkMinus size="40" color={random_hex_color_code()} />
   <Icon.BookmarkPlus size="40" color={random_hex_color_code()} />
   <Icon.Bot size="40" color={random_hex_color_code()} />
   <Icon.Box size="40" color={random_hex_color_code()} />
   <Icon.BoxSelect size="40" color={random_hex_color_code()} />
+  <Icon.Boxes size="40" color={random_hex_color_code()} />
+  <Icon.Braces size="40" color={random_hex_color_code()} />
+  <Icon.Brackets size="40" color={random_hex_color_code()} />
+  <Icon.Brain size="40" color={random_hex_color_code()} />
+  <Icon.BrainCircuit size="40" color={random_hex_color_code()} />
+  <Icon.BrainCog size="40" color={random_hex_color_code()} />
   <Icon.Briefcase size="40" color={random_hex_color_code()} />
   <Icon.Brush size="40" color={random_hex_color_code()} />
   <Icon.Bug size="40" color={random_hex_color_code()} />
   <Icon.Building size="40" color={random_hex_color_code()} />
   <Icon.Building2 size="40" color={random_hex_color_code()} />
   <Icon.Bus size="40" color={random_hex_color_code()} />
+  <Icon.Cake size="40" color={random_hex_color_code()} />
+  <Icon.CakeSlice size="40" color={random_hex_color_code()} />
   <Icon.Calculator size="40" color={random_hex_color_code()} />
   <Icon.Calendar size="40" color={random_hex_color_code()} />
+  <Icon.CalendarCheck size="40" color={random_hex_color_code()} />
+  <Icon.CalendarCheck2 size="40" color={random_hex_color_code()} />
+  <Icon.CalendarClock size="40" color={random_hex_color_code()} />
+  <Icon.CalendarDays size="40" color={random_hex_color_code()} />
+  <Icon.CalendarHeart size="40" color={random_hex_color_code()} />
+  <Icon.CalendarMinus size="40" color={random_hex_color_code()} />
+  <Icon.CalendarOff size="40" color={random_hex_color_code()} />
+  <Icon.CalendarPlus size="40" color={random_hex_color_code()} />
+  <Icon.CalendarRange size="40" color={random_hex_color_code()} />
+  <Icon.CalendarSearch size="40" color={random_hex_color_code()} />
+  <Icon.CalendarX size="40" color={random_hex_color_code()} />
+  <Icon.CalendarX2 size="40" color={random_hex_color_code()} />
   <Icon.Camera size="40" color={random_hex_color_code()} />
   <Icon.CameraOff size="40" color={random_hex_color_code()} />
+  <Icon.CandlestickChart size="40" color={random_hex_color_code()} />
+  <Icon.Candy size="40" color={random_hex_color_code()} />
+  <Icon.CandyCane size="40" color={random_hex_color_code()} />
+  <Icon.CandyOff size="40" color={random_hex_color_code()} />
   <Icon.Car size="40" color={random_hex_color_code()} />
   <Icon.Carrot size="40" color={random_hex_color_code()} />
+  <Icon.CaseLower size="40" color={random_hex_color_code()} />
+  <Icon.CaseSensitive size="40" color={random_hex_color_code()} />
+  <Icon.CaseUpper size="40" color={random_hex_color_code()} />
+  <Icon.CassetteTape size="40" color={random_hex_color_code()} />
   <Icon.Cast size="40" color={random_hex_color_code()} />
+  <Icon.Castle size="40" color={random_hex_color_code()} />
+  <Icon.Cat size="40" color={random_hex_color_code()} />
   <Icon.Check size="40" color={random_hex_color_code()} />
+  <Icon.CheckCheck size="40" color={random_hex_color_code()} />
   <Icon.CheckCircle size="40" color={random_hex_color_code()} />
   <Icon.CheckCircle2 size="40" color={random_hex_color_code()} />
   <Icon.CheckSquare size="40" color={random_hex_color_code()} />
+  <Icon.ChefHat size="40" color={random_hex_color_code()} />
+  <Icon.Cherry size="40" color={random_hex_color_code()} />
   <Icon.ChevronDown size="40" color={random_hex_color_code()} />
+  <Icon.ChevronDownSquare size="40" color={random_hex_color_code()} />
   <Icon.ChevronFirst size="40" color={random_hex_color_code()} />
   <Icon.ChevronLast size="40" color={random_hex_color_code()} />
   <Icon.ChevronLeft size="40" color={random_hex_color_code()} />
+  <Icon.ChevronLeftSquare size="40" color={random_hex_color_code()} />
   <Icon.ChevronRight size="40" color={random_hex_color_code()} />
+  <Icon.ChevronRightSquare size="40" color={random_hex_color_code()} />
   <Icon.ChevronUp size="40" color={random_hex_color_code()} />
+  <Icon.ChevronUpSquare size="40" color={random_hex_color_code()} />
   <Icon.ChevronsDown size="40" color={random_hex_color_code()} />
   <Icon.ChevronsDownUp size="40" color={random_hex_color_code()} />
   <Icon.ChevronsLeft size="40" color={random_hex_color_code()} />
@@ -132,12 +271,30 @@
   <Icon.ChevronsUp size="40" color={random_hex_color_code()} />
   <Icon.ChevronsUpDown size="40" color={random_hex_color_code()} />
   <Icon.Chrome size="40" color={random_hex_color_code()} />
+  <Icon.Church size="40" color={random_hex_color_code()} />
+  <Icon.Cigarette size="40" color={random_hex_color_code()} />
+  <Icon.CigaretteOff size="40" color={random_hex_color_code()} />
   <Icon.Circle size="40" color={random_hex_color_code()} />
-  <Icon.CircleSlashed size="40" color={random_hex_color_code()} />
+  <Icon.CircleDashed size="40" color={random_hex_color_code()} />
+  <Icon.CircleDollarSign size="40" color={random_hex_color_code()} />
+  <Icon.CircleDot size="40" color={random_hex_color_code()} />
+  <Icon.CircleDotDashed size="40" color={random_hex_color_code()} />
+  <Icon.CircleEllipsis size="40" color={random_hex_color_code()} />
+  <Icon.CircleEqual size="40" color={random_hex_color_code()} />
+  <Icon.CircleOff size="40" color={random_hex_color_code()} />
+  <Icon.CircleSlash size="40" color={random_hex_color_code()} />
+  <Icon.CircleSlash2 size="40" color={random_hex_color_code()} />
+  <Icon.CircuitBoard size="40" color={random_hex_color_code()} />
+  <Icon.Citrus size="40" color={random_hex_color_code()} />
+  <Icon.Clapperboard size="40" color={random_hex_color_code()} />
   <Icon.Clipboard size="40" color={random_hex_color_code()} />
   <Icon.ClipboardCheck size="40" color={random_hex_color_code()} />
   <Icon.ClipboardCopy size="40" color={random_hex_color_code()} />
+  <Icon.ClipboardEdit size="40" color={random_hex_color_code()} />
   <Icon.ClipboardList size="40" color={random_hex_color_code()} />
+  <Icon.ClipboardPaste size="40" color={random_hex_color_code()} />
+  <Icon.ClipboardSignature size="40" color={random_hex_color_code()} />
+  <Icon.ClipboardType size="40" color={random_hex_color_code()} />
   <Icon.ClipboardX size="40" color={random_hex_color_code()} />
   <Icon.Clock size="40" color={random_hex_color_code()} />
   <Icon.Clock1 size="40" color={random_hex_color_code()} />
@@ -153,31 +310,47 @@
   <Icon.Clock8 size="40" color={random_hex_color_code()} />
   <Icon.Clock9 size="40" color={random_hex_color_code()} />
   <Icon.Cloud size="40" color={random_hex_color_code()} />
+  <Icon.CloudCog size="40" color={random_hex_color_code()} />
   <Icon.CloudDrizzle size="40" color={random_hex_color_code()} />
   <Icon.CloudFog size="40" color={random_hex_color_code()} />
   <Icon.CloudHail size="40" color={random_hex_color_code()} />
   <Icon.CloudLightning size="40" color={random_hex_color_code()} />
   <Icon.CloudMoon size="40" color={random_hex_color_code()} />
+  <Icon.CloudMoonRain size="40" color={random_hex_color_code()} />
   <Icon.CloudOff size="40" color={random_hex_color_code()} />
   <Icon.CloudRain size="40" color={random_hex_color_code()} />
   <Icon.CloudRainWind size="40" color={random_hex_color_code()} />
   <Icon.CloudSnow size="40" color={random_hex_color_code()} />
   <Icon.CloudSun size="40" color={random_hex_color_code()} />
+  <Icon.CloudSunRain size="40" color={random_hex_color_code()} />
   <Icon.Cloudy size="40" color={random_hex_color_code()} />
   <Icon.Clover size="40" color={random_hex_color_code()} />
+  <Icon.Club size="40" color={random_hex_color_code()} />
   <Icon.Code size="40" color={random_hex_color_code()} />
   <Icon.Code2 size="40" color={random_hex_color_code()} />
   <Icon.Codepen size="40" color={random_hex_color_code()} />
   <Icon.Codesandbox size="40" color={random_hex_color_code()} />
   <Icon.Coffee size="40" color={random_hex_color_code()} />
+  <Icon.Cog size="40" color={random_hex_color_code()} />
   <Icon.Coins size="40" color={random_hex_color_code()} />
   <Icon.Columns size="40" color={random_hex_color_code()} />
+  <Icon.Combine size="40" color={random_hex_color_code()} />
   <Icon.Command size="40" color={random_hex_color_code()} />
   <Icon.Compass size="40" color={random_hex_color_code()} />
+  <Icon.Component size="40" color={random_hex_color_code()} />
+  <Icon.ConciergeBell size="40" color={random_hex_color_code()} />
+  <Icon.Construction size="40" color={random_hex_color_code()} />
   <Icon.Contact size="40" color={random_hex_color_code()} />
+  <Icon.Contact2 size="40" color={random_hex_color_code()} />
+  <Icon.Container size="40" color={random_hex_color_code()} />
   <Icon.Contrast size="40" color={random_hex_color_code()} />
   <Icon.Cookie size="40" color={random_hex_color_code()} />
   <Icon.Copy size="40" color={random_hex_color_code()} />
+  <Icon.CopyCheck size="40" color={random_hex_color_code()} />
+  <Icon.CopyMinus size="40" color={random_hex_color_code()} />
+  <Icon.CopyPlus size="40" color={random_hex_color_code()} />
+  <Icon.CopySlash size="40" color={random_hex_color_code()} />
+  <Icon.CopyX size="40" color={random_hex_color_code()} />
   <Icon.Copyleft size="40" color={random_hex_color_code()} />
   <Icon.Copyright size="40" color={random_hex_color_code()} />
   <Icon.CornerDownLeft size="40" color={random_hex_color_code()} />
@@ -189,35 +362,57 @@
   <Icon.CornerUpLeft size="40" color={random_hex_color_code()} />
   <Icon.CornerUpRight size="40" color={random_hex_color_code()} />
   <Icon.Cpu size="40" color={random_hex_color_code()} />
+  <Icon.CreativeCommons size="40" color={random_hex_color_code()} />
   <Icon.CreditCard size="40" color={random_hex_color_code()} />
+  <Icon.Croissant size="40" color={random_hex_color_code()} />
   <Icon.Crop size="40" color={random_hex_color_code()} />
   <Icon.Cross size="40" color={random_hex_color_code()} />
   <Icon.Crosshair size="40" color={random_hex_color_code()} />
   <Icon.Crown size="40" color={random_hex_color_code()} />
+  <Icon.CupSoda size="40" color={random_hex_color_code()} />
   <Icon.Currency size="40" color={random_hex_color_code()} />
   <Icon.Database size="40" color={random_hex_color_code()} />
+  <Icon.DatabaseBackup size="40" color={random_hex_color_code()} />
   <Icon.Delete size="40" color={random_hex_color_code()} />
+  <Icon.Dessert size="40" color={random_hex_color_code()} />
+  <Icon.Diamond size="40" color={random_hex_color_code()} />
   <Icon.Dice1 size="40" color={random_hex_color_code()} />
   <Icon.Dice2 size="40" color={random_hex_color_code()} />
   <Icon.Dice3 size="40" color={random_hex_color_code()} />
   <Icon.Dice4 size="40" color={random_hex_color_code()} />
   <Icon.Dice5 size="40" color={random_hex_color_code()} />
   <Icon.Dice6 size="40" color={random_hex_color_code()} />
+  <Icon.Dices size="40" color={random_hex_color_code()} />
+  <Icon.Diff size="40" color={random_hex_color_code()} />
   <Icon.Disc size="40" color={random_hex_color_code()} />
+  <Icon.Disc2 size="40" color={random_hex_color_code()} />
+  <Icon.Disc3 size="40" color={random_hex_color_code()} />
   <Icon.Divide size="40" color={random_hex_color_code()} />
   <Icon.DivideCircle size="40" color={random_hex_color_code()} />
   <Icon.DivideSquare size="40" color={random_hex_color_code()} />
+  <Icon.Dna size="40" color={random_hex_color_code()} />
+  <Icon.DnaOff size="40" color={random_hex_color_code()} />
+  <Icon.Dog size="40" color={random_hex_color_code()} />
   <Icon.DollarSign size="40" color={random_hex_color_code()} />
+  <Icon.Donut size="40" color={random_hex_color_code()} />
+  <Icon.DoorClosed size="40" color={random_hex_color_code()} />
+  <Icon.DoorOpen size="40" color={random_hex_color_code()} />
+  <Icon.Dot size="40" color={random_hex_color_code()} />
   <Icon.Download size="40" color={random_hex_color_code()} />
   <Icon.DownloadCloud size="40" color={random_hex_color_code()} />
   <Icon.Dribbble size="40" color={random_hex_color_code()} />
   <Icon.Droplet size="40" color={random_hex_color_code()} />
   <Icon.Droplets size="40" color={random_hex_color_code()} />
   <Icon.Drumstick size="40" color={random_hex_color_code()} />
+  <Icon.Dumbbell size="40" color={random_hex_color_code()} />
+  <Icon.Ear size="40" color={random_hex_color_code()} />
+  <Icon.EarOff size="40" color={random_hex_color_code()} />
   <Icon.Edit size="40" color={random_hex_color_code()} />
   <Icon.Edit2 size="40" color={random_hex_color_code()} />
   <Icon.Edit3 size="40" color={random_hex_color_code()} />
   <Icon.Egg size="40" color={random_hex_color_code()} />
+  <Icon.EggFried size="40" color={random_hex_color_code()} />
+  <Icon.EggOff size="40" color={random_hex_color_code()} />
   <Icon.Equal size="40" color={random_hex_color_code()} />
   <Icon.EqualNot size="40" color={random_hex_color_code()} />
   <Icon.Eraser size="40" color={random_hex_color_code()} />
@@ -227,27 +422,76 @@
   <Icon.Eye size="40" color={random_hex_color_code()} />
   <Icon.EyeOff size="40" color={random_hex_color_code()} />
   <Icon.Facebook size="40" color={random_hex_color_code()} />
+  <Icon.Factory size="40" color={random_hex_color_code()} />
+  <Icon.Fan size="40" color={random_hex_color_code()} />
   <Icon.FastForward size="40" color={random_hex_color_code()} />
   <Icon.Feather size="40" color={random_hex_color_code()} />
+  <Icon.FerrisWheel size="40" color={random_hex_color_code()} />
   <Icon.Figma size="40" color={random_hex_color_code()} />
   <Icon.File size="40" color={random_hex_color_code()} />
+  <Icon.FileArchive size="40" color={random_hex_color_code()} />
+  <Icon.FileAudio size="40" color={random_hex_color_code()} />
+  <Icon.FileAudio2 size="40" color={random_hex_color_code()} />
+  <Icon.FileAxis3d size="40" color={random_hex_color_code()} />
+  <Icon.FileBadge size="40" color={random_hex_color_code()} />
+  <Icon.FileBadge2 size="40" color={random_hex_color_code()} />
+  <Icon.FileBarChart size="40" color={random_hex_color_code()} />
+  <Icon.FileBarChart2 size="40" color={random_hex_color_code()} />
+  <Icon.FileBox size="40" color={random_hex_color_code()} />
   <Icon.FileCheck size="40" color={random_hex_color_code()} />
   <Icon.FileCheck2 size="40" color={random_hex_color_code()} />
+  <Icon.FileClock size="40" color={random_hex_color_code()} />
   <Icon.FileCode size="40" color={random_hex_color_code()} />
+  <Icon.FileCode2 size="40" color={random_hex_color_code()} />
+  <Icon.FileCog size="40" color={random_hex_color_code()} />
+  <Icon.FileCog2 size="40" color={random_hex_color_code()} />
+  <Icon.FileDiff size="40" color={random_hex_color_code()} />
   <Icon.FileDigit size="40" color={random_hex_color_code()} />
+  <Icon.FileDown size="40" color={random_hex_color_code()} />
+  <Icon.FileEdit size="40" color={random_hex_color_code()} />
+  <Icon.FileHeart size="40" color={random_hex_color_code()} />
+  <Icon.FileImage size="40" color={random_hex_color_code()} />
   <Icon.FileInput size="40" color={random_hex_color_code()} />
+  <Icon.FileJson size="40" color={random_hex_color_code()} />
+  <Icon.FileJson2 size="40" color={random_hex_color_code()} />
+  <Icon.FileKey size="40" color={random_hex_color_code()} />
+  <Icon.FileKey2 size="40" color={random_hex_color_code()} />
+  <Icon.FileLineChart size="40" color={random_hex_color_code()} />
+  <Icon.FileLock size="40" color={random_hex_color_code()} />
+  <Icon.FileLock2 size="40" color={random_hex_color_code()} />
   <Icon.FileMinus size="40" color={random_hex_color_code()} />
   <Icon.FileMinus2 size="40" color={random_hex_color_code()} />
   <Icon.FileOutput size="40" color={random_hex_color_code()} />
+  <Icon.FilePieChart size="40" color={random_hex_color_code()} />
   <Icon.FilePlus size="40" color={random_hex_color_code()} />
   <Icon.FilePlus2 size="40" color={random_hex_color_code()} />
+  <Icon.FileQuestion size="40" color={random_hex_color_code()} />
+  <Icon.FileScan size="40" color={random_hex_color_code()} />
   <Icon.FileSearch size="40" color={random_hex_color_code()} />
+  <Icon.FileSearch2 size="40" color={random_hex_color_code()} />
+  <Icon.FileSignature size="40" color={random_hex_color_code()} />
+  <Icon.FileSpreadsheet size="40" color={random_hex_color_code()} />
+  <Icon.FileStack size="40" color={random_hex_color_code()} />
+  <Icon.FileSymlink size="40" color={random_hex_color_code()} />
+  <Icon.FileTerminal size="40" color={random_hex_color_code()} />
   <Icon.FileText size="40" color={random_hex_color_code()} />
+  <Icon.FileType size="40" color={random_hex_color_code()} />
+  <Icon.FileType2 size="40" color={random_hex_color_code()} />
+  <Icon.FileUp size="40" color={random_hex_color_code()} />
+  <Icon.FileVideo size="40" color={random_hex_color_code()} />
+  <Icon.FileVideo2 size="40" color={random_hex_color_code()} />
+  <Icon.FileVolume size="40" color={random_hex_color_code()} />
+  <Icon.FileVolume2 size="40" color={random_hex_color_code()} />
+  <Icon.FileWarning size="40" color={random_hex_color_code()} />
   <Icon.FileX size="40" color={random_hex_color_code()} />
   <Icon.FileX2 size="40" color={random_hex_color_code()} />
   <Icon.Files size="40" color={random_hex_color_code()} />
   <Icon.Film size="40" color={random_hex_color_code()} />
   <Icon.Filter size="40" color={random_hex_color_code()} />
+  <Icon.FilterX size="40" color={random_hex_color_code()} />
+  <Icon.Fingerprint size="40" color={random_hex_color_code()} />
+  <Icon.Fish size="40" color={random_hex_color_code()} />
+  <Icon.FishOff size="40" color={random_hex_color_code()} />
   <Icon.Flag size="40" color={random_hex_color_code()} />
   <Icon.FlagOff size="40" color={random_hex_color_code()} />
   <Icon.FlagTriangleLeft size="40" color={random_hex_color_code()} />
@@ -256,19 +500,65 @@
   <Icon.Flashlight size="40" color={random_hex_color_code()} />
   <Icon.FlashlightOff size="40" color={random_hex_color_code()} />
   <Icon.FlaskConical size="40" color={random_hex_color_code()} />
+  <Icon.FlaskConicalOff size="40" color={random_hex_color_code()} />
   <Icon.FlaskRound size="40" color={random_hex_color_code()} />
+  <Icon.FlipHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.FlipHorizontal2 size="40" color={random_hex_color_code()} />
+  <Icon.FlipVertical size="40" color={random_hex_color_code()} />
+  <Icon.FlipVertical2 size="40" color={random_hex_color_code()} />
+  <Icon.Flower size="40" color={random_hex_color_code()} />
+  <Icon.Flower2 size="40" color={random_hex_color_code()} />
+  <Icon.Focus size="40" color={random_hex_color_code()} />
+  <Icon.FoldHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.FoldVertical size="40" color={random_hex_color_code()} />
   <Icon.Folder size="40" color={random_hex_color_code()} />
+  <Icon.FolderArchive size="40" color={random_hex_color_code()} />
+  <Icon.FolderCheck size="40" color={random_hex_color_code()} />
+  <Icon.FolderClock size="40" color={random_hex_color_code()} />
+  <Icon.FolderClosed size="40" color={random_hex_color_code()} />
+  <Icon.FolderCog size="40" color={random_hex_color_code()} />
+  <Icon.FolderCog2 size="40" color={random_hex_color_code()} />
+  <Icon.FolderDot size="40" color={random_hex_color_code()} />
+  <Icon.FolderDown size="40" color={random_hex_color_code()} />
+  <Icon.FolderEdit size="40" color={random_hex_color_code()} />
+  <Icon.FolderGit size="40" color={random_hex_color_code()} />
+  <Icon.FolderGit2 size="40" color={random_hex_color_code()} />
+  <Icon.FolderHeart size="40" color={random_hex_color_code()} />
+  <Icon.FolderInput size="40" color={random_hex_color_code()} />
+  <Icon.FolderKanban size="40" color={random_hex_color_code()} />
+  <Icon.FolderKey size="40" color={random_hex_color_code()} />
+  <Icon.FolderLock size="40" color={random_hex_color_code()} />
   <Icon.FolderMinus size="40" color={random_hex_color_code()} />
   <Icon.FolderOpen size="40" color={random_hex_color_code()} />
+  <Icon.FolderOpenDot size="40" color={random_hex_color_code()} />
+  <Icon.FolderOutput size="40" color={random_hex_color_code()} />
   <Icon.FolderPlus size="40" color={random_hex_color_code()} />
+  <Icon.FolderRoot size="40" color={random_hex_color_code()} />
+  <Icon.FolderSearch size="40" color={random_hex_color_code()} />
+  <Icon.FolderSearch2 size="40" color={random_hex_color_code()} />
+  <Icon.FolderSymlink size="40" color={random_hex_color_code()} />
+  <Icon.FolderSync size="40" color={random_hex_color_code()} />
+  <Icon.FolderTree size="40" color={random_hex_color_code()} />
+  <Icon.FolderUp size="40" color={random_hex_color_code()} />
+  <Icon.FolderX size="40" color={random_hex_color_code()} />
+  <Icon.Folders size="40" color={random_hex_color_code()} />
+  <Icon.Footprints size="40" color={random_hex_color_code()} />
+  <Icon.Forklift size="40" color={random_hex_color_code()} />
   <Icon.FormInput size="40" color={random_hex_color_code()} />
   <Icon.Forward size="40" color={random_hex_color_code()} />
   <Icon.Frame size="40" color={random_hex_color_code()} />
   <Icon.Framer size="40" color={random_hex_color_code()} />
   <Icon.Frown size="40" color={random_hex_color_code()} />
+  <Icon.Fuel size="40" color={random_hex_color_code()} />
   <Icon.FunctionSquare size="40" color={random_hex_color_code()} />
+  <Icon.GalleryHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.GalleryHorizontalEnd size="40" color={random_hex_color_code()} />
+  <Icon.GalleryThumbnails size="40" color={random_hex_color_code()} />
+  <Icon.GalleryVertical size="40" color={random_hex_color_code()} />
+  <Icon.GalleryVerticalEnd size="40" color={random_hex_color_code()} />
   <Icon.Gamepad size="40" color={random_hex_color_code()} />
   <Icon.Gamepad2 size="40" color={random_hex_color_code()} />
+  <Icon.GanttChart size="40" color={random_hex_color_code()} />
   <Icon.Gauge size="40" color={random_hex_color_code()} />
   <Icon.Gavel size="40" color={random_hex_color_code()} />
   <Icon.Gem size="40" color={random_hex_color_code()} />
@@ -277,19 +567,27 @@
   <Icon.GitBranch size="40" color={random_hex_color_code()} />
   <Icon.GitBranchPlus size="40" color={random_hex_color_code()} />
   <Icon.GitCommit size="40" color={random_hex_color_code()} />
+  <Icon.GitCompare size="40" color={random_hex_color_code()} />
   <Icon.GitFork size="40" color={random_hex_color_code()} />
   <Icon.GitMerge size="40" color={random_hex_color_code()} />
   <Icon.GitPullRequest size="40" color={random_hex_color_code()} />
+  <Icon.GitPullRequestClosed size="40" color={random_hex_color_code()} />
+  <Icon.GitPullRequestDraft size="40" color={random_hex_color_code()} />
   <Icon.Github size="40" color={random_hex_color_code()} />
   <Icon.Gitlab size="40" color={random_hex_color_code()} />
+  <Icon.GlassWater size="40" color={random_hex_color_code()} />
   <Icon.Glasses size="40" color={random_hex_color_code()} />
   <Icon.Globe size="40" color={random_hex_color_code()} />
   <Icon.Globe2 size="40" color={random_hex_color_code()} />
+  <Icon.Goal size="40" color={random_hex_color_code()} />
   <Icon.Grab size="40" color={random_hex_color_code()} />
   <Icon.GraduationCap size="40" color={random_hex_color_code()} />
+  <Icon.Grape size="40" color={random_hex_color_code()} />
   <Icon.Grid size="40" color={random_hex_color_code()} />
+  <Icon.Grip size="40" color={random_hex_color_code()} />
   <Icon.GripHorizontal size="40" color={random_hex_color_code()} />
   <Icon.GripVertical size="40" color={random_hex_color_code()} />
+  <Icon.Group size="40" color={random_hex_color_code()} />
   <Icon.Hammer size="40" color={random_hex_color_code()} />
   <Icon.Hand size="40" color={random_hex_color_code()} />
   <Icon.HandMetal size="40" color={random_hex_color_code()} />
@@ -297,15 +595,31 @@
   <Icon.HardHat size="40" color={random_hex_color_code()} />
   <Icon.Hash size="40" color={random_hex_color_code()} />
   <Icon.Haze size="40" color={random_hex_color_code()} />
+  <Icon.Heading size="40" color={random_hex_color_code()} />
+  <Icon.Heading1 size="40" color={random_hex_color_code()} />
+  <Icon.Heading2 size="40" color={random_hex_color_code()} />
+  <Icon.Heading3 size="40" color={random_hex_color_code()} />
+  <Icon.Heading4 size="40" color={random_hex_color_code()} />
+  <Icon.Heading5 size="40" color={random_hex_color_code()} />
+  <Icon.Heading6 size="40" color={random_hex_color_code()} />
   <Icon.Headphones size="40" color={random_hex_color_code()} />
   <Icon.Heart size="40" color={random_hex_color_code()} />
+  <Icon.HeartCrack size="40" color={random_hex_color_code()} />
+  <Icon.HeartHandshake size="40" color={random_hex_color_code()} />
   <Icon.HeartOff size="40" color={random_hex_color_code()} />
+  <Icon.HeartPulse size="40" color={random_hex_color_code()} />
   <Icon.HelpCircle size="40" color={random_hex_color_code()} />
+  <Icon.HelpingHand size="40" color={random_hex_color_code()} />
   <Icon.Hexagon size="40" color={random_hex_color_code()} />
   <Icon.Highlighter size="40" color={random_hex_color_code()} />
   <Icon.History size="40" color={random_hex_color_code()} />
   <Icon.Home size="40" color={random_hex_color_code()} />
+  <Icon.Hop size="40" color={random_hex_color_code()} />
+  <Icon.HopOff size="40" color={random_hex_color_code()} />
+  <Icon.Hotel size="40" color={random_hex_color_code()} />
   <Icon.Hourglass size="40" color={random_hex_color_code()} />
+  <Icon.IceCream size="40" color={random_hex_color_code()} />
+  <Icon.IceCream2 size="40" color={random_hex_color_code()} />
   <Icon.Image size="40" color={random_hex_color_code()} />
   <Icon.ImageMinus size="40" color={random_hex_color_code()} />
   <Icon.ImageOff size="40" color={random_hex_color_code()} />
@@ -319,34 +633,60 @@
   <Icon.Inspect size="40" color={random_hex_color_code()} />
   <Icon.Instagram size="40" color={random_hex_color_code()} />
   <Icon.Italic size="40" color={random_hex_color_code()} />
+  <Icon.IterationCcw size="40" color={random_hex_color_code()} />
+  <Icon.IterationCw size="40" color={random_hex_color_code()} />
   <Icon.JapaneseYen size="40" color={random_hex_color_code()} />
+  <Icon.Joystick size="40" color={random_hex_color_code()} />
   <Icon.Key size="40" color={random_hex_color_code()} />
+  <Icon.KeyRound size="40" color={random_hex_color_code()} />
+  <Icon.KeySquare size="40" color={random_hex_color_code()} />
   <Icon.Keyboard size="40" color={random_hex_color_code()} />
+  <Icon.Lamp size="40" color={random_hex_color_code()} />
+  <Icon.LampCeiling size="40" color={random_hex_color_code()} />
+  <Icon.LampDesk size="40" color={random_hex_color_code()} />
+  <Icon.LampFloor size="40" color={random_hex_color_code()} />
+  <Icon.LampWallDown size="40" color={random_hex_color_code()} />
+  <Icon.LampWallUp size="40" color={random_hex_color_code()} />
   <Icon.Landmark size="40" color={random_hex_color_code()} />
   <Icon.Languages size="40" color={random_hex_color_code()} />
   <Icon.Laptop size="40" color={random_hex_color_code()} />
   <Icon.Laptop2 size="40" color={random_hex_color_code()} />
   <Icon.Lasso size="40" color={random_hex_color_code()} />
   <Icon.LassoSelect size="40" color={random_hex_color_code()} />
+  <Icon.Laugh size="40" color={random_hex_color_code()} />
   <Icon.Layers size="40" color={random_hex_color_code()} />
   <Icon.Layout size="40" color={random_hex_color_code()} />
   <Icon.LayoutDashboard size="40" color={random_hex_color_code()} />
   <Icon.LayoutGrid size="40" color={random_hex_color_code()} />
   <Icon.LayoutList size="40" color={random_hex_color_code()} />
+  <Icon.LayoutPanelLeft size="40" color={random_hex_color_code()} />
+  <Icon.LayoutPanelTop size="40" color={random_hex_color_code()} />
   <Icon.LayoutTemplate size="40" color={random_hex_color_code()} />
+  <Icon.Leaf size="40" color={random_hex_color_code()} />
+  <Icon.LeafyGreen size="40" color={random_hex_color_code()} />
   <Icon.Library size="40" color={random_hex_color_code()} />
   <Icon.LifeBuoy size="40" color={random_hex_color_code()} />
+  <Icon.Ligature size="40" color={random_hex_color_code()} />
   <Icon.Lightbulb size="40" color={random_hex_color_code()} />
   <Icon.LightbulbOff size="40" color={random_hex_color_code()} />
+  <Icon.LineChart size="40" color={random_hex_color_code()} />
   <Icon.Link size="40" color={random_hex_color_code()} />
   <Icon.Link2 size="40" color={random_hex_color_code()} />
   <Icon.Link2Off size="40" color={random_hex_color_code()} />
   <Icon.Linkedin size="40" color={random_hex_color_code()} />
   <Icon.List size="40" color={random_hex_color_code()} />
   <Icon.ListChecks size="40" color={random_hex_color_code()} />
+  <Icon.ListEnd size="40" color={random_hex_color_code()} />
+  <Icon.ListFilter size="40" color={random_hex_color_code()} />
   <Icon.ListMinus size="40" color={random_hex_color_code()} />
+  <Icon.ListMusic size="40" color={random_hex_color_code()} />
   <Icon.ListOrdered size="40" color={random_hex_color_code()} />
   <Icon.ListPlus size="40" color={random_hex_color_code()} />
+  <Icon.ListRestart size="40" color={random_hex_color_code()} />
+  <Icon.ListStart size="40" color={random_hex_color_code()} />
+  <Icon.ListTodo size="40" color={random_hex_color_code()} />
+  <Icon.ListTree size="40" color={random_hex_color_code()} />
+  <Icon.ListVideo size="40" color={random_hex_color_code()} />
   <Icon.ListX size="40" color={random_hex_color_code()} />
   <Icon.Loader size="40" color={random_hex_color_code()} />
   <Icon.Loader2 size="40" color={random_hex_color_code()} />
@@ -356,28 +696,66 @@
   <Icon.Lock size="40" color={random_hex_color_code()} />
   <Icon.LogIn size="40" color={random_hex_color_code()} />
   <Icon.LogOut size="40" color={random_hex_color_code()} />
+  <Icon.Lollipop size="40" color={random_hex_color_code()} />
+  <Icon.Luggage size="40" color={random_hex_color_code()} />
+  <Icon.Magnet size="40" color={random_hex_color_code()} />
   <Icon.Mail size="40" color={random_hex_color_code()} />
+  <Icon.MailCheck size="40" color={random_hex_color_code()} />
+  <Icon.MailMinus size="40" color={random_hex_color_code()} />
+  <Icon.MailOpen size="40" color={random_hex_color_code()} />
+  <Icon.MailPlus size="40" color={random_hex_color_code()} />
+  <Icon.MailQuestion size="40" color={random_hex_color_code()} />
+  <Icon.MailSearch size="40" color={random_hex_color_code()} />
+  <Icon.MailWarning size="40" color={random_hex_color_code()} />
+  <Icon.MailX size="40" color={random_hex_color_code()} />
+  <Icon.Mailbox size="40" color={random_hex_color_code()} />
+  <Icon.Mails size="40" color={random_hex_color_code()} />
   <Icon.Map size="40" color={random_hex_color_code()} />
   <Icon.MapPin size="40" color={random_hex_color_code()} />
+  <Icon.MapPinOff size="40" color={random_hex_color_code()} />
+  <Icon.Martini size="40" color={random_hex_color_code()} />
   <Icon.Maximize size="40" color={random_hex_color_code()} />
   <Icon.Maximize2 size="40" color={random_hex_color_code()} />
+  <Icon.Medal size="40" color={random_hex_color_code()} />
   <Icon.Megaphone size="40" color={random_hex_color_code()} />
+  <Icon.MegaphoneOff size="40" color={random_hex_color_code()} />
   <Icon.Meh size="40" color={random_hex_color_code()} />
+  <Icon.MemoryStick size="40" color={random_hex_color_code()} />
   <Icon.Menu size="40" color={random_hex_color_code()} />
+  <Icon.MenuSquare size="40" color={random_hex_color_code()} />
+  <Icon.Merge size="40" color={random_hex_color_code()} />
   <Icon.MessageCircle size="40" color={random_hex_color_code()} />
   <Icon.MessageSquare size="40" color={random_hex_color_code()} />
+  <Icon.MessageSquareDashed size="40" color={random_hex_color_code()} />
+  <Icon.MessageSquarePlus size="40" color={random_hex_color_code()} />
+  <Icon.MessagesSquare size="40" color={random_hex_color_code()} />
   <Icon.Mic size="40" color={random_hex_color_code()} />
+  <Icon.Mic2 size="40" color={random_hex_color_code()} />
   <Icon.MicOff size="40" color={random_hex_color_code()} />
+  <Icon.Microscope size="40" color={random_hex_color_code()} />
+  <Icon.Microwave size="40" color={random_hex_color_code()} />
   <Icon.Milestone size="40" color={random_hex_color_code()} />
+  <Icon.Milk size="40" color={random_hex_color_code()} />
+  <Icon.MilkOff size="40" color={random_hex_color_code()} />
   <Icon.Minimize size="40" color={random_hex_color_code()} />
   <Icon.Minimize2 size="40" color={random_hex_color_code()} />
   <Icon.Minus size="40" color={random_hex_color_code()} />
   <Icon.MinusCircle size="40" color={random_hex_color_code()} />
   <Icon.MinusSquare size="40" color={random_hex_color_code()} />
   <Icon.Monitor size="40" color={random_hex_color_code()} />
+  <Icon.MonitorCheck size="40" color={random_hex_color_code()} />
+  <Icon.MonitorDot size="40" color={random_hex_color_code()} />
+  <Icon.MonitorDown size="40" color={random_hex_color_code()} />
   <Icon.MonitorOff size="40" color={random_hex_color_code()} />
+  <Icon.MonitorPause size="40" color={random_hex_color_code()} />
+  <Icon.MonitorPlay size="40" color={random_hex_color_code()} />
+  <Icon.MonitorSmartphone size="40" color={random_hex_color_code()} />
   <Icon.MonitorSpeaker size="40" color={random_hex_color_code()} />
+  <Icon.MonitorStop size="40" color={random_hex_color_code()} />
+  <Icon.MonitorUp size="40" color={random_hex_color_code()} />
+  <Icon.MonitorX size="40" color={random_hex_color_code()} />
   <Icon.Moon size="40" color={random_hex_color_code()} />
+  <Icon.MoonStar size="40" color={random_hex_color_code()} />
   <Icon.MoreHorizontal size="40" color={random_hex_color_code()} />
   <Icon.MoreVertical size="40" color={random_hex_color_code()} />
   <Icon.Mountain size="40" color={random_hex_color_code()} />
@@ -387,29 +765,76 @@
   <Icon.MousePointer2 size="40" color={random_hex_color_code()} />
   <Icon.MousePointerClick size="40" color={random_hex_color_code()} />
   <Icon.Move size="40" color={random_hex_color_code()} />
+  <Icon.Move3d size="40" color={random_hex_color_code()} />
   <Icon.MoveDiagonal size="40" color={random_hex_color_code()} />
   <Icon.MoveDiagonal2 size="40" color={random_hex_color_code()} />
+  <Icon.MoveDown size="40" color={random_hex_color_code()} />
+  <Icon.MoveDownLeft size="40" color={random_hex_color_code()} />
+  <Icon.MoveDownRight size="40" color={random_hex_color_code()} />
   <Icon.MoveHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.MoveLeft size="40" color={random_hex_color_code()} />
+  <Icon.MoveRight size="40" color={random_hex_color_code()} />
+  <Icon.MoveUp size="40" color={random_hex_color_code()} />
+  <Icon.MoveUpLeft size="40" color={random_hex_color_code()} />
+  <Icon.MoveUpRight size="40" color={random_hex_color_code()} />
   <Icon.MoveVertical size="40" color={random_hex_color_code()} />
   <Icon.Music size="40" color={random_hex_color_code()} />
+  <Icon.Music2 size="40" color={random_hex_color_code()} />
+  <Icon.Music3 size="40" color={random_hex_color_code()} />
+  <Icon.Music4 size="40" color={random_hex_color_code()} />
   <Icon.Navigation size="40" color={random_hex_color_code()} />
   <Icon.Navigation2 size="40" color={random_hex_color_code()} />
+  <Icon.Navigation2Off size="40" color={random_hex_color_code()} />
+  <Icon.NavigationOff size="40" color={random_hex_color_code()} />
   <Icon.Network size="40" color={random_hex_color_code()} />
+  <Icon.Newspaper size="40" color={random_hex_color_code()} />
+  <Icon.Nfc size="40" color={random_hex_color_code()} />
+  <Icon.Nut size="40" color={random_hex_color_code()} />
+  <Icon.NutOff size="40" color={random_hex_color_code()} />
   <Icon.Octagon size="40" color={random_hex_color_code()} />
   <Icon.Option size="40" color={random_hex_color_code()} />
+  <Icon.Orbit size="40" color={random_hex_color_code()} />
   <Icon.Outdent size="40" color={random_hex_color_code()} />
   <Icon.Package size="40" color={random_hex_color_code()} />
+  <Icon.Package2 size="40" color={random_hex_color_code()} />
   <Icon.PackageCheck size="40" color={random_hex_color_code()} />
   <Icon.PackageMinus size="40" color={random_hex_color_code()} />
+  <Icon.PackageOpen size="40" color={random_hex_color_code()} />
   <Icon.PackagePlus size="40" color={random_hex_color_code()} />
   <Icon.PackageSearch size="40" color={random_hex_color_code()} />
   <Icon.PackageX size="40" color={random_hex_color_code()} />
+  <Icon.PaintBucket size="40" color={random_hex_color_code()} />
+  <Icon.Paintbrush size="40" color={random_hex_color_code()} />
+  <Icon.Paintbrush2 size="40" color={random_hex_color_code()} />
   <Icon.Palette size="40" color={random_hex_color_code()} />
   <Icon.Palmtree size="40" color={random_hex_color_code()} />
+  <Icon.PanelBottom size="40" color={random_hex_color_code()} />
+  <Icon.PanelBottomClose size="40" color={random_hex_color_code()} />
+  <Icon.PanelBottomInactive size="40" color={random_hex_color_code()} />
+  <Icon.PanelBottomOpen size="40" color={random_hex_color_code()} />
+  <Icon.PanelLeft size="40" color={random_hex_color_code()} />
+  <Icon.PanelLeftClose size="40" color={random_hex_color_code()} />
+  <Icon.PanelLeftInactive size="40" color={random_hex_color_code()} />
+  <Icon.PanelLeftOpen size="40" color={random_hex_color_code()} />
+  <Icon.PanelRight size="40" color={random_hex_color_code()} />
+  <Icon.PanelRightClose size="40" color={random_hex_color_code()} />
+  <Icon.PanelRightInactive size="40" color={random_hex_color_code()} />
+  <Icon.PanelRightOpen size="40" color={random_hex_color_code()} />
+  <Icon.PanelTop size="40" color={random_hex_color_code()} />
+  <Icon.PanelTopClose size="40" color={random_hex_color_code()} />
+  <Icon.PanelTopInactive size="40" color={random_hex_color_code()} />
+  <Icon.PanelTopOpen size="40" color={random_hex_color_code()} />
   <Icon.Paperclip size="40" color={random_hex_color_code()} />
+  <Icon.Parentheses size="40" color={random_hex_color_code()} />
+  <Icon.ParkingCircle size="40" color={random_hex_color_code()} />
+  <Icon.ParkingCircleOff size="40" color={random_hex_color_code()} />
+  <Icon.ParkingSquare size="40" color={random_hex_color_code()} />
+  <Icon.ParkingSquareOff size="40" color={random_hex_color_code()} />
+  <Icon.PartyPopper size="40" color={random_hex_color_code()} />
   <Icon.Pause size="40" color={random_hex_color_code()} />
   <Icon.PauseCircle size="40" color={random_hex_color_code()} />
   <Icon.PauseOctagon size="40" color={random_hex_color_code()} />
+  <Icon.PcCase size="40" color={random_hex_color_code()} />
   <Icon.PenTool size="40" color={random_hex_color_code()} />
   <Icon.Pencil size="40" color={random_hex_color_code()} />
   <Icon.Percent size="40" color={random_hex_color_code()} />
@@ -421,60 +846,123 @@
   <Icon.PhoneMissed size="40" color={random_hex_color_code()} />
   <Icon.PhoneOff size="40" color={random_hex_color_code()} />
   <Icon.PhoneOutgoing size="40" color={random_hex_color_code()} />
+  <Icon.Pi size="40" color={random_hex_color_code()} />
+  <Icon.PiSquare size="40" color={random_hex_color_code()} />
+  <Icon.PictureInPicture size="40" color={random_hex_color_code()} />
+  <Icon.PictureInPicture2 size="40" color={random_hex_color_code()} />
   <Icon.PieChart size="40" color={random_hex_color_code()} />
   <Icon.PiggyBank size="40" color={random_hex_color_code()} />
+  <Icon.Pilcrow size="40" color={random_hex_color_code()} />
+  <Icon.PilcrowSquare size="40" color={random_hex_color_code()} />
+  <Icon.Pill size="40" color={random_hex_color_code()} />
   <Icon.Pin size="40" color={random_hex_color_code()} />
+  <Icon.PinOff size="40" color={random_hex_color_code()} />
   <Icon.Pipette size="40" color={random_hex_color_code()} />
+  <Icon.Pizza size="40" color={random_hex_color_code()} />
   <Icon.Plane size="40" color={random_hex_color_code()} />
+  <Icon.PlaneLanding size="40" color={random_hex_color_code()} />
+  <Icon.PlaneTakeoff size="40" color={random_hex_color_code()} />
   <Icon.Play size="40" color={random_hex_color_code()} />
   <Icon.PlayCircle size="40" color={random_hex_color_code()} />
+  <Icon.PlaySquare size="40" color={random_hex_color_code()} />
+  <Icon.Plug size="40" color={random_hex_color_code()} />
+  <Icon.Plug2 size="40" color={random_hex_color_code()} />
   <Icon.PlugZap size="40" color={random_hex_color_code()} />
+  <Icon.PlugZap2 size="40" color={random_hex_color_code()} />
   <Icon.Plus size="40" color={random_hex_color_code()} />
   <Icon.PlusCircle size="40" color={random_hex_color_code()} />
   <Icon.PlusSquare size="40" color={random_hex_color_code()} />
   <Icon.Pocket size="40" color={random_hex_color_code()} />
+  <Icon.PocketKnife size="40" color={random_hex_color_code()} />
   <Icon.Podcast size="40" color={random_hex_color_code()} />
   <Icon.Pointer size="40" color={random_hex_color_code()} />
+  <Icon.Popcorn size="40" color={random_hex_color_code()} />
+  <Icon.Popsicle size="40" color={random_hex_color_code()} />
   <Icon.PoundSterling size="40" color={random_hex_color_code()} />
   <Icon.Power size="40" color={random_hex_color_code()} />
   <Icon.PowerOff size="40" color={random_hex_color_code()} />
+  <Icon.Presentation size="40" color={random_hex_color_code()} />
   <Icon.Printer size="40" color={random_hex_color_code()} />
+  <Icon.Projector size="40" color={random_hex_color_code()} />
+  <Icon.Puzzle size="40" color={random_hex_color_code()} />
   <Icon.QrCode size="40" color={random_hex_color_code()} />
   <Icon.Quote size="40" color={random_hex_color_code()} />
+  <Icon.Radar size="40" color={random_hex_color_code()} />
+  <Icon.Radiation size="40" color={random_hex_color_code()} />
   <Icon.Radio size="40" color={random_hex_color_code()} />
   <Icon.RadioReceiver size="40" color={random_hex_color_code()} />
+  <Icon.RadioTower size="40" color={random_hex_color_code()} />
+  <Icon.Rainbow size="40" color={random_hex_color_code()} />
+  <Icon.Rat size="40" color={random_hex_color_code()} />
+  <Icon.Receipt size="40" color={random_hex_color_code()} />
+  <Icon.RectangleHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.RectangleVertical size="40" color={random_hex_color_code()} />
+  <Icon.Recycle size="40" color={random_hex_color_code()} />
   <Icon.Redo size="40" color={random_hex_color_code()} />
+  <Icon.Redo2 size="40" color={random_hex_color_code()} />
+  <Icon.RedoDot size="40" color={random_hex_color_code()} />
   <Icon.RefreshCcw size="40" color={random_hex_color_code()} />
+  <Icon.RefreshCcwDot size="40" color={random_hex_color_code()} />
   <Icon.RefreshCw size="40" color={random_hex_color_code()} />
+  <Icon.RefreshCwOff size="40" color={random_hex_color_code()} />
+  <Icon.Refrigerator size="40" color={random_hex_color_code()} />
   <Icon.Regex size="40" color={random_hex_color_code()} />
+  <Icon.RemoveFormatting size="40" color={random_hex_color_code()} />
   <Icon.Repeat size="40" color={random_hex_color_code()} />
   <Icon.Repeat1 size="40" color={random_hex_color_code()} />
+  <Icon.Repeat2 size="40" color={random_hex_color_code()} />
+  <Icon.Replace size="40" color={random_hex_color_code()} />
+  <Icon.ReplaceAll size="40" color={random_hex_color_code()} />
   <Icon.Reply size="40" color={random_hex_color_code()} />
   <Icon.ReplyAll size="40" color={random_hex_color_code()} />
   <Icon.Rewind size="40" color={random_hex_color_code()} />
   <Icon.Rocket size="40" color={random_hex_color_code()} />
   <Icon.RockingChair size="40" color={random_hex_color_code()} />
+  <Icon.RollerCoaster size="40" color={random_hex_color_code()} />
+  <Icon.Rotate3d size="40" color={random_hex_color_code()} />
   <Icon.RotateCcw size="40" color={random_hex_color_code()} />
   <Icon.RotateCw size="40" color={random_hex_color_code()} />
+  <Icon.Router size="40" color={random_hex_color_code()} />
+  <Icon.Rows size="40" color={random_hex_color_code()} />
   <Icon.Rss size="40" color={random_hex_color_code()} />
   <Icon.Ruler size="40" color={random_hex_color_code()} />
   <Icon.RussianRuble size="40" color={random_hex_color_code()} />
+  <Icon.Sailboat size="40" color={random_hex_color_code()} />
+  <Icon.Salad size="40" color={random_hex_color_code()} />
+  <Icon.Sandwich size="40" color={random_hex_color_code()} />
+  <Icon.Satellite size="40" color={random_hex_color_code()} />
+  <Icon.SatelliteDish size="40" color={random_hex_color_code()} />
   <Icon.Save size="40" color={random_hex_color_code()} />
+  <Icon.SaveAll size="40" color={random_hex_color_code()} />
   <Icon.Scale size="40" color={random_hex_color_code()} />
+  <Icon.Scale3d size="40" color={random_hex_color_code()} />
+  <Icon.Scaling size="40" color={random_hex_color_code()} />
   <Icon.Scan size="40" color={random_hex_color_code()} />
+  <Icon.ScanFace size="40" color={random_hex_color_code()} />
   <Icon.ScanLine size="40" color={random_hex_color_code()} />
+  <Icon.ScatterChart size="40" color={random_hex_color_code()} />
+  <Icon.School size="40" color={random_hex_color_code()} />
+  <Icon.School2 size="40" color={random_hex_color_code()} />
   <Icon.Scissors size="40" color={random_hex_color_code()} />
   <Icon.ScreenShare size="40" color={random_hex_color_code()} />
   <Icon.ScreenShareOff size="40" color={random_hex_color_code()} />
+  <Icon.Scroll size="40" color={random_hex_color_code()} />
+  <Icon.ScrollText size="40" color={random_hex_color_code()} />
   <Icon.Search size="40" color={random_hex_color_code()} />
+  <Icon.SearchCheck size="40" color={random_hex_color_code()} />
+  <Icon.SearchCode size="40" color={random_hex_color_code()} />
+  <Icon.SearchSlash size="40" color={random_hex_color_code()} />
+  <Icon.SearchX size="40" color={random_hex_color_code()} />
   <Icon.Send size="40" color={random_hex_color_code()} />
   <Icon.SeparatorHorizontal size="40" color={random_hex_color_code()} />
   <Icon.SeparatorVertical size="40" color={random_hex_color_code()} />
   <Icon.Server size="40" color={random_hex_color_code()} />
+  <Icon.ServerCog size="40" color={random_hex_color_code()} />
   <Icon.ServerCrash size="40" color={random_hex_color_code()} />
   <Icon.ServerOff size="40" color={random_hex_color_code()} />
   <Icon.Settings size="40" color={random_hex_color_code()} />
   <Icon.Settings2 size="40" color={random_hex_color_code()} />
+  <Icon.Shapes size="40" color={random_hex_color_code()} />
   <Icon.Share size="40" color={random_hex_color_code()} />
   <Icon.Share2 size="40" color={random_hex_color_code()} />
   <Icon.Sheet size="40" color={random_hex_color_code()} />
@@ -483,58 +971,117 @@
   <Icon.ShieldCheck size="40" color={random_hex_color_code()} />
   <Icon.ShieldClose size="40" color={random_hex_color_code()} />
   <Icon.ShieldOff size="40" color={random_hex_color_code()} />
+  <Icon.ShieldQuestion size="40" color={random_hex_color_code()} />
+  <Icon.Ship size="40" color={random_hex_color_code()} />
   <Icon.Shirt size="40" color={random_hex_color_code()} />
   <Icon.ShoppingBag size="40" color={random_hex_color_code()} />
   <Icon.ShoppingCart size="40" color={random_hex_color_code()} />
   <Icon.Shovel size="40" color={random_hex_color_code()} />
+  <Icon.ShowerHead size="40" color={random_hex_color_code()} />
   <Icon.Shrink size="40" color={random_hex_color_code()} />
+  <Icon.Shrub size="40" color={random_hex_color_code()} />
   <Icon.Shuffle size="40" color={random_hex_color_code()} />
-  <Icon.Sidebar size="40" color={random_hex_color_code()} />
-  <Icon.SidebarClose size="40" color={random_hex_color_code()} />
-  <Icon.SidebarOpen size="40" color={random_hex_color_code()} />
   <Icon.Sigma size="40" color={random_hex_color_code()} />
+  <Icon.SigmaSquare size="40" color={random_hex_color_code()} />
   <Icon.Signal size="40" color={random_hex_color_code()} />
   <Icon.SignalHigh size="40" color={random_hex_color_code()} />
   <Icon.SignalLow size="40" color={random_hex_color_code()} />
   <Icon.SignalMedium size="40" color={random_hex_color_code()} />
   <Icon.SignalZero size="40" color={random_hex_color_code()} />
+  <Icon.Siren size="40" color={random_hex_color_code()} />
   <Icon.SkipBack size="40" color={random_hex_color_code()} />
   <Icon.SkipForward size="40" color={random_hex_color_code()} />
   <Icon.Skull size="40" color={random_hex_color_code()} />
   <Icon.Slack size="40" color={random_hex_color_code()} />
-  <Icon.Slash size="40" color={random_hex_color_code()} />
+  <Icon.Slice size="40" color={random_hex_color_code()} />
   <Icon.Sliders size="40" color={random_hex_color_code()} />
+  <Icon.SlidersHorizontal size="40" color={random_hex_color_code()} />
   <Icon.Smartphone size="40" color={random_hex_color_code()} />
   <Icon.SmartphoneCharging size="40" color={random_hex_color_code()} />
+  <Icon.SmartphoneNfc size="40" color={random_hex_color_code()} />
   <Icon.Smile size="40" color={random_hex_color_code()} />
+  <Icon.SmilePlus size="40" color={random_hex_color_code()} />
   <Icon.Snowflake size="40" color={random_hex_color_code()} />
-  <Icon.SortAsc size="40" color={random_hex_color_code()} />
-  <Icon.SortDesc size="40" color={random_hex_color_code()} />
+  <Icon.Sofa size="40" color={random_hex_color_code()} />
+  <Icon.Soup size="40" color={random_hex_color_code()} />
+  <Icon.Space size="40" color={random_hex_color_code()} />
+  <Icon.Spade size="40" color={random_hex_color_code()} />
+  <Icon.Sparkle size="40" color={random_hex_color_code()} />
+  <Icon.Sparkles size="40" color={random_hex_color_code()} />
   <Icon.Speaker size="40" color={random_hex_color_code()} />
+  <Icon.SpellCheck size="40" color={random_hex_color_code()} />
+  <Icon.SpellCheck2 size="40" color={random_hex_color_code()} />
+  <Icon.Spline size="40" color={random_hex_color_code()} />
+  <Icon.Split size="40" color={random_hex_color_code()} />
+  <Icon.SplitSquareHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.SplitSquareVertical size="40" color={random_hex_color_code()} />
+  <Icon.SprayCan size="40" color={random_hex_color_code()} />
   <Icon.Sprout size="40" color={random_hex_color_code()} />
   <Icon.Square size="40" color={random_hex_color_code()} />
+  <Icon.SquareAsterisk size="40" color={random_hex_color_code()} />
+  <Icon.SquareCode size="40" color={random_hex_color_code()} />
+  <Icon.SquareDashedBottom size="40" color={random_hex_color_code()} />
+  <Icon.SquareDashedBottomCode size="40" color={random_hex_color_code()} />
+  <Icon.SquareDot size="40" color={random_hex_color_code()} />
+  <Icon.SquareEqual size="40" color={random_hex_color_code()} />
+  <Icon.SquareGantt size="40" color={random_hex_color_code()} />
+  <Icon.SquareKanban size="40" color={random_hex_color_code()} />
+  <Icon.SquareKanbanDashed size="40" color={random_hex_color_code()} />
+  <Icon.SquareSlash size="40" color={random_hex_color_code()} />
+  <Icon.SquareStack size="40" color={random_hex_color_code()} />
+  <Icon.Squirrel size="40" color={random_hex_color_code()} />
+  <Icon.Stamp size="40" color={random_hex_color_code()} />
   <Icon.Star size="40" color={random_hex_color_code()} />
   <Icon.StarHalf size="40" color={random_hex_color_code()} />
+  <Icon.StarOff size="40" color={random_hex_color_code()} />
+  <Icon.StepBack size="40" color={random_hex_color_code()} />
+  <Icon.StepForward size="40" color={random_hex_color_code()} />
+  <Icon.Stethoscope size="40" color={random_hex_color_code()} />
+  <Icon.Sticker size="40" color={random_hex_color_code()} />
+  <Icon.StickyNote size="40" color={random_hex_color_code()} />
   <Icon.StopCircle size="40" color={random_hex_color_code()} />
+  <Icon.Store size="40" color={random_hex_color_code()} />
   <Icon.StretchHorizontal size="40" color={random_hex_color_code()} />
   <Icon.StretchVertical size="40" color={random_hex_color_code()} />
   <Icon.Strikethrough size="40" color={random_hex_color_code()} />
   <Icon.Subscript size="40" color={random_hex_color_code()} />
+  <Icon.Subtitles size="40" color={random_hex_color_code()} />
   <Icon.Sun size="40" color={random_hex_color_code()} />
+  <Icon.SunDim size="40" color={random_hex_color_code()} />
+  <Icon.SunMedium size="40" color={random_hex_color_code()} />
+  <Icon.SunMoon size="40" color={random_hex_color_code()} />
+  <Icon.SunSnow size="40" color={random_hex_color_code()} />
   <Icon.Sunrise size="40" color={random_hex_color_code()} />
   <Icon.Sunset size="40" color={random_hex_color_code()} />
   <Icon.Superscript size="40" color={random_hex_color_code()} />
   <Icon.SwissFranc size="40" color={random_hex_color_code()} />
   <Icon.SwitchCamera size="40" color={random_hex_color_code()} />
+  <Icon.Sword size="40" color={random_hex_color_code()} />
+  <Icon.Swords size="40" color={random_hex_color_code()} />
+  <Icon.Syringe size="40" color={random_hex_color_code()} />
   <Icon.Table size="40" color={random_hex_color_code()} />
+  <Icon.Table2 size="40" color={random_hex_color_code()} />
   <Icon.Tablet size="40" color={random_hex_color_code()} />
+  <Icon.Tablets size="40" color={random_hex_color_code()} />
   <Icon.Tag size="40" color={random_hex_color_code()} />
+  <Icon.Tags size="40" color={random_hex_color_code()} />
+  <Icon.Tally1 size="40" color={random_hex_color_code()} />
+  <Icon.Tally2 size="40" color={random_hex_color_code()} />
+  <Icon.Tally3 size="40" color={random_hex_color_code()} />
+  <Icon.Tally4 size="40" color={random_hex_color_code()} />
+  <Icon.Tally5 size="40" color={random_hex_color_code()} />
   <Icon.Target size="40" color={random_hex_color_code()} />
   <Icon.Tent size="40" color={random_hex_color_code()} />
   <Icon.Terminal size="40" color={random_hex_color_code()} />
   <Icon.TerminalSquare size="40" color={random_hex_color_code()} />
+  <Icon.TestTube size="40" color={random_hex_color_code()} />
+  <Icon.TestTube2 size="40" color={random_hex_color_code()} />
+  <Icon.TestTubes size="40" color={random_hex_color_code()} />
+  <Icon.Text size="40" color={random_hex_color_code()} />
   <Icon.TextCursor size="40" color={random_hex_color_code()} />
   <Icon.TextCursorInput size="40" color={random_hex_color_code()} />
+  <Icon.TextQuote size="40" color={random_hex_color_code()} />
+  <Icon.TextSelect size="40" color={random_hex_color_code()} />
   <Icon.Thermometer size="40" color={random_hex_color_code()} />
   <Icon.ThermometerSnowflake size="40" color={random_hex_color_code()} />
   <Icon.ThermometerSun size="40" color={random_hex_color_code()} />
@@ -547,12 +1094,21 @@
   <Icon.ToggleLeft size="40" color={random_hex_color_code()} />
   <Icon.ToggleRight size="40" color={random_hex_color_code()} />
   <Icon.Tornado size="40" color={random_hex_color_code()} />
+  <Icon.Touchpad size="40" color={random_hex_color_code()} />
+  <Icon.TouchpadOff size="40" color={random_hex_color_code()} />
+  <Icon.TowerControl size="40" color={random_hex_color_code()} />
+  <Icon.ToyBrick size="40" color={random_hex_color_code()} />
+  <Icon.Train size="40" color={random_hex_color_code()} />
   <Icon.Trash size="40" color={random_hex_color_code()} />
   <Icon.Trash2 size="40" color={random_hex_color_code()} />
+  <Icon.TreeDeciduous size="40" color={random_hex_color_code()} />
+  <Icon.TreePine size="40" color={random_hex_color_code()} />
+  <Icon.Trees size="40" color={random_hex_color_code()} />
   <Icon.Trello size="40" color={random_hex_color_code()} />
   <Icon.TrendingDown size="40" color={random_hex_color_code()} />
   <Icon.TrendingUp size="40" color={random_hex_color_code()} />
   <Icon.Triangle size="40" color={random_hex_color_code()} />
+  <Icon.Trophy size="40" color={random_hex_color_code()} />
   <Icon.Truck size="40" color={random_hex_color_code()} />
   <Icon.Tv size="40" color={random_hex_color_code()} />
   <Icon.Tv2 size="40" color={random_hex_color_code()} />
@@ -562,35 +1118,74 @@
   <Icon.Umbrella size="40" color={random_hex_color_code()} />
   <Icon.Underline size="40" color={random_hex_color_code()} />
   <Icon.Undo size="40" color={random_hex_color_code()} />
+  <Icon.Undo2 size="40" color={random_hex_color_code()} />
+  <Icon.UndoDot size="40" color={random_hex_color_code()} />
+  <Icon.UnfoldHorizontal size="40" color={random_hex_color_code()} />
+  <Icon.UnfoldVertical size="40" color={random_hex_color_code()} />
+  <Icon.Ungroup size="40" color={random_hex_color_code()} />
   <Icon.Unlink size="40" color={random_hex_color_code()} />
   <Icon.Unlink2 size="40" color={random_hex_color_code()} />
   <Icon.Unlock size="40" color={random_hex_color_code()} />
+  <Icon.Unplug size="40" color={random_hex_color_code()} />
   <Icon.Upload size="40" color={random_hex_color_code()} />
   <Icon.UploadCloud size="40" color={random_hex_color_code()} />
+  <Icon.Usb size="40" color={random_hex_color_code()} />
   <Icon.User size="40" color={random_hex_color_code()} />
+  <Icon.User2 size="40" color={random_hex_color_code()} />
   <Icon.UserCheck size="40" color={random_hex_color_code()} />
+  <Icon.UserCheck2 size="40" color={random_hex_color_code()} />
+  <Icon.UserCircle size="40" color={random_hex_color_code()} />
+  <Icon.UserCircle2 size="40" color={random_hex_color_code()} />
+  <Icon.UserCog size="40" color={random_hex_color_code()} />
+  <Icon.UserCog2 size="40" color={random_hex_color_code()} />
   <Icon.UserMinus size="40" color={random_hex_color_code()} />
+  <Icon.UserMinus2 size="40" color={random_hex_color_code()} />
   <Icon.UserPlus size="40" color={random_hex_color_code()} />
+  <Icon.UserPlus2 size="40" color={random_hex_color_code()} />
+  <Icon.UserSquare size="40" color={random_hex_color_code()} />
+  <Icon.UserSquare2 size="40" color={random_hex_color_code()} />
   <Icon.UserX size="40" color={random_hex_color_code()} />
+  <Icon.UserX2 size="40" color={random_hex_color_code()} />
   <Icon.Users size="40" color={random_hex_color_code()} />
-  <Icon.Verified size="40" color={random_hex_color_code()} />
+  <Icon.Users2 size="40" color={random_hex_color_code()} />
+  <Icon.Utensils size="40" color={random_hex_color_code()} />
+  <Icon.UtensilsCrossed size="40" color={random_hex_color_code()} />
+  <Icon.UtilityPole size="40" color={random_hex_color_code()} />
+  <Icon.Variable size="40" color={random_hex_color_code()} />
+  <Icon.Vegan size="40" color={random_hex_color_code()} />
+  <Icon.VenetianMask size="40" color={random_hex_color_code()} />
   <Icon.Vibrate size="40" color={random_hex_color_code()} />
+  <Icon.VibrateOff size="40" color={random_hex_color_code()} />
   <Icon.Video size="40" color={random_hex_color_code()} />
   <Icon.VideoOff size="40" color={random_hex_color_code()} />
+  <Icon.Videotape size="40" color={random_hex_color_code()} />
   <Icon.View size="40" color={random_hex_color_code()} />
   <Icon.Voicemail size="40" color={random_hex_color_code()} />
   <Icon.Volume size="40" color={random_hex_color_code()} />
   <Icon.Volume1 size="40" color={random_hex_color_code()} />
   <Icon.Volume2 size="40" color={random_hex_color_code()} />
   <Icon.VolumeX size="40" color={random_hex_color_code()} />
+  <Icon.Vote size="40" color={random_hex_color_code()} />
   <Icon.Wallet size="40" color={random_hex_color_code()} />
+  <Icon.Wallet2 size="40" color={random_hex_color_code()} />
+  <Icon.WalletCards size="40" color={random_hex_color_code()} />
+  <Icon.Wallpaper size="40" color={random_hex_color_code()} />
   <Icon.Wand size="40" color={random_hex_color_code()} />
+  <Icon.Wand2 size="40" color={random_hex_color_code()} />
+  <Icon.Warehouse size="40" color={random_hex_color_code()} />
   <Icon.Watch size="40" color={random_hex_color_code()} />
   <Icon.Waves size="40" color={random_hex_color_code()} />
   <Icon.Webcam size="40" color={random_hex_color_code()} />
+  <Icon.Webhook size="40" color={random_hex_color_code()} />
+  <Icon.Wheat size="40" color={random_hex_color_code()} />
+  <Icon.WheatOff size="40" color={random_hex_color_code()} />
+  <Icon.WholeWord size="40" color={random_hex_color_code()} />
   <Icon.Wifi size="40" color={random_hex_color_code()} />
   <Icon.WifiOff size="40" color={random_hex_color_code()} />
   <Icon.Wind size="40" color={random_hex_color_code()} />
+  <Icon.Wine size="40" color={random_hex_color_code()} />
+  <Icon.WineOff size="40" color={random_hex_color_code()} />
+  <Icon.Workflow size="40" color={random_hex_color_code()} />
   <Icon.WrapText size="40" color={random_hex_color_code()} />
   <Icon.Wrench size="40" color={random_hex_color_code()} />
   <Icon.X size="40" color={random_hex_color_code()} />

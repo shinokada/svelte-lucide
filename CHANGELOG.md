@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.9](https://github.com/shinokada/svelte-lucide/compare/v0.6.8...v0.6.9) (2023-06-29)
 
-
 ### Features
 
-* add strokeWidth prop ([6c6077b](https://github.com/shinokada/svelte-lucide/commit/6c6077b4ed7f77788f9be287db33561075e37e82))
+- add strokeWidth prop ([6c6077b](https://github.com/shinokada/svelte-lucide/commit/6c6077b4ed7f77788f9be287db33561075e37e82))
 
 ### [0.6.8](https://github.com/shinokada/svelte-lucide/compare/v0.6.7...v0.6.8) (2023-06-15)
 
