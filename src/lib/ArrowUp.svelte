@@ -2,6 +2,7 @@
   export let size = '24';
   export let role = 'img';
   export let color = 'currentColor';
+  export let strokeWidth = '2';
 </script>
 
 <svg
@@ -11,7 +12,7 @@
   viewBox="0 0 24 24"
   fill="none"
   stroke={color}
-  stroke-width="2"
+  stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
   {...$$restProps}
@@ -26,8 +27,8 @@
   on:mouseover
   on:mouseout
 >
-  <line x1="12" x2="12" y1="19" y2="5" />
-  <polyline points="5 12 12 5 19 12" />
+  <path d="m5 12 7-7 7 7" />
+  <path d="M12 19V5" />
 </svg>
 
 <!--
@@ -37,6 +38,7 @@
 @prop size = '24';
 @prop role = 'img';
 @prop color = 'currentColor';
+@prop strokeWidth = '2';
 ## Event
 - on:click
 - on:keydown
