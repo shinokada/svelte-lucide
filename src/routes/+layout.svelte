@@ -67,7 +67,7 @@
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-lucide.vercel.app/"
-    name="Svelte Coreui Icons" classSpan="text-primary-700 dark:text-primary-500"
+    name="Svelte Lucide" classSpan="text-primary-700 dark:text-primary-500"
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/">Home</FooterLink>
