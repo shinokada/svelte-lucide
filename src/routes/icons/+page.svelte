@@ -26,7 +26,7 @@
   });
   let size=32;
 </script>
-
+<h1>Svelte Lucide: Icons</h1>
 <TableSearch
   placeholder="Search by icon name"
   hoverable={true}
