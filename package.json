@@ -36,7 +36,7 @@
   "devDependencies": {
     "@floating-ui/dom": "^1.4.5",
     "@playwright/test": "^1.36.1",
-    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/adapter-vercel": "^3.0.2",
     "@sveltejs/kit": "^1.22.3",
     "@sveltejs/package": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
