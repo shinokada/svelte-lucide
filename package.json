@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-lucide/issues",
-  "homepage": "https://svelte-lucide.codewithshin.com",
+  "homepage": "https://svelte-lucide.vercel.app",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
