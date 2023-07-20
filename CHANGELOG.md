@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.11](https://github.com/shinokada/svelte-lucide/compare/v0.6.10...v0.6.11) (2023-07-20)
+
+
+### Features
+
+* add size range ([25f59a6](https://github.com/shinokada/svelte-lucide/commit/25f59a6dae2bfc451bfeaa9547d7038aa7de4477))
+
+
+### Bug Fixes
+
+* adaptor-vercel reinstall ([5725f86](https://github.com/shinokada/svelte-lucide/commit/5725f86fa30e4f184fe079e56be487ee26287ea2))
+* change from adapter-vercel to adapter-auto ([208b815](https://github.com/shinokada/svelte-lucide/commit/208b815054e53b07427e2a86bfbffee610351225))
+* homepage update ([6d0f59d](https://github.com/shinokada/svelte-lucide/commit/6d0f59dcccaf106dca86555634dab131427675be))
+* image sizes ([42acac4](https://github.com/shinokada/svelte-lucide/commit/42acac4d668ef6dbaf644aa66dd2e8b0f8fdeea2))
+* remove .vercel ([4424a5b](https://github.com/shinokada/svelte-lucide/commit/4424a5b69c066fb0ce4c181475ef318eab3cda69))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([ace1d65](https://github.com/shinokada/svelte-lucide/commit/ace1d6548e6ff84ef490f74ba6df51eeee25db45))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([d19bd53](https://github.com/shinokada/svelte-lucide/commit/d19bd539f2b07ba72df9ad055955c150cea91039))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([7fce34c](https://github.com/shinokada/svelte-lucide/commit/7fce34c9c7cff406cf9c56f9bbc065415fbf2fa2))
+
 ### [0.6.10](https://github.com/shinokada/svelte-lucide/compare/v0.6.9...v0.6.10) (2023-06-29)
 
 ### [0.6.9](https://github.com/shinokada/svelte-lucide/compare/v0.6.8...v0.6.9) (2023-06-29)
