@@ -1,6 +1,6 @@
 {
   "name": "svelte-lucide",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "dist/index.js",
   "description": "Lucide-icon components for Sveltejs",
   "author": {
