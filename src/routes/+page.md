@@ -40,49 +40,21 @@ In a svelte file:
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Icon } from 'svlete-lucide';
 </script>
 
-<Accessibility />
-<Activity />
-<Airplay />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Accessibility from 'svelte-lucide/Accessibility.svelte';
-</script>
-
-<Accessibility />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="accessibility" />
 ```
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- color = 'currentColor';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
+- @prop strokeWidth = "2";
 
 ## IDE support
 
@@ -90,22 +62,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
-</script>
-
-<Accessibility size="30" />
-<Activity size="42" />
-<Airplay size="51" />
+<Icon name="accessibility" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Accessibility class="shrink-0 h-20 w-20" />
+<Icon name="accessibility" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -113,35 +79,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
-</script>
-
-<Accessibility color="#c61515" />
-<Activity color="#3759e5" />
-<Airplay color="#3fe537" />
+<Icon name="accessibility" color="#c61515" />
 ```
 
 ## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
-Tailwind example:
+Tailwind CSS example:
 
 ```html
-<script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
-</script>
-
-<Accessibility class="text-blue-700 mr-4" />
-<Activity class="text-red-700" />
-<Airplay class="text-green-500" />
+<Icon name="accessibility" class="text-red-700 inline m-1" />
 ```
 
-Bootstrap example:
+Bootstrap examples:
 
 ```html
-<Accessibility class="position-absolute top-0 px-1" />
+<Icon name="accessibility" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -151,25 +105,24 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
-</script>
-
-<Accessibility class="text-blue-700 dark:text-red-500" />
-<Activity class="text-red-700 dark:text-green-500" />
-<Airplay class="text-green-500 dark:text-blue-500" />
+<Icon name="accessibility"  class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-TODO
+All icons have aria-label. For example `accessibility` has `aria-label="accessibility"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
+
+```html
+<Icon name="accessibility" ariaLabel="red accessibility" color="#c61515"/>
+```
 
 ## Unfocusable icon
 
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Airplay tabindex="-1" />
+<Icon name="accessibility"  tabindex="-1" />
 ```
 
 ## Events
@@ -191,31 +144,28 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Airplay tabindex="0" />
+<Icon name="accessibility"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { Airplay } from 'svelte-lucide';
-</script>
-
-<svelte:component this="{Airplay}" />
+<svelte:component this="{Icon}" name="accessibility" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Airplay } from 'svelte-lucide';
+  import {Icon} from 'svelte-evil-icons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'accessibility',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Airplay({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
@@ -223,24 +173,19 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import * as Icon from 'svelte-lucide`.
+Use `import {Icon, icons} from 'svelte-evil-icons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-lucide';
+  import {Icon, icons} from 'svelte-evil-icons';
 </script>
 
-<h1>Size</h1>
-<Icon.Activity size="30" />
-<Icon.Activity size="40" />
-<Icon.Activity size="50" />
-
-<h1>CSS HEX color</h1>
-<Icon.Bike color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Users class="text-blue-500" />
-<Icon.Users class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
