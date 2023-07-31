@@ -40,7 +40,7 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-file-icons/)
+[Go to Document](https://shinokada.github.io/svelte-lucide/)
 ## Props
 @prop name;
 @prop width = "24";
