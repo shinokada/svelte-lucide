@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.5](https://github.com/shinokada/svelte-lucide/compare/v0.7.4...v0.7.5) (2023-07-31)
+
+
+### Bug Fixes
+
+* component doc update ([3a19659](https://github.com/shinokada/svelte-lucide/commit/3a196598c2e76ba33e9aca4e707ae7e37b844bd9))
+
 ### [0.7.4](https://github.com/shinokada/svelte-lucide/compare/v0.7.3...v0.7.4) (2023-07-31)
 
 
