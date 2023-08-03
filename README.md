@@ -157,7 +157,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import {Icon} from 'svelte-evil-icons';
+  import {Icon} from 'svelte-lucide';
   import { onMount } from 'svelte';
   const props = {
     name: 'accessibility',
@@ -173,16 +173,16 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import {Icon, icons} from 'svelte-evil-icons';`.
+Use `import {Icon, icons} from 'svelte-lucide';`.
 
 ```html
 <script>
-  import {Icon, icons} from 'svelte-evil-icons';
+  import {Icon, icons} from 'svelte-lucide';
 </script>
 
 {#each Object.keys(icons) as name}
 <div class="flex gap-4 items-center text-lg">
-  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  <Icon name={name} class="shrink-0"/>
   {name}
 </div>
 {/each}
