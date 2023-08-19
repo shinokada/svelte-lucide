@@ -40,7 +40,7 @@ In a svelte file:
 
 ```html
 <script>
-  import { Icon } from 'svlete-lucide';
+  import { Icon } from 'svelte-lucide';
 </script>
 
 <Icon name="accessibility" />
