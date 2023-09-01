@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/shinokada/svelte-lucide/compare/v0.7.6...v0.8.1) (2023-09-01)
+
+
+### Features
+
+* smaller compiled size and Icon component ([a41cde9](https://github.com/shinokada/svelte-lucide/commit/a41cde931c81788c1ee9e86309fb31cfc8dfab0d))
+
+
+### Bug Fixes
+
+* import typo ([3b8a0f1](https://github.com/shinokada/svelte-lucide/commit/3b8a0f1e205df04a4954452f95e0e7c43f6b051f))
+
 ### [0.7.6](https://github.com/shinokada/svelte-lucide/compare/v0.7.5...v0.7.6) (2023-08-03)
 
 ### [0.7.5](https://github.com/shinokada/svelte-lucide/compare/v0.7.4...v0.7.5) (2023-07-31)
