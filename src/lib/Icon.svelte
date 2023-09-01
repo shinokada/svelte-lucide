@@ -1,62 +1,32 @@
-<script>
-  import icons from './icons.js'
-
-  export let name;
-  export let width = "24";
-  export let height = "24";
-  export let color = 'currentColor';
-  export let role = 'img';
-  export let ariaLabel = name;
-  export let strokeWidth = "2";
-  
-  $: displayIcon = icons[name]
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  export let icon: ComponentType;
+  export let size: number = 24;
+  export let role: string = 'img';
+  export let color: string = 'currentColor';
+  export let strokeWidth: string = '2';
+  export let ariaLabel: string = 'Icon';
 </script>
-<svg
-xmlns="http://www.w3.org/2000/svg"
-{width}
-{height}
-{role}
-aria-label={ariaLabel}
-fill="none"
-stroke={color}
-stroke-width={strokeWidth}
-stroke-linecap="round"
-stroke-linejoin="round"
-{...$$restProps}
-class={$$props.class}
-on:click
-on:keydown
-on:keyup
-on:focus
-on:blur
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-viewBox="0 0 {displayIcon.box} {displayIcon.box}"
->
-  {@html displayIcon.svg}
-</svg>
+
+<svelte:component
+  this={icon}
+  {...$$restProps}
+  {role}
+  {size}
+  {color}
+  {strokeWidth}
+  class={$$props.class}
+  {ariaLabel}
+/>
 
 <!--
 @component
-[Go to Document](https://svelte-lucide.vercel.app/)
+[Go to docs](https://svelte-lucide.vercel.app)
 ## Props
-@prop name;
-@prop width = "24";
-@prop height = "24";
-@prop role = 'img';
-@prop color = 'currentColor'
-@prop ariaLabel='icon name'
-@prop strokeWidth = "2";
-## Event
-- on:click
-- on:keydown
-- on:keyup
-- on:focus
-- on:blur
-- on:mouseenter
-- on:mouseleave
-- on:mouseover
-- on:mouseout
+@prop export let icon: ComponentType;
+@prop export let size: number = 24;
+@prop export let role: string = 'img';
+@prop export let color: string = 'currentColor';
+@prop export let strokeWidth: string = '2';
+@prop export let ariaLabel: string = 'Icon';
 -->
