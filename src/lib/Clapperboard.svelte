@@ -1,8 +1,11 @@
 <script>
-  export let size = '24';
-  export let role = 'img';
-  export let color = 'currentColor';
-  export let strokeWidth = '2';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '24';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
+  export let strokeWidth = ctx.strokeWidth || '2';
+  export let ariaLabel = 'Clapperboard';
 </script>
 
 <svg
@@ -17,6 +20,7 @@
   stroke-linejoin="round"
   {...$$restProps}
   {role}
+  aria-label={ariaLabel}
   on:click
   on:keydown
   on:keyup
@@ -27,18 +31,19 @@
   on:mouseover
   on:mouseout
 >
-  <path d="M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z" />
-  <path d="m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z" />
-  <path d="m6.6 4.99 3.38 4.2" />
-  <path d="m11.86 3.38 3.38 4.2" />
+  <path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z" />
+  <path d="m6.2 5.3 3.1 3.9" />
+  <path d="m12.4 3.4 3.1 4" />
+  <path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
 </svg>
 
 <!--
 @component
 [Go to docs](https://svelte-lucide.vercel.app)
 ## Props
-@prop export let size = '24';
-@prop export let role = 'img';
-@prop export let color = 'currentColor';
-@prop export let strokeWidth = '2';
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let strokeWidth = ctx.strokeWidth || '2';
+@prop export let ariaLabel = 'Clapperboard';
 -->

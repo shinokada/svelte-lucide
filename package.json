@@ -886,6 +886,10 @@
       "types": "./dist/Bookmark.svelte.d.ts",
       "svelte": "./dist/Bookmark.svelte"
     },
+    "./BookmarkCheck.svelte": {
+      "types": "./dist/BookmarkCheck.svelte.d.ts",
+      "svelte": "./dist/BookmarkCheck.svelte"
+    },
     "./BookmarkMinus.svelte": {
       "types": "./dist/BookmarkMinus.svelte.d.ts",
       "svelte": "./dist/BookmarkMinus.svelte"
@@ -893,6 +897,10 @@
     "./BookmarkPlus.svelte": {
       "types": "./dist/BookmarkPlus.svelte.d.ts",
       "svelte": "./dist/BookmarkPlus.svelte"
+    },
+    "./BookmarkX.svelte": {
+      "types": "./dist/BookmarkX.svelte.d.ts",
+      "svelte": "./dist/BookmarkX.svelte"
     },
     "./BoomBox.svelte": {
       "types": "./dist/BoomBox.svelte.d.ts",
@@ -1757,6 +1765,10 @@
     "./DownloadCloud.svelte": {
       "types": "./dist/DownloadCloud.svelte.d.ts",
       "svelte": "./dist/DownloadCloud.svelte"
+    },
+    "./Drama.svelte": {
+      "types": "./dist/Drama.svelte.d.ts",
+      "svelte": "./dist/Drama.svelte"
     },
     "./Dribbble.svelte": {
       "types": "./dist/Dribbble.svelte.d.ts",
@@ -4266,6 +4278,10 @@
       "types": "./dist/Slack.svelte.d.ts",
       "svelte": "./dist/Slack.svelte"
     },
+    "./Slash.svelte": {
+      "types": "./dist/Slash.svelte.d.ts",
+      "svelte": "./dist/Slash.svelte"
+    },
     "./Slice.svelte": {
       "types": "./dist/Slice.svelte.d.ts",
       "svelte": "./dist/Slice.svelte"
@@ -4333,6 +4349,10 @@
     "./Speaker.svelte": {
       "types": "./dist/Speaker.svelte.d.ts",
       "svelte": "./dist/Speaker.svelte"
+    },
+    "./Speech.svelte": {
+      "types": "./dist/Speech.svelte.d.ts",
+      "svelte": "./dist/Speech.svelte"
     },
     "./SpellCheck.svelte": {
       "types": "./dist/SpellCheck.svelte.d.ts",
@@ -4621,6 +4641,10 @@
     "./TextSelect.svelte": {
       "types": "./dist/TextSelect.svelte.d.ts",
       "svelte": "./dist/TextSelect.svelte"
+    },
+    "./Theater.svelte": {
+      "types": "./dist/Theater.svelte.d.ts",
+      "svelte": "./dist/Theater.svelte"
     },
     "./Thermometer.svelte": {
       "types": "./dist/Thermometer.svelte.d.ts",
