@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.2](https://github.com/shinokada/svelte-lucide/compare/v0.8.1...v0.8.2) (2023-09-21)
+
+
+### Features
+
+* add context ([4613ff9](https://github.com/shinokada/svelte-lucide/commit/4613ff9effda4444b7109f880e1086b243aff940))
+* add sidebar menu ([1fdd229](https://github.com/shinokada/svelte-lucide/commit/1fdd22916f9d95ff87d4d46b601151fad772cd30))
+
+
+### Bug Fixes
+
+* Nav update ([f05a5bb](https://github.com/shinokada/svelte-lucide/commit/f05a5bb98539a086933ac9e006b4e50f8babce08))
+
 ### [0.8.1](https://github.com/shinokada/svelte-lucide/compare/v0.7.6...v0.8.1) (2023-09-01)
 
 ### Features
