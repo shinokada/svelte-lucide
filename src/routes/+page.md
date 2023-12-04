@@ -42,7 +42,7 @@ In a svelte file:
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Accessibility, Activity, Airplay } from 'svelte-lucide';
 </script>
 
 <Accessibility />
@@ -80,7 +80,7 @@ Use the `size` prop to change the size of icons.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Accessibility, Activity, Airplay } from 'svelte-lucide';
 </script>
 
 <Accessibility size="30" />
@@ -234,7 +234,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Accessibility, Activity, Airplay } from 'svelte-lucide';
 </script>
 
 <Accessibility color="#c61515" />
@@ -250,7 +250,7 @@ Tailwind example:
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Accessibility, Activity, Airplay } from 'svelte-lucide';
 </script>
 
 <Accessibility class="text-blue-700 mr-4" />
@@ -272,7 +272,7 @@ Let's use `dark` for the dark mode class as an example.
 
 ```html
 <script>
-  import { Accessibility, Activity, Airplay } from 'svlete-lucide';
+  import { Accessibility, Activity, Airplay } from 'svelte-lucide';
 </script>
 
 <Accessibility class="text-blue-700 dark:text-red-500" />
