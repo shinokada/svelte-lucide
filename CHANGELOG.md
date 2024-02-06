@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/shinokada/svelte-lucide/compare/v1.0.2...v1.0.3) (2024-02-06)
+
+
+### Bug Fixes
+
+* layout update add class to NavHamburger ([fadfd45](https://github.com/shinokada/svelte-lucide/commit/fadfd45f1245af70b2e8b6530ae9616255c14f75))
+
 ### [1.0.2](https://github.com/shinokada/svelte-lucide/compare/v1.0.1...v1.0.2) (2024-01-27)
 
 ### [1.0.1](https://github.com/shinokada/svelte-lucide/compare/v0.8.2...v1.0.1) (2024-01-27)
