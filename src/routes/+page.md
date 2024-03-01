@@ -16,16 +16,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-lucide)
 
-## Original source
-
-[lucide-icons/lucide](https://github.com/lucide-icons/lucide)
-
-## License
-
-[Svelte-Lucide License](https://github.com/shinokada/svelte-lucide/blob/main/LICENSE)
-
-[lucide-icons/lucide LICENSE](https://github.com/lucide-icons/lucide/blob/main/LICENSE)
-
 ## Installation
 
 ```sh
@@ -357,6 +347,16 @@ Use `import * as Icon from 'svelte-lucide`.
 <Icon.Users class="text-blue-500" />
 <Icon.Users class="text-pink-700" />
 ```
+
+## Original source
+
+[lucide-icons/lucide](https://github.com/lucide-icons/lucide)
+
+## License
+
+[Svelte-Lucide License](https://github.com/shinokada/svelte-lucide/blob/main/LICENSE)
+
+[lucide-icons/lucide LICENSE](https://github.com/lucide-icons/lucide/blob/main/LICENSE)
 
 ## Other icons
 

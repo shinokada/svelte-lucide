@@ -40,7 +40,6 @@ pnpm i -D svelte-lucide
 
 [lucide-icons/lucide LICENSE](https://github.com/lucide-icons/lucide/blob/main/LICENSE)
 
-
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
