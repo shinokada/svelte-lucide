@@ -360,4 +360,4 @@ Use `import * as Icon from 'svelte-lucide`.
 
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
