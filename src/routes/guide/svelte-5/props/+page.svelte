@@ -1,7 +1,7 @@
 <script lang="ts">
   import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
-  import { A } from 'svelte-5-ui-lib'
-  import JarSolid from '../../../awesome-samples/JarSolid.svelte';
+  
+  import {AlarmSmoke} from '$lib';
   const modules = import.meta.glob('./md/*.md', {
     query: '?raw',
     import: 'default',
@@ -62,7 +62,7 @@ Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.</p>
 <HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
 
 <CodeWrapper>
-<JarSolid
+<AlarmSmoke
   title={{ id: 'my-title', title: 'Red heart' }}
   desc={{ id: 'my-descrip', desc: 'The shape of a red heart' }}
   ariaLabel="red heart"

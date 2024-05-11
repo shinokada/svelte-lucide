@@ -1,7 +1,7 @@
 
 <script lang="ts">
   import { HighlightCompo, CodeWrapper, Code, H2, H3, removeHyphensAndCapitalize } from 'runes-webkit';
-  import { AddressBookOutline } from '../../../flowbite-samples';
+  import { AlarmSmoke } from '$lib';
 
   const modules = import.meta.glob('./md/*.md', {
     query: '?raw',
@@ -49,7 +49,7 @@
 <p>Check out this icon in the console:</p>
 
 <CodeWrapper>
-  <AddressBookOutline
+  <AlarmSmoke
   title={{ id: 'my-title', title: 'Red bell' }}
   desc={{ id: 'my-descrip', desc: 'The shape of a red bell' }}
   ariaLabel="red bell"
