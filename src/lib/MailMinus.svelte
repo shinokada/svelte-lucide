@@ -44,16 +44,8 @@
   }: Props = $props();
 
   let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  let hasDescription = $state(false);
+  const hasDescription = $derived(!!(title.id || desc.id));
 
-  function updateHasDescription() {
-    hasDescription = !!(title.id || desc.id); 
-  }
-  updateHasDescription();
-
-  $effect(() => {
-    updateHasDescription();
-  })
 </script>
 
 {#if withEvents}
