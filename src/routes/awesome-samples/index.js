@@ -1,0 +1,16 @@
+export { default as JSolid } from './JSolid.svelte';
+export { default as JarSolid } from './JarSolid.svelte';
+export { default as JarWheatSolid } from './JarWheatSolid.svelte';
+export { default as JavaBrands } from './JavaBrands.svelte';
+export { default as JediOrderBrands } from './JediOrderBrands.svelte';
+export { default as JediSolid } from './JediSolid.svelte';
+export { default as JenkinsBrands } from './JenkinsBrands.svelte';
+export { default as JetFighterSolid } from './JetFighterSolid.svelte';
+export { default as JetFighterUpSolid } from './JetFighterUpSolid.svelte';
+export { default as JiraBrands } from './JiraBrands.svelte';
+export { default as JogetBrands } from './JogetBrands.svelte';
+export { default as JointSolid } from './JointSolid.svelte';
+export { default as JoomlaBrands } from './JoomlaBrands.svelte';
+export { default as JsBrands } from './JsBrands.svelte';
+export { default as JsfiddleBrands } from './JsfiddleBrands.svelte';
+export { default as JugDetergentSolid } from './JugDetergentSolid.svelte';

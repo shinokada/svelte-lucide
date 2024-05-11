@@ -1,0 +1,1 @@
+<AppstoreAddOutlined withEvents onclick="{handleClick}" />
