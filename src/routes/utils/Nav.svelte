@@ -149,7 +149,7 @@
       id="drawer-label"
       class="inline-flex items-center text-lg font-semibold text-gray-500 dark:text-gray-400"
     >
-      Runes Webkit
+      Svelte Lucide
     </h5>
     <button
       type="button"
