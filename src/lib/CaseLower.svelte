@@ -102,3 +102,10 @@
          <circle cx="7" cy="12" r="3" />   <path d="M10 9v6" />   <circle cx="17" cy="12" r="3" />   <path d="M14 7v8" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

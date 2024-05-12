@@ -102,3 +102,10 @@
          <rect width="10" height="6" x="7" y="9" rx="2" />   <path d="M22 20H2" />   <path d="M22 4H2" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

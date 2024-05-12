@@ -102,3 +102,10 @@
          <polyline points="15 14 20 9 15 4" />   <path d="M4 20v-7a4 4 0 0 1 4-4h12" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

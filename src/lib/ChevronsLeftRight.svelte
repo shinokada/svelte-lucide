@@ -102,3 +102,10 @@
          <path d="m9 7-5 5 5 5" />   <path d="m15 7 5 5-5 5" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

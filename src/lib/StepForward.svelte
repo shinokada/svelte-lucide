@@ -102,3 +102,10 @@
          <line x1="6" x2="6" y1="4" y2="20" />   <polygon points="10,4 20,12 10,20" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

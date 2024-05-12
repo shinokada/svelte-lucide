@@ -102,3 +102,10 @@
          <line x1="9" x2="15" y1="15" y2="9" />   <circle cx="12" cy="12" r="10" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

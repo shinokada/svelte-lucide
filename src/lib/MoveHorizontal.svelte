@@ -102,3 +102,10 @@
          <polyline points="18 8 22 12 18 16" />   <polyline points="6 8 2 12 6 16" />   <line x1="2" x2="22" y1="12" y2="12" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->

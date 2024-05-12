@@ -102,3 +102,10 @@
          <rect width="6" height="20" x="4" y="2" rx="2" />   <rect width="6" height="20" x="14" y="2" rx="2" />  
   </svg>
 {/if}
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@props: 
+-->
