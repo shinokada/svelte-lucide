@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.2
+
+### Patch Changes
+
+- fix: component docs ([`2c6175663fe0d8c671fc203a7a5a4f3daf92808b`](https://github.com/shinokada/svelte-lucide/commit/2c6175663fe0d8c671fc203a7a5a4f3daf92808b))
+
 ## 2.0.0-next.1
 
 ### Patch Changes
