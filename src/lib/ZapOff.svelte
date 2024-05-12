@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "zap off" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317" />   <path d="M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773" />   <path d="M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643" />   <path d="m2 2 20 20" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317" />   <path d="M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773" />   <path d="M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643" />   <path d="m2 2 20 20" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "zap off"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->

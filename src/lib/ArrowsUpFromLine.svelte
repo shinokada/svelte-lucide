@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "arrows up from line" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="m4 6 3-3 3 3" />   <path d="M7 17V3" />   <path d="m14 6 3-3 3 3" />   <path d="M17 17V3" />   <path d="M4 21h16" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="m4 6 3-3 3 3" />   <path d="M7 17V3" />   <path d="m14 6 3-3 3 3" />   <path d="M17 17V3" />   <path d="M4 21h16" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "arrows up from line"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->

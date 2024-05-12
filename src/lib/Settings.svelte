@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "settings" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />   <circle cx="12" cy="12" r="3" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />   <circle cx="12" cy="12" r="3" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "settings"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->

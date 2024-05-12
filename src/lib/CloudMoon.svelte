@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "cloud moon" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M13 16a3 3 0 1 1 0 6H7a5 5 0 1 1 4.9-6Z" />   <path d="M10.1 9A6 6 0 0 1 16 4a4.24 4.24 0 0 0 6 6 6 6 0 0 1-3 5.197" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M13 16a3 3 0 1 1 0 6H7a5 5 0 1 1 4.9-6Z" />   <path d="M10.1 9A6 6 0 0 1 16 4a4.24 4.24 0 0 0 6 6 6 6 0 0 1-3 5.197" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "cloud moon"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->

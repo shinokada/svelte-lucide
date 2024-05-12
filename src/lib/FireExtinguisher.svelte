@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "fire extinguisher" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5" />   <path d="M9 18h8" />   <path d="M18 3h-3" />   <path d="M11 3a6 6 0 0 0-6 6v11" />   <path d="M5 13h4" />   <path d="M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <path d="M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5" />   <path d="M9 18h8" />   <path d="M18 3h-3" />   <path d="M11 3a6 6 0 0 0-6 6v11" />   <path d="M5 13h4" />   <path d="M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "fire extinguisher"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->

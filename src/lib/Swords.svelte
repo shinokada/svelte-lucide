@@ -33,8 +33,8 @@
     color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
     withEvents = ctx.withEvents || false, 
-    title = {}, 
-    desc = {}, 
+    title, 
+    desc, 
     class: classname, 
     ariaLabel =  "swords" , 
     onclick, 
@@ -43,8 +43,8 @@
     ...restProps 
   }: Props = $props();
 
-  let ariaDescribedby = `${title.id || ''} ${desc.id || ''}`;
-  const hasDescription = $derived(!!(title.id || desc.id));
+  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  const hasDescription = $derived(!!(title?.id || desc?.id));
 
 </script>
 
@@ -68,10 +68,10 @@
     onkeydown={onkeydown}
     onkeyup={onkeyup}
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5" />   <line x1="13" x2="19" y1="19" y2="13" />   <line x1="16" x2="20" y1="16" y2="20" />   <line x1="19" x2="21" y1="21" y2="19" />   <polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5" />   <line x1="5" x2="9" y1="14" y2="18" />   <line x1="7" x2="4" y1="17" y2="20" />   <line x1="3" x2="5" y1="19" y2="21" />  
@@ -93,10 +93,10 @@
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
   >
-    {#if title.id && title.title}
+    {#if title?.id && title.title}
       <title id="{title.id}">{title.title}</title>
     {/if}
-    {#if desc.id && desc.desc}
+    {#if desc?.id && desc.desc}
       <desc id="{desc.id}">{desc.desc}</desc>
     {/if}
          <polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5" />   <line x1="13" x2="19" y1="19" y2="13" />   <line x1="16" x2="20" y1="16" y2="20" />   <line x1="19" x2="21" y1="21" y2="19" />   <polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5" />   <line x1="5" x2="9" y1="14" y2="18" />   <line x1="7" x2="4" y1="17" y2="20" />   <line x1="3" x2="5" y1="19" y2="21" />  
@@ -107,5 +107,17 @@
 @component
 [Go to docs](https://svelte-lucide.codewithshin.com/)
 ## Props
-@props: 
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop withEvents = ctx.withEvents || false
+@prop title
+@prop desc
+@prop class: classname
+@prop ariaLabel =  "swords"
+@prop onclick
+@prop onkeydown
+@prop onkeyup
+@prop ...restProps
 -->
