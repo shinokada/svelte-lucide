@@ -1,8 +1,8 @@
 <script>
-  import * as Icon from 'svelte-awesome-icons';
+  import * as Icon from 'svelte-lucide';
 </script>
 
-<Icon.CalendarCheckRegular />
+<Icon.Album />
 
 <h1>Size</h1>
-<Icon.CalendarCheckRegular size="30" />
+<Icon.Album size="30" />

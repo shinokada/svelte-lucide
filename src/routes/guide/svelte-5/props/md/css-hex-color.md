@@ -1,1 +1,1 @@
-<AppstoreAddOutlined color="#ff0000" />
+<Album color="#ff0000" />

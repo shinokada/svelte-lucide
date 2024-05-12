@@ -1,5 +1,5 @@
-<CalendarCheckRegular size="md" class="text-red-700 dark:text-green-300 inline m-1" />
+<Album class="text-red-700 dark:text-green-300 inline m-1 h-8 w-8" />
 
 <div class="text-red-700 dark:text-green-300 inline m-1">
-  <CalendarCheckRegular size="md" />
+  <Album size="20" />
 </div>

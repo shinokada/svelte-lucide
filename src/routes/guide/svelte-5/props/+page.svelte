@@ -1,7 +1,7 @@
 <script lang="ts">
   import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
   
-  import {AlarmSmoke} from '$lib';
+  import { Album } from '$lib';
   const modules = import.meta.glob('./md/*.md', {
     query: '?raw',
     import: 'default',
@@ -26,7 +26,7 @@
 
 <H2>CSS HEX Colors</H2>
 
-<p>Use the color attribute to change colors with HEX color code for Filled and Outlined components.</p>
+<p>Use the color prop to change colors with HEX color code:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/css-hex-color.md'] as string} />
 
@@ -52,7 +52,7 @@
 
 <H2>A11y</H2>
 
-<p>All icons have aria-label. For example <Code>AddressBookSolid</Code> has <Code>aria-label="addressbook solid"</Code>.
+<p>All icons have aria-label. For example <Code>AlignVerticalJustifyStart</Code> has <Code>aria-label="align vertical justify start"</Code>.
 Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string} />
@@ -62,10 +62,10 @@ Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.</p>
 <HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
 
 <CodeWrapper>
-<AlarmSmoke
-  title={{ id: 'my-title', title: 'Red heart' }}
-  desc={{ id: 'my-descrip', desc: 'The shape of a red heart' }}
-  ariaLabel="red heart"
+<Album
+  title={{ id: 'my-title', title: 'Red album' }}
+  desc={{ id: 'my-descrip', desc: 'The shape of a red album' }}
+  ariaLabel="red album"
   color="red"
 />
 </CodeWrapper>

@@ -8,7 +8,7 @@
     icon: BellActiveAltOutline,
     icon_class: 'text-green-500'
   }
-  let filteredCards = $state(insertObjectToArray(excludeByTitle(cards, cardsToExclude), brand, 2))
+  let filteredCards = $state(excludeByTitle(cards, cardsToExclude))
 
   const runaticsVersion = __RUNATICS_VERSION__;
   const runesMetaTagsVersion = __RUNES_METATAGS_VERSION__;

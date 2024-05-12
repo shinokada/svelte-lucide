@@ -15,7 +15,7 @@ test('index page has expected meta title', async ({ page }) => {
 
 test('index page has expected meta description', async ({ page }) => {
   const metaDescription = page.locator('meta[name="description"]');
-  await expect(metaDescription).toHaveAttribute('content', 'Lucide-icon components for Svelte');
+  await expect(metaDescription).toHaveAttribute('content', '1460+ Lucide SVG icon components for Svelte');
 });
 
 test('index page has expected meta keywords', async ({ page }) => {
@@ -27,7 +27,7 @@ test('index page has expected meta og', async ({ page }) => {
   const metaOgTitle = page.locator('meta[property="og:title"]');
   await expect(metaOgTitle).toHaveAttribute('content', 'Svelte Lucide');
   const metaOgDescription = page.locator('meta[property="og:description"]');
-  await expect(metaOgDescription).toHaveAttribute('content', 'Lucide-icon components for Svelte');
+  await expect(metaOgDescription).toHaveAttribute('content', '1460+ Lucide SVG icon components for Svelte');
   const metaOgUrl = page.locator('meta[property="og:url"]');
   await expect(metaOgUrl).toHaveAttribute('content', 'http://localhost:4173/');
   const metaOgImage = page.locator('meta[property="og:image"]');
@@ -41,7 +41,7 @@ test('index page has expected meta twitter', async ({ page }) => {
   const metaTwitterTitle = page.locator('meta[name="twitter:title"]');
   await expect(metaTwitterTitle).toHaveAttribute('content', 'Svelte Lucide');
   const metaTwitterDescription = page.locator('meta[name="twitter:description"]');
-  await expect(metaTwitterDescription).toHaveAttribute('content', 'Lucide-icon components for Svelte');
+  await expect(metaTwitterDescription).toHaveAttribute('content', '1460+ Lucide SVG icon components for Svelte');
   const metaTwitterImage = page.locator('meta[name="twitter:image"]');
   await expect(metaTwitterImage).toHaveAttribute(
     'content',

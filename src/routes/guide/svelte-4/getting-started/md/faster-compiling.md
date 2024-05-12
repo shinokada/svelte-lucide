@@ -1,5 +1,5 @@
 <script>
-  import CalendarCheckRegular from 'svelte-awesome-icons/CalendarCheckRegular.svelte';
+  import Album from 'svelte-lucide/Album.svelte';
 </script>
 
-<CalendarCheckRegular />
+<Album />

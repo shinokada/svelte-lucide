@@ -1,1 +1,1 @@
-<AppstoreAddOutlined tabindex="0" withEvents />
+<Album tabindex="0" withEvents />

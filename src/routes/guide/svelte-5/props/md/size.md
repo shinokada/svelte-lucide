@@ -1,1 +1,1 @@
-<AppstoreAddOutlined size="40" />
+<Album size="40" />

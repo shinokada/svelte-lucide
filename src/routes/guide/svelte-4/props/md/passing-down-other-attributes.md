@@ -1,1 +1,1 @@
-<CalendarCheckRegular id="my-svg" transform="rotate(45)" />
+<Album id="my-svg" transform="rotate(45)" />

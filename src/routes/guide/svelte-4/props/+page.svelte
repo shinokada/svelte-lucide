@@ -21,10 +21,6 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string} />
 
-<H2>Types</H2>
-
-<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string} />
-
 <H2>Size</H2>
 
 <p>To change the size of an icon, use the <Code>size</Code> prop and specify the desired size. For example:</p>
@@ -64,25 +60,10 @@
 
 <H2>A11y</H2>
 
-<p>All icons have aria-label. For example <Code>AddressBookSolid</Code> has <Code>aria-label="addressbook solid"</Code>.
+<p>All icons have aria-label. For example <Code>ArchiveRestore</Code> has <Code>aria-label="archive restore"</Code>.
 Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string} />
-
-<p>Use <Code>title</Code>, <Code>desc</Code>, and <Code>ariaLabel</Code> props to make your icons accessible.</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
-
-<H2>withEvents</H2>
-
-<p>As default all icons are unfocusable. However you can add <Code>withEvents</Code> prop to make your icons focusable.</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/withevents.md'] as string} />
-
-<p>It is possible to add <Code>tabindex="0"</Code>, but it is not recommended for A11y.
-If you want to use it add <Code>withEvents</Code> prop as well.</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/withevents-2.md'] as string} />
 
 <H2>Events</H2>
 
@@ -90,7 +71,6 @@ If you want to use it add <Code>withEvents</Code> prop as well.</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/events.md'] as string} />
 
-<HighlightCompo codeLang="ts" code={modules['./md/events-2.md'] as string} />
 
 <H2>Passing down other attributes</H2>
 

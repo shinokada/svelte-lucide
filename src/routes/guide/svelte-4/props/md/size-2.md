@@ -1,1 +1,1 @@
-<CalendarCheckRegular class="h-24 w-24 text-blue-700 mr-4" />
+<Album class="h-24 w-24 text-blue-700 mr-4" />

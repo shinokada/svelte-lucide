@@ -1,1 +1,1 @@
-<AppstoreAddOutlined withEvents onclick="{handleClick}" />
+<Album withEvents onclick="{handleClick}" />

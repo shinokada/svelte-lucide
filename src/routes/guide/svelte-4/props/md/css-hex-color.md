@@ -1,1 +1,1 @@
-<CalendarCheckRegular color="#ff0000" size="md" />
+<Album color="#ff0000" size="20" />

@@ -14,9 +14,9 @@
 
 <div class="flex gap-2 my-8">
 <a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" ></a>
-<a href="https://www.npmjs.com/package/svelte-awesome-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-awesome-icons" alt="npm" ></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-awesome-icons" alt="License" ></a>
-<a href="https://www.npmjs.com/package/svelte-awesome-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-awesome-icons.svg" alt="npm" ></a>
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-lucide" alt="npm" ></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-lucide" alt="License" ></a>
+<a href="https://www.npmjs.com/package/svelte-lucide" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-lucide.svg" alt="npm" ></a>
 </div>
 
 <H2>Requirements</H2>
@@ -37,25 +37,6 @@
 <p>In a svelte file:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/basic-usage.md'] as string} />
-
-
-<H2>A11y friendly</H2>
-
-<p>Use `title`, `desc`, and `ariaLabel` props to make your icons accessible.</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/a11y-friendly.md'] as string} />
-
-
-<p>Check out this icon in the console:</p>
-
-<CodeWrapper>
-  <AlarmSmoke
-  title={{ id: 'my-title', title: 'Red bell' }}
-  desc={{ id: 'my-descrip', desc: 'The shape of a red bell' }}
-  ariaLabel="red bell"
-  color="red"
-  />
-</CodeWrapper>
 
 
 <H2>IDE support</H2>
@@ -87,6 +68,6 @@
 
 <H2>Import all</H2>
 
-<p>Use `import * as Icon from 'svelte-awesome-icons`.</p>
+<p>Use `import * as Icon from 'svelte-lucide`.</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/import-all.md'] as string} />

@@ -1,10 +1,10 @@
 <script>
   import { setContext } from 'svelte';
-  import { MapLocationOutline } from 'flowbite-svelte-icons';
+  import { AlarmClock } from 'svelte-lucide';
   const iconCtx = {
-    size: 'xl'
+    size: '20'
   };
   setContext('iconCtx', iconCtx);
 </script>
 
-<MapLocationOutline color="#ff4488" />
+<AlarmClock color="#ff4488" />

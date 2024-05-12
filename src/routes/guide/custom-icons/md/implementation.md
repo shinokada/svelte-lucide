@@ -1,6 +1,6 @@
 <script>
   import MyIcon from '$lib/MyIcon.svelte';
-  import { AngleLeftSolid } from 'flowbite-svelte-icons';
+  import { AreaChart } from 'svelte-lucide';
 </script>
 
-<MyIcon icon="{AngleLeftSolid}" />
+<MyIcon icon="{AreaChart}" />
