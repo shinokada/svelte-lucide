@@ -9,11 +9,15 @@
   });
 </script>
 
-<h1>Props: Svelte Ant Design Icons v2 for Svelte Runes</h1>
+<h1>Svelte Lucide v2 for Svelte Runes: Props</h1>
 
 <H2>Props</H2>
 
 <HighlightCompo codeLang="ts" code={modules['./md/props.md'] as string} />
+
+<H2>Types</H2>
+
+<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string} />
 
 <H2>Size</H2>
 
