@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.3
+
+### Patch Changes
+
+- fix: change size=number to string in Icon.svelte and run lib-helpers ([`6a3a7b65114c2a8feacd265ac6212ad81f6803a5`](https://github.com/shinokada/svelte-lucide/commit/6a3a7b65114c2a8feacd265ac6212ad81f6803a5))
+
 ## 2.0.0-next.2
 
 ### Patch Changes

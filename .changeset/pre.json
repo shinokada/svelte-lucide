@@ -4,5 +4,10 @@
   "initialVersions": {
     "svelte-lucide": "2.0.0-next.0"
   },
-  "changesets": ["famous-birds-film", "soft-sheep-greet", "ten-mirrors-allow"]
+  "changesets": [
+    "famous-birds-film",
+    "rotten-elephants-arrive",
+    "soft-sheep-greet",
+    "ten-mirrors-allow"
+  ]
 }
