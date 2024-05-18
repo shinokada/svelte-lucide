@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
   type TitleType = {
     id?: string;
@@ -21,31 +21,30 @@
   }
   interface CtxType extends BaseProps {}
   const ctx: CtxType = getContext('iconCtx') ?? {};
-  interface Props extends BaseProps{
+  interface Props extends BaseProps {
     title?: TitleType;
     desc?: DescType;
     ariaLabel?: string;
   }
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    withEvents = ctx.withEvents || false, 
-    title, 
-    desc, 
-    class: classname, 
-    ariaLabel =  "refresh cw off" , 
-    onclick, 
-    onkeydown, 
+    withEvents = ctx.withEvents || false,
+    title,
+    desc,
+    class: classname,
+    ariaLabel = 'refresh cw off',
+    onclick,
+    onkeydown,
     onkeyup,
-    ...restProps 
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 {#if withEvents}
@@ -64,17 +63,20 @@
     aria-label={ariaLabel}
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
-    onclick={onclick}
-    onkeydown={onkeydown}
-    onkeyup={onkeyup}
+    {onclick}
+    {onkeydown}
+    {onkeyup}
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-         <path d="M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47" />   <path d="M8 16H3v5" />   <path d="M3 12C3 9.51 4 7.26 5.64 5.64" />   <path d="m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64" />   <path d="M21 12c0 1-.16 1.97-.47 2.87" />   <path d="M21 3v5h-5" />   <path d="M22 22 2 2" />  
+    <path d="M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47" />
+    <path d="M8 16H3v5" /> <path d="M3 12C3 9.51 4 7.26 5.64 5.64" />
+    <path d="m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64" />
+    <path d="M21 12c0 1-.16 1.97-.47 2.87" /> <path d="M21 3v5h-5" /> <path d="M22 22 2 2" />
   </svg>
 {:else}
   <svg
@@ -94,12 +96,15 @@
     viewBox="0 0 24 24"
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-         <path d="M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47" />   <path d="M8 16H3v5" />   <path d="M3 12C3 9.51 4 7.26 5.64 5.64" />   <path d="m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64" />   <path d="M21 12c0 1-.16 1.97-.47 2.87" />   <path d="M21 3v5h-5" />   <path d="M22 22 2 2" />  
+    <path d="M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47" />
+    <path d="M8 16H3v5" /> <path d="M3 12C3 9.51 4 7.26 5.64 5.64" />
+    <path d="m3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64" />
+    <path d="M21 12c0 1-.16 1.97-.47 2.87" /> <path d="M21 3v5h-5" /> <path d="M22 22 2 2" />
   </svg>
 {/if}
 
@@ -115,7 +120,7 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "refresh cw off"
+@prop ariaLabel = 'refresh cw off'
 @prop onclick
 @prop onkeydown
 @prop onkeyup

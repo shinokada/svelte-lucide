@@ -6,11 +6,11 @@ export const load = () => {
     description: 'Svelte Lucide Icons',
     og: {
       title: 'Icons - Svelte Lucide',
-      description: 'Svelte Lucide Icons',
+      description: 'Svelte Lucide Icons'
     },
     twitter: {
       title: 'Icons - Svelte Lucide',
-      description: 'Svelte Lucide Icons',
+      description: 'Svelte Lucide Icons'
     }
   }) satisfies MetaProps;
   return { pageMetaTags };

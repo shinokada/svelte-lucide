@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
   type TitleType = {
     id?: string;
@@ -21,31 +21,30 @@
   }
   interface CtxType extends BaseProps {}
   const ctx: CtxType = getContext('iconCtx') ?? {};
-  interface Props extends BaseProps{
+  interface Props extends BaseProps {
     title?: TitleType;
     desc?: DescType;
     ariaLabel?: string;
   }
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    withEvents = ctx.withEvents || false, 
-    title, 
-    desc, 
-    class: classname, 
-    ariaLabel =  "dna" , 
-    onclick, 
-    onkeydown, 
+    withEvents = ctx.withEvents || false,
+    title,
+    desc,
+    class: classname,
+    ariaLabel = 'dna',
+    onclick,
+    onkeydown,
     onkeyup,
-    ...restProps 
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 {#if withEvents}
@@ -64,17 +63,21 @@
     aria-label={ariaLabel}
     aria-describedby={hasDescription ? ariaDescribedby : undefined}
     viewBox="0 0 24 24"
-    onclick={onclick}
-    onkeydown={onkeydown}
-    onkeyup={onkeyup}
+    {onclick}
+    {onkeydown}
+    {onkeyup}
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-         <path d="M2 15c6.667-6 13.333 0 20-6" />   <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />   <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" />   <path d="m17 6-2.5-2.5" />   <path d="m14 8-1-1" />   <path d="m7 18 2.5 2.5" />   <path d="m3.5 14.5.5.5" />   <path d="m20 9 .5.5" />   <path d="m6.5 12.5 1 1" />   <path d="m16.5 10.5 1 1" />   <path d="m10 16 1.5 1.5" />  
+    <path d="M2 15c6.667-6 13.333 0 20-6" /> <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />
+    <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" /> <path d="m17 6-2.5-2.5" />
+    <path d="m14 8-1-1" /> <path d="m7 18 2.5 2.5" /> <path d="m3.5 14.5.5.5" />
+    <path d="m20 9 .5.5" /> <path d="m6.5 12.5 1 1" /> <path d="m16.5 10.5 1 1" />
+    <path d="m10 16 1.5 1.5" />
   </svg>
 {:else}
   <svg
@@ -94,12 +97,16 @@
     viewBox="0 0 24 24"
   >
     {#if title?.id && title.title}
-      <title id="{title.id}">{title.title}</title>
+      <title id={title.id}>{title.title}</title>
     {/if}
     {#if desc?.id && desc.desc}
-      <desc id="{desc.id}">{desc.desc}</desc>
+      <desc id={desc.id}>{desc.desc}</desc>
     {/if}
-         <path d="M2 15c6.667-6 13.333 0 20-6" />   <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />   <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" />   <path d="m17 6-2.5-2.5" />   <path d="m14 8-1-1" />   <path d="m7 18 2.5 2.5" />   <path d="m3.5 14.5.5.5" />   <path d="m20 9 .5.5" />   <path d="m6.5 12.5 1 1" />   <path d="m16.5 10.5 1 1" />   <path d="m10 16 1.5 1.5" />  
+    <path d="M2 15c6.667-6 13.333 0 20-6" /> <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />
+    <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" /> <path d="m17 6-2.5-2.5" />
+    <path d="m14 8-1-1" /> <path d="m7 18 2.5 2.5" /> <path d="m3.5 14.5.5.5" />
+    <path d="m20 9 .5.5" /> <path d="m6.5 12.5 1 1" /> <path d="m16.5 10.5 1 1" />
+    <path d="m10 16 1.5 1.5" />
   </svg>
 {/if}
 
@@ -115,7 +122,7 @@
 @prop title
 @prop desc
 @prop class: classname
-@prop ariaLabel =  "dna"
+@prop ariaLabel = 'dna'
 @prop onclick
 @prop onkeydown
 @prop onkeyup
