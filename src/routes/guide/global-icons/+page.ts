@@ -2,15 +2,15 @@ import type { MetaProps } from 'runes-meta-tags';
 
 export const load = () => {
   const pageMetaTags = Object.freeze({
-    title: 'Global icons example - Svelte Lucide',
-    description: 'Global icons example',
+    title: 'Setting Global Icon - Svelte Lucide',
+    description: 'Setting Global Icon using setContext with Svelte Lucide',
     og: {
-      title: 'Global icons example - Svelte Lucide',
-      description: 'Global icons example'
+      title: 'Setting Global Icon - Svelte Lucide',
+      description: 'Setting Global Icon using setContext with Svelte Lucide'
     },
     twitter: {
-      title: 'Global icons example - Svelte Lucide',
-      description: 'Global icons example'
+      title: 'Setting Global Icon - Svelte Lucide',
+      description: 'Setting Global Icon using setContext with Svelte Lucide'
     }
   }) satisfies MetaProps;
   return { pageMetaTags };
