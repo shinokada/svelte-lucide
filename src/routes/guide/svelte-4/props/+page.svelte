@@ -15,7 +15,7 @@
   });
 </script>
 
-<h1>Svelte Lucide v1: Props</h1>
+<h1>Props - Svelte Lucide v1</h1>
 
 <H2>Prop</H2>
 

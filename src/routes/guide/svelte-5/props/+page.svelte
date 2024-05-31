@@ -9,7 +9,7 @@
   });
 </script>
 
-<h1>Svelte Lucide v2 for Svelte Runes: Props</h1>
+<h1>Props - Svelte Lucide v2</h1>
 
 <H2>Props</H2>
 

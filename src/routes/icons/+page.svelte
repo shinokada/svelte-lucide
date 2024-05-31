@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ComponentType } from 'svelte';
+  import type { Component } from 'svelte';
   import { IconPage, filterStringKeys } from 'runes-webkit';
   import * as icons from '$lib';
   const keyIcons = filterStringKeys(icons);
@@ -9,7 +9,7 @@
 </script>
 
 <IconPage
-  icons={filteredIcons as ComponentType}
-  title="Icons: Svelte Lucide"
+  icons={filteredIcons as Component}
+  title="Icons - Svelte Lucide"
   i_p_tabitem_div_1="lg:grid-cols-3"
 />
