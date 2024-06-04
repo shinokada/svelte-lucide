@@ -3,7 +3,7 @@ const title = 'Setting Global Icon - Svelte Lucide'
 const description = 'How to create a global icon using setContext with Svelte Lucide'
 const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-lucide'
 export const load = () => {
-  const pageMetaTags = Object.freeze({
+  const pageMetaTags: MetaProps = {
     title,
     description,
     og: {
@@ -16,6 +16,6 @@ export const load = () => {
       description,
       image: imgUrl
     }
-  }) satisfies MetaProps;
+  };
   return { pageMetaTags };
 };
