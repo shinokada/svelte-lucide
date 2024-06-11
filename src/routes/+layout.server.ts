@@ -8,7 +8,7 @@ export const load = ({ url }) => {
   const basicDesc = '1460+ Lucide SVG icon components for Svelte';
   const description = metaDescription(url.pathname, basicDesc);
   const image = metaImg(url.pathname, __NAME__);
-  const keywords = 'svelte, runes, webkit, ui, components';
+  const keywords = 'svelte, runes, sveltekit, lucide-icons, svg-icons';
 
   const layoutMetaTags: MetaProps = {
     title,
