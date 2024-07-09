@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.6
+
+### Patch Changes
+
+- fix: update ([`418d3a88b1cd9aa6c4c19430b2da2e0a3e0d374a`](https://github.com/shinokada/svelte-lucide/commit/418d3a88b1cd9aa6c4c19430b2da2e0a3e0d374a))
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [1.0.5](https://github.com/shinokada/svelte-lucide/compare/v1.0.4...v1.0.5) (2024-03-01)
