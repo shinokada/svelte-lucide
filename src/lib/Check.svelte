@@ -31,7 +31,7 @@
   on:mouseover
   on:mouseout
 >
-  <polyline points="20 6 9 17 4 12" />
+  <path d="M20 6 9 17l-5-5" />
 </svg>
 
 <!--

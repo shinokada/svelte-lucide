@@ -31,7 +31,7 @@
   on:mouseover
   on:mouseout
 >
-  <path d="M10 10v.2A3 3 0 0 1 8.9 16v0H5v0h0a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z" />
+  <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z" />
   <path d="M7 16v6" />
   <path d="M13 19v3" />
   <path

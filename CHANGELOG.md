@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.5](https://github.com/shinokada/svelte-lucide/compare/v1.0.4...v1.0.5) (2024-03-01)
 
-
 ### Bug Fixes
 
-* @typescript-eslint/eslint-plugin update ([7fc2082](https://github.com/shinokada/svelte-lucide/commit/7fc208277834cf57c180ad3f8d263505a7f44373))
+- @typescript-eslint/eslint-plugin update ([7fc2082](https://github.com/shinokada/svelte-lucide/commit/7fc208277834cf57c180ad3f8d263505a7f44373))
 
 ### [1.0.4](https://github.com/shinokada/svelte-lucide/compare/v1.0.3...v1.0.4) (2024-03-01)
 

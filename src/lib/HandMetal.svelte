@@ -31,7 +31,7 @@
   on:mouseover
   on:mouseout
 >
-  <path d="M18 12.5V10a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4" />
+  <path d="M18 12.5V10a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4" />
   <path d="M14 11V9a2 2 0 1 0-4 0v2" />
   <path d="M10 10.5V5a2 2 0 1 0-4 0v9" />
   <path

@@ -31,10 +31,10 @@
   on:mouseover
   on:mouseout
 >
-  <path d="M 10 11h.01" />
-  <path d="M 14 6h.01" />
-  <path d="M 18 6h.01" />
-  <path d="M 6.5 13.1h.01" />
+  <path d="M10 11h.01" />
+  <path d="M14 6h.01" />
+  <path d="M18 6h.01" />
+  <path d="M6.5 13.1h.01" />
   <path d="M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3" />
   <path d="M17.4 9.9c-.8.8-2 .8-2.8 0" />
   <path
