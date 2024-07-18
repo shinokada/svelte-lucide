@@ -1,130 +1,45 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
-  type TitleType = {
-    id?: string;
-    title?: string;
-  };
-  type DescType = {
-    id?: string;
-    desc?: string;
-  };
-  interface BaseProps {
-    size?: string;
-    role?: string;
-    color?: string;
-    strokeWidth?: string;
-    withEvents?: boolean;
-    onclick?: (event: MouseEvent) => void;
-    onkeydown?: (event: KeyboardEvent) => void;
-    onkeyup?: (event: KeyboardEvent) => void;
-    class?: string;
-  }
-  interface CtxType extends BaseProps {}
-  const ctx: CtxType = getContext('iconCtx') ?? {};
-  interface Props extends BaseProps {
-    title?: TitleType;
-    desc?: DescType;
-    ariaLabel?: string;
-  }
+  import type { CtxType, Props } from './types'
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
-    withEvents = ctx.withEvents || false,
-    title,
-    desc,
-    class: classname,
-    ariaLabel = 'dna off',
-    onclick,
-    onkeydown,
-    onkeyup,
-    ...restProps
+    title, 
+    desc, 
+    ariaLabel =  "dna off" , 
+    ...restProps 
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
+
 </script>
 
-{#if withEvents}
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    {...restProps}
-    {role}
-    width={size}
-    height={size}
-    class={classname}
-    fill="none"
-    stroke={color}
-    stroke-width={strokeWidth}
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    aria-label={ariaLabel}
-    aria-describedby={hasDescription ? ariaDescribedby : undefined}
-    viewBox="0 0 24 24"
-    {onclick}
-    {onkeydown}
-    {onkeyup}
-  >
-    {#if title?.id && title.title}
-      <title id={title.id}>{title.title}</title>
-    {/if}
-    {#if desc?.id && desc.desc}
-      <desc id={desc.id}>{desc.desc}</desc>
-    {/if}
-    <path d="M15 2c-1.35 1.5-2.092 3-2.5 4.5M9 22c1.35-1.5 2.092-3 2.5-4.5" />
-    <path d="M2 15c3.333-3 6.667-3 10-3m10-3c-1.5 1.35-3 2.092-4.5 2.5" />
-    <path d="m17 6-2.5-2.5" /> <path d="m14 8-1.5-1.5" /> <path d="m7 18 2.5 2.5" />
-    <path d="m3.5 14.5.5.5" /> <path d="m20 9 .5.5" /> <path d="m6.5 12.5 1 1" />
-    <path d="m16.5 10.5 1 1" /> <path d="m10 16 1.5 1.5" /> <line x1="2" x2="22" y1="2" y2="22" />
-  </svg>
-{:else}
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    {...restProps}
-    {role}
-    width={size}
-    height={size}
-    class={classname}
-    fill="none"
-    stroke={color}
-    stroke-width={strokeWidth}
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    aria-label={ariaLabel}
-    aria-describedby={hasDescription ? ariaDescribedby : undefined}
-    viewBox="0 0 24 24"
-  >
-    {#if title?.id && title.title}
-      <title id={title.id}>{title.title}</title>
-    {/if}
-    {#if desc?.id && desc.desc}
-      <desc id={desc.id}>{desc.desc}</desc>
-    {/if}
-    <path d="M15 2c-1.35 1.5-2.092 3-2.5 4.5M9 22c1.35-1.5 2.092-3 2.5-4.5" />
-    <path d="M2 15c3.333-3 6.667-3 10-3m10-3c-1.5 1.35-3 2.092-4.5 2.5" />
-    <path d="m17 6-2.5-2.5" /> <path d="m14 8-1.5-1.5" /> <path d="m7 18 2.5 2.5" />
-    <path d="m3.5 14.5.5.5" /> <path d="m20 9 .5.5" /> <path d="m6.5 12.5 1 1" />
-    <path d="m16.5 10.5 1 1" /> <path d="m10 16 1.5 1.5" /> <line x1="2" x2="22" y1="2" y2="22" />
-  </svg>
-{/if}
-
-<!--
-@component
-[Go to docs](https://svelte-lucide.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
-@prop withEvents = ctx.withEvents || false
-@prop title
-@prop desc
-@prop class: classname
-@prop ariaLabel = 'dna off'
-@prop onclick
-@prop onkeydown
-@prop onkeyup
-@prop ...restProps
--->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  {...restProps}
+  {role}
+  width={size}
+  height={size}
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-label={ariaLabel}
+  aria-describedby={hasDescription ? ariaDescribedby : undefined}
+  viewBox="0 0 24 24"
+>
+  {#if title?.id && title.title}
+    <title id="{title.id}">{title.title}</title>
+  {/if}
+  {#if desc?.id && desc.desc}
+    <desc id="{desc.id}">{desc.desc}</desc>
+  {/if}
+       <path d="M15 2c-1.35 1.5-2.092 3-2.5 4.5L14 8" />   <path d="m17 6-2.891-2.891" />   <path d="M2 15c3.333-3 6.667-3 10-3" />   <path d="m2 2 20 20" />   <path d="m20 9 .891.891" />   <path d="M22 9c-1.5 1.35-3 2.092-4.5 2.5l-1-1" />   <path d="M3.109 14.109 4 15" />   <path d="m6.5 12.5 1 1" />   <path d="m7 18 2.891 2.891" />   <path d="M9 22c1.35-1.5 2.092-3 2.5-4.5L10 16" />  
+</svg>

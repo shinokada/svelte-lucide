@@ -9,5 +9,5 @@
 <IconPage
   icons={keyIcons as Component}
   title="Icons - Svelte Lucide"
-  i_p_tabitem_div_1="lg:grid-cols-3"
+  div1Class="lg:grid-cols-3"
 />

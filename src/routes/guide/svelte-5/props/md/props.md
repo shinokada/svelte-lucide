@@ -1,11 +1,8 @@
-- size = ctx.size || '24' 
-- role = ctx.role || 'img' 
-- color = ctx.color || 'currentColor' 
-- withEvents = ctx.withEvents || false 
-- title = {} 
-- desc = {} 
-- class: classname 
-- ariaLabel =  <icon file name>  
-- onclick 
-- onkeydown 
-- onkeyup
+- size = ctx.size || '24'
+- role = ctx.role || 'img'
+- color = ctx.color || 'currentColor'
+- strokeWidth = ctx.strokeWidth || '2'
+- title
+- desc
+- ariaLabel =  "volume 2" 
+- class, id, name, role, and all other props from SVGAttributes

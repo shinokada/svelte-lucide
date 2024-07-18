@@ -37,7 +37,7 @@
 
 <HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
 
-<p>Install <Code>svelte-awesome-icons v2</Code>:</p>
+<p>Install <Code>svelte-lucide v2</Code>:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/installation-2.md'] as string} />
 
