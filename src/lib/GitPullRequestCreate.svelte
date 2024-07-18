@@ -1,23 +1,22 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types'
+  import type { CtxType, Props } from './types';
 
   const ctx: CtxType = getContext('iconCtx') ?? {};
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    title, 
-    desc, 
-    ariaLabel =  "git pull request create" , 
-    ...restProps 
+    title,
+    desc,
+    ariaLabel = 'git pull request create',
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 <svg
@@ -36,10 +35,25 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-       <circle cx="6" cy="6" r="3" />   <path d="M6 9v12" />   <path d="M13 6h3a2 2 0 0 1 2 2v3" />   <path d="M18 15v6" />   <path d="M21 18h-6" />  
+  <circle cx="6" cy="6" r="3" /> <path d="M6 9v12" /> <path d="M13 6h3a2 2 0 0 1 2 2v3" />
+  <path d="M18 15v6" /> <path d="M21 18h-6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git pull request create'
+@prop ...restProps
+-->

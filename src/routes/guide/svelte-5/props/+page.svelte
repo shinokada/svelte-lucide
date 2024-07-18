@@ -104,12 +104,12 @@
   >.
 </P>
 <CodeWrapper>
-<Album
-  id="my-svg"
-  transform="rotate(45)"
-  class="hover:cursor-pointer dark:text-white"
-  onclick={() => alert('hello')}
-/>
+  <Album
+    id="my-svg"
+    transform="rotate(45)"
+    class="hover:cursor-pointer dark:text-white"
+    onclick={() => alert('hello')}
+  />
 </CodeWrapper>
 
 <HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} />

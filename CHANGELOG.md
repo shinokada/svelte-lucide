@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- feat: extends SVGAttributes<SVGElement> ([`e70e611c181ab58c8e04475306797a1660e21f32`](https://github.com/shinokada/svelte-lucide/commit/e70e611c181ab58c8e04475306797a1660e21f32))
+
 ## 2.0.0-next.3
 
 ### Patch Changes

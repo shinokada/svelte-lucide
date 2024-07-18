@@ -5,6 +5,7 @@
     "svelte-lucide": "2.0.0-next.0"
   },
   "changesets": [
+    "cyan-turtles-buy",
     "famous-birds-film",
     "rotten-elephants-arrive",
     "soft-sheep-greet",

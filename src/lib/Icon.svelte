@@ -1,14 +1,23 @@
 <script lang="ts">
   import type { Component } from 'svelte';
-  import type { CtxType, Props } from './types'
+  import type { Props } from './types';
 
-  let {icon, size = '24', role = 'img', ariaLabel = 'Icon', ...restProps}: Props = $props()
+  interface IconProps extends Props {
+    icon: Component;
+  }
+
+  let { icon, size = '24', role = 'img', ariaLabel = 'Icon', ...restProps }: IconProps = $props();
 </script>
 
-<svelte:component 
-  {...restProps} 
-  {role}
-  this={icon} 
-  {size} 
-  aria-label={ariaLabel}
-/>
+<svelte:component this={icon} {...restProps} {role} {size} aria-label={ariaLabel} />
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop icon
+@prop size = '24'
+@prop role = 'img'
+@prop ariaLabel = 'Icon'
+@prop ...restProps
+-->
