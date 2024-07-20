@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.5
+
+### Patch Changes
+
+- fix: peerDependencies ([`b7448ddf7fd002eba65e6d0ad1b3572a668da6a8`](https://github.com/shinokada/svelte-lucide/commit/b7448ddf7fd002eba65e6d0ad1b3572a668da6a8))
+
 ## 2.0.0-next.4
 
 ### Patch Changes
