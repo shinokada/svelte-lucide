@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.6
+
+### Patch Changes
+
+- fix: remove svelte:component from Icon.svelte ([`bb9c547c5bde832cd6c109076031f9010fd9ef9f`](https://github.com/shinokada/svelte-lucide/commit/bb9c547c5bde832cd6c109076031f9010fd9ef9f))
+
 ## 2.0.0-next.5
 
 ### Patch Changes
