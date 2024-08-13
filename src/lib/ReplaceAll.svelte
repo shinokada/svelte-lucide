@@ -1,22 +1,23 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { CtxType, Props } from './types'
 
   const ctx: CtxType = getContext('iconCtx') ?? {};
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'replace all',
-    ...restProps
+    title, 
+    desc, 
+    ariaLabel =  "replace all" , 
+    ...restProps 
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
+
 </script>
 
 <svg
@@ -35,16 +36,12 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+    <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+    <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path d="M14 4c0-1.1.9-2 2-2" /> <path d="M20 2c1.1 0 2 .9 2 2" />
-  <path d="M22 8c0 1.1-.9 2-2 2" /> <path d="M16 10c-1.1 0-2-.9-2-2" /> <path d="m3 7 3 3 3-3" />
-  <path d="M6 10V5c0-1.7 1.3-3 3-3h1" /> <rect width="8" height="8" x="2" y="14" rx="2" />
-  <path d="M14 14c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2" />
-  <path d="M20 14c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2" />
+       <path d="M14 14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2" />   <path d="M14 4a2 2 0 0 1 2-2" />   <path d="M16 10a2 2 0 0 1-2-2" />   <path d="M20 14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2" />   <path d="M20 2a2 2 0 0 1 2 2" />   <path d="M22 8a2 2 0 0 1-2 2" />   <path d="m3 7 3 3 3-3" />   <path d="M6 10V5a 3 3 0 0 1 3-3h1" />   <rect x="2" y="14" width="8" height="8" rx="2" />  
 </svg>
 
 <!--
@@ -57,6 +54,6 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'replace all'
+@prop ariaLabel =  "replace all"
 @prop ...restProps
 -->

@@ -1,22 +1,23 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { CtxType, Props } from './types'
 
   const ctx: CtxType = getContext('iconCtx') ?? {};
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'ticket slash',
-    ...restProps
+    title, 
+    desc, 
+    ariaLabel =  "ticket slash" , 
+    ...restProps 
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
+
 </script>
 
 <svg
@@ -35,14 +36,12 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+    <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+    <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path
-    d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"
-  /> <path d="m9.5 14.5 5-5" />
+       <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" />   <path d="m9.5 14.5 5-5" />  
 </svg>
 
 <!--
@@ -55,6 +54,6 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'ticket slash'
+@prop ariaLabel =  "ticket slash"
 @prop ...restProps
 -->

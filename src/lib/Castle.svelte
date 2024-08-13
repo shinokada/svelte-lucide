@@ -1,22 +1,23 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { CtxType, Props } from './types'
 
   const ctx: CtxType = getContext('iconCtx') ?? {};
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'castle',
-    ...restProps
+    title, 
+    desc, 
+    ariaLabel =  "castle" , 
+    ...restProps 
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
+
 </script>
 
 <svg
@@ -35,14 +36,12 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+    <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+    <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z" /> <path d="M18 11V4H6v7" />
-  <path d="M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4" /> <path d="M22 11V9" /> <path d="M2 11V9" />
-  <path d="M6 4V2" /> <path d="M18 4V2" /> <path d="M10 4V2" /> <path d="M14 4V2" />
+       <path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z" />   <path d="M18 11V4H6v7" />   <path d="M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4" />   <path d="M22 11V9" />   <path d="M2 11V9" />   <path d="M6 4V2" />   <path d="M18 4V2" />   <path d="M10 4V2" />   <path d="M14 4V2" />  
 </svg>
 
 <!--
@@ -55,6 +54,6 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'castle'
+@prop ariaLabel =  "castle"
 @prop ...restProps
 -->

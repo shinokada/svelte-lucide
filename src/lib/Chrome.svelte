@@ -1,22 +1,23 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
+  import type { CtxType, Props } from './types'
 
   const ctx: CtxType = getContext('iconCtx') ?? {};
 
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
+  let { 
+    size = ctx.size || '24', 
+    role = ctx.role || 'img', 
+    color = ctx.color || 'currentColor', 
     strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'chrome',
-    ...restProps
+    title, 
+    desc, 
+    ariaLabel =  "chrome" , 
+    ...restProps 
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
+
 </script>
 
 <svg
@@ -35,14 +36,12 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+    <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+    <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <circle cx="12" cy="12" r="10" /> <circle cx="12" cy="12" r="4" />
-  <line x1="21.17" x2="12" y1="8" y2="8" /> <line x1="3.95" x2="8.54" y1="6.06" y2="14" />
-  <line x1="10.88" x2="15.46" y1="21.94" y2="14" />
+       <circle cx="12" cy="12" r="10" />   <circle cx="12" cy="12" r="4" />   <line x1="21.17" x2="12" y1="8" y2="8" />   <line x1="3.95" x2="8.54" y1="6.06" y2="14" />   <line x1="10.88" x2="15.46" y1="21.94" y2="14" />  
 </svg>
 
 <!--
@@ -55,6 +54,6 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'chrome'
+@prop ariaLabel =  "chrome"
 @prop ...restProps
 -->
