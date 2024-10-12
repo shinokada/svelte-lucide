@@ -1,23 +1,22 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types'
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    title, 
-    desc, 
-    ariaLabel =  "share 2" , 
-    ...restProps 
+    title,
+    desc,
+    ariaLabel = 'share 2',
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 <svg
@@ -36,24 +35,12 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-       <circle cx="18" cy="5" r="3" />   <circle cx="6" cy="12" r="3" />   <circle cx="18" cy="19" r="3" />   <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />   <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />  
+  <circle cx="18" cy="5" r="3" /> <circle cx="6" cy="12" r="3" /> <circle cx="18" cy="19" r="3" />
+  <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+  <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-lucide.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
-@prop title
-@prop desc
-@prop ariaLabel =  "share 2"
-@prop ...restProps
--->

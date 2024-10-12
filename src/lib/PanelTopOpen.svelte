@@ -1,23 +1,22 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types'
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    title, 
-    desc, 
-    ariaLabel =  "panel top open" , 
-    ...restProps 
+    title,
+    desc,
+    ariaLabel = 'panel top open',
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 <svg
@@ -36,24 +35,11 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-       <rect width="18" height="18" x="3" y="3" rx="2" />   <path d="M3 9h18" />   <path d="m15 14-3 3-3-3" />  
+  <rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 9h18" />
+  <path d="m15 14-3 3-3-3" />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-lucide.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
-@prop title
-@prop desc
-@prop ariaLabel =  "panel top open"
-@prop ...restProps
--->

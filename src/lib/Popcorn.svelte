@@ -1,23 +1,22 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types'
+  import type { BaseProps, Props } from './types';
 
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
 
-  let { 
-    size = ctx.size || '24', 
-    role = ctx.role || 'img', 
-    color = ctx.color || 'currentColor', 
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
     strokeWidth = ctx.strokeWidth || '2',
-    title, 
-    desc, 
-    ariaLabel =  "popcorn" , 
-    ...restProps 
+    title,
+    desc,
+    ariaLabel = 'popcorn',
+    ...restProps
   }: Props = $props();
 
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
-
 </script>
 
 <svg
@@ -36,24 +35,14 @@
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
-    <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-       <path d="M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4" />   <path d="M10 22 9 8" />   <path d="m14 22 1-14" />   <path d="M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z" />  
+  <path d="M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4" />
+  <path d="M10 22 9 8" /> <path d="m14 22 1-14" />
+  <path
+    d="M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z"
+  />
 </svg>
-
-<!--
-@component
-[Go to docs](https://svelte-lucide.codewithshin.com/)
-## Props
-@prop size = ctx.size || '24'
-@prop role = ctx.role || 'img'
-@prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
-@prop title
-@prop desc
-@prop ariaLabel =  "popcorn"
-@prop ...restProps
--->
