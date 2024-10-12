@@ -44,3 +44,17 @@
   <path d="M7 2h11v4c0 2-2 2-2 4v1" /> <line x1="11" x2="18" y1="6" y2="6" />
   <line x1="2" x2="22" y1="2" y2="22" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'flashlight off'
+@prop ...restProps
+-->

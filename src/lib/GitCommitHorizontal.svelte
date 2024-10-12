@@ -43,3 +43,17 @@
   <circle cx="12" cy="12" r="3" /> <line x1="3" x2="9" y1="12" y2="12" />
   <line x1="15" x2="21" y1="12" y2="12" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git commit horizontal'
+@prop ...restProps
+-->

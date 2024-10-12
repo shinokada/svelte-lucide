@@ -46,3 +46,17 @@
   <path d="M21 14v1" /> <line x1="7" x2="15" y1="8" y2="8" />
   <line x1="7" x2="17" y1="12" y2="12" /> <line x1="7" x2="13" y1="16" y2="16" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'text select'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <line x1="3" x2="21" y1="6" y2="6" /> <path d="M3 12h15a3 3 0 1 1 0 6h-4" />
   <polyline points="16 16 14 18 16 20" /> <line x1="3" x2="10" y1="18" y2="18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'wrap text'
+@prop ...restProps
+-->

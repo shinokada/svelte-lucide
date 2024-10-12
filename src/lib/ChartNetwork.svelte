@@ -44,3 +44,17 @@
   <path d="m20 4-6.06 1.515" /> <path d="M3 3v16a2 2 0 0 0 2 2h16" />
   <circle cx="12" cy="6" r="2" /> <circle cx="16" cy="12" r="2" /> <circle cx="9" cy="15" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'chart network'
+@prop ...restProps
+-->

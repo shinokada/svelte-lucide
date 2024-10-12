@@ -44,3 +44,17 @@
   <path d="M2 12h8.5" /> <path d="M20 6V4a2 2 0 1 0-4 0v2" />
   <rect width="8" height="5" x="14" y="6" rx="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'globe lock'
+@prop ...restProps
+-->

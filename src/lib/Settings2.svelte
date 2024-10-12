@@ -43,3 +43,17 @@
   <path d="M20 7h-9" /> <path d="M14 17H5" /> <circle cx="17" cy="17" r="3" />
   <circle cx="7" cy="7" r="3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'settings 2'
+@prop ...restProps
+-->

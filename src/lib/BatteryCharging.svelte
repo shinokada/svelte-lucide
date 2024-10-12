@@ -44,3 +44,17 @@
   <path d="M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1" /> <path d="m11 7-3 5h4l-3 5" />
   <line x1="22" x2="22" y1="11" y2="13" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'battery charging'
+@prop ...restProps
+-->

@@ -42,3 +42,17 @@
   {/if}
   <rect width="18" height="12" x="3" y="4" rx="2" ry="2" /> <line x1="2" x2="22" y1="20" y2="20" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'laptop minimal'
+@prop ...restProps
+-->

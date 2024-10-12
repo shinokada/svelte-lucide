@@ -45,3 +45,17 @@
   <rect width="13" height="8" x="8" y="6" rx="1" /> <circle cx="18" cy="20" r="2" />
   <circle cx="9" cy="20" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'baggage claim'
+@prop ...restProps
+-->

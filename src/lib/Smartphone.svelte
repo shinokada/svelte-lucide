@@ -42,3 +42,17 @@
   {/if}
   <rect width="14" height="20" x="5" y="2" rx="2" ry="2" /> <path d="M12 18h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'smartphone'
+@prop ...restProps
+-->

@@ -44,3 +44,17 @@
   <path d="M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" /> <path d="M15 6a9 9 0 0 0-9 9" />
   <path d="M18 15v6" /> <path d="M21 18h-6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git branch plus'
+@prop ...restProps
+-->

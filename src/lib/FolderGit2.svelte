@@ -45,3 +45,17 @@
   /> <circle cx="13" cy="12" r="2" /> <path d="M18 19c-2.8 0-5-2.2-5-5v8" />
   <circle cx="20" cy="19" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'folder git 2'
+@prop ...restProps
+-->

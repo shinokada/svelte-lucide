@@ -44,3 +44,17 @@
   <rect x="5" y="14" width="14" height="6" rx="2" />
   <rect x="7" y="4" width="10" height="6" rx="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'align vertical distribute center'
+@prop ...restProps
+-->

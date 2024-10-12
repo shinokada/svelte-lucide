@@ -42,3 +42,17 @@
   {/if}
   <polygon points="11 19 2 12 11 5 11 19" /> <polygon points="22 19 13 12 22 5 22 19" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'rewind'
+@prop ...restProps
+-->

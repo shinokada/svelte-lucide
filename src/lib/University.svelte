@@ -45,3 +45,17 @@
   <path d="M6 13v.01" /> <path d="M18 17v.01" /> <path d="M18 13v.01" />
   <path d="M14 22v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'university'
+@prop ...restProps
+-->

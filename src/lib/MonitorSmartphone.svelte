@@ -44,3 +44,17 @@
   <path d="M10 19v-3.96 3.15" /> <path d="M7 19h5" />
   <rect width="6" height="10" x="16" y="12" rx="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'monitor smartphone'
+@prop ...restProps
+-->

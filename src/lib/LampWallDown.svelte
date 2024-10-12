@@ -43,3 +43,17 @@
   <path d="M11 13h6l3 7H8l3-7Z" /> <path d="M14 13V8a2 2 0 0 0-2-2H8" />
   <path d="M4 9h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H4v6Z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'lamp wall down'
+@prop ...restProps
+-->

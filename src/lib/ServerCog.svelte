@@ -48,3 +48,17 @@
   <path d="m10.8 9.3-.4-1" /> <path d="m8.3 13.6 1-.4" /> <path d="m14.7 10.8 1-.4" />
   <path d="m13.4 8.3-.3.9" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'server cog'
+@prop ...restProps
+-->

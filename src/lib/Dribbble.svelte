@@ -44,3 +44,17 @@
   <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32" />
   <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'dribbble'
+@prop ...restProps
+-->

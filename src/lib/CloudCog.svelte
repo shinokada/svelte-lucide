@@ -46,3 +46,17 @@
   <path d="m13.6 20.7-.4-1" /> <path d="m10.8 14.3-.4-1" /> <path d="m8.3 18.6 1-.4" />
   <path d="m14.7 15.8 1-.4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'cloud cog'
+@prop ...restProps
+-->

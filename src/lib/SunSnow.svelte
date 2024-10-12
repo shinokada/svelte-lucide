@@ -44,3 +44,17 @@
   <path d="M10 21v-1" /> <path d="m3.64 18.36.7-.7" /> <path d="m4.34 6.34-.7-.7" />
   <path d="M14 12h8" /> <path d="m17 4-3 3" /> <path d="m14 17 3 3" /> <path d="m21 15-3-3 3-3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'sun snow'
+@prop ...restProps
+-->

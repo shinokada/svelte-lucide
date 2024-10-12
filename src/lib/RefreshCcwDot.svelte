@@ -43,3 +43,17 @@
   <path d="M3 2v6h6" /> <path d="M21 12A9 9 0 0 0 6 5.3L3 8" /> <path d="M21 22v-6h-6" />
   <path d="M3 12a9 9 0 0 0 15 6.7l3-2.7" /> <circle cx="12" cy="12" r="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'refresh ccw dot'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <path d="m18 8 4 4-4 4" /> <path d="m6 8-4 4 4 4" /> <path d="M8 12h.01" />
   <path d="M12 12h.01" /> <path d="M16 12h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'chevrons left right ellipsis'
+@prop ...restProps
+-->

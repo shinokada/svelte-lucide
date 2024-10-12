@@ -43,3 +43,17 @@
   <line x1="3" x2="21" y1="12" y2="12" /> <polyline points="8 8 12 4 16 8" />
   <polyline points="16 16 12 20 8 16" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'separator horizontal'
+@prop ...restProps
+-->

@@ -44,3 +44,17 @@
   <path d="m14.83 9.17 4.24-4.24" /> <path d="m14.83 14.83 4.24 4.24" />
   <path d="m9.17 14.83-4.24 4.24" /> <circle cx="12" cy="12" r="4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'life buoy'
+@prop ...restProps
+-->

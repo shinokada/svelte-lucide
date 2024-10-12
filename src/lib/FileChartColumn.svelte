@@ -44,3 +44,17 @@
   <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 18v-1" /> <path d="M12 18v-6" />
   <path d="M16 18v-3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file chart column'
+@prop ...restProps
+-->

@@ -48,3 +48,17 @@
   <path d="M3.1 10.5c0 .5-.1 1-.1 1.5s.1 1 .1 1.5" />
   <path d="M6.8 4.7a10.45 10.45 0 0 0-2.1 2.1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'message circle dashed'
+@prop ...restProps
+-->

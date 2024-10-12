@@ -44,3 +44,17 @@
   <rect width="9" height="7" x="3" y="14" rx="1" />
   <rect width="5" height="7" x="16" y="14" rx="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'layout template'
+@prop ...restProps
+-->

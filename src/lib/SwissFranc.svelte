@@ -42,3 +42,17 @@
   {/if}
   <path d="M10 21V3h8" /> <path d="M6 16h9" /> <path d="M10 9.5h7" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'swiss franc'
+@prop ...restProps
+-->

@@ -5,6 +5,7 @@
     "svelte-lucide": "2.0.0-next.0"
   },
   "changesets": [
+    "chatty-chicken-sell",
     "cyan-turtles-buy",
     "famous-birds-film",
     "famous-walls-tell",

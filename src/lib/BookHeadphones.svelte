@@ -45,3 +45,17 @@
   /> <path d="M8 12v-2a4 4 0 0 1 8 0v2" /> <circle cx="15" cy="12" r="1" />
   <circle cx="9" cy="12" r="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'book headphones'
+@prop ...restProps
+-->

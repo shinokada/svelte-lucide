@@ -44,3 +44,17 @@
   <path d="M16.46 6.21a11.76 11.76 0 0 1 0 11.58" />
   <path d="M19.91 4.1a15.91 15.91 0 0 1 .01 15.8" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'smartphone nfc'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <path d="m20.9 18.55-8-15.98a1 1 0 0 0-1.8 0l-8 15.98" />
   <ellipse cx="12" cy="19" rx="9" ry="3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'cone'
+@prop ...restProps
+-->

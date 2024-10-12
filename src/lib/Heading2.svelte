@@ -43,3 +43,17 @@
   <path d="M4 12h8" /> <path d="M4 18V6" /> <path d="M12 18V6" />
   <path d="M21 18h-4c0-4 4-3 4-6 0-1.5-2-2.5-4-1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'heading 2'
+@prop ...restProps
+-->

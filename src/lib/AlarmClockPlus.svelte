@@ -44,3 +44,17 @@
   <path d="M6.38 18.7 4 21" /> <path d="M17.64 18.67 20 21" /> <path d="M12 10v6" />
   <path d="M9 13h6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'alarm clock plus'
+@prop ...restProps
+-->

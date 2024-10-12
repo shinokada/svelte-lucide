@@ -44,3 +44,17 @@
   <rect width="16" height="10" x="4" y="12" rx="3" /> <path d="M9 12v5" /> <path d="M15 12v5" />
   <path d="M4 17h16" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'cable car'
+@prop ...restProps
+-->

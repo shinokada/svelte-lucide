@@ -44,3 +44,17 @@
   <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
   <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'share 2'
+@prop ...restProps
+-->

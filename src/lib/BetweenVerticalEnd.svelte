@@ -43,3 +43,17 @@
   <rect width="7" height="13" x="3" y="3" rx="1" /> <path d="m9 22 3-3 3 3" />
   <rect width="7" height="13" x="14" y="3" rx="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'between vertical end'
+@prop ...restProps
+-->

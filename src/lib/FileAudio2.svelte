@@ -44,3 +44,17 @@
   <circle cx="3" cy="17" r="1" /> <path d="M2 17v-3a4 4 0 0 1 8 0v3" />
   <circle cx="9" cy="17" r="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file audio 2'
+@prop ...restProps
+-->

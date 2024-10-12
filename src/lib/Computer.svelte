@@ -43,3 +43,17 @@
   <rect width="14" height="8" x="5" y="2" rx="2" />
   <rect width="20" height="8" x="2" y="14" rx="2" /> <path d="M6 18h2" /> <path d="M12 18h6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'computer'
+@prop ...restProps
+-->

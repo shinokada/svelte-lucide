@@ -46,3 +46,17 @@
   <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M9 3h1" /> <path d="M9 21h2" /> <path d="M14 3h1" />
   <path d="M3 9v1" /> <path d="M21 9v2" /> <path d="M3 14v1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'square dashed mouse pointer'
+@prop ...restProps
+-->

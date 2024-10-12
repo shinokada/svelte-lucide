@@ -43,3 +43,17 @@
   <path d="M17 17H4a2 2 0 0 1-2-2V5c0-1.5 1-2 1-2" /> <path d="M22 15V5a2 2 0 0 0-2-2H9" />
   <path d="M8 21h8" /> <path d="M12 17v4" /> <path d="m2 2 20 20" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'monitor off'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <path d="m7 7 10 10-5 5V2l5 5L7 17" /> <line x1="18" x2="21" y1="12" y2="12" />
   <line x1="3" x2="6" y1="12" y2="12" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'bluetooth connected'
+@prop ...restProps
+-->

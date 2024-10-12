@@ -46,3 +46,17 @@
   <circle cx="6.56" cy="13.2" r="3" /> <circle cx="10.8" cy="17.44" r="3" />
   <circle cx="5" cy="19" r="3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'grape'
+@prop ...restProps
+-->

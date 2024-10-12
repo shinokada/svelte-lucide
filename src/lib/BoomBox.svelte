@@ -44,3 +44,17 @@
   <path d="M16 8v1" /> <rect width="20" height="12" x="2" y="9" rx="2" />
   <circle cx="8" cy="15" r="2" /> <circle cx="16" cy="15" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'boom box'
+@prop ...restProps
+-->

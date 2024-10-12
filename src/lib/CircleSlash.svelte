@@ -42,3 +42,17 @@
   {/if}
   <circle cx="12" cy="12" r="10" /> <line x1="9" x2="15" y1="15" y2="9" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'circle slash'
+@prop ...restProps
+-->

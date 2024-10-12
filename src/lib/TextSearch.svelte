@@ -43,3 +43,17 @@
   <path d="M21 6H3" /> <path d="M10 12H3" /> <path d="M10 18H3" /> <circle cx="17" cy="15" r="3" />
   <path d="m21 19-1.9-1.9" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'text search'
+@prop ...restProps
+-->

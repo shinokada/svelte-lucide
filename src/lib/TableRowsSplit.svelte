@@ -46,3 +46,17 @@
   <path d="M3 2v2a2 2 45 0 0 2 2h14a2 2 135 0 0 2-2V2" /> <path d="M8 10h2" /> <path d="M9 22v-8" />
   <path d="M9 2v4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'table rows split'
+@prop ...restProps
+-->

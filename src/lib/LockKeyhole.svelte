@@ -43,3 +43,17 @@
   <circle cx="12" cy="16" r="1" /> <rect x="3" y="10" width="18" height="12" rx="2" />
   <path d="M7 10V7a5 5 0 0 1 10 0v3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'lock keyhole'
+@prop ...restProps
+-->

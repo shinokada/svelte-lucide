@@ -42,3 +42,17 @@
   {/if}
   <rect width="6" height="10" x="9" y="7" rx="2" /> <path d="M4 22V2" /> <path d="M20 22V2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'align horizontal space around'
+@prop ...restProps
+-->

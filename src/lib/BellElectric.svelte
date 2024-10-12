@@ -44,3 +44,17 @@
   <rect width="10" height="6" x="4" y="16" rx="2" /> <path d="M14 19c3 0 4.6-1.6 4.6-1.6" />
   <circle cx="20" cy="16" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'bell electric'
+@prop ...restProps
+-->

@@ -42,3 +42,17 @@
   {/if}
   <ellipse cx="12" cy="11" rx="3" ry="2" /> <ellipse cx="12" cy="12.5" rx="10" ry="8.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'torus'
+@prop ...restProps
+-->

@@ -48,3 +48,17 @@
   /> <path d="m6.158 8.633 1.114 4.456" /> <path d="m8 21 3.105-6.21" />
   <circle cx="12" cy="13" r="2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'telescope'
+@prop ...restProps
+-->

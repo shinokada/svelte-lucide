@@ -44,3 +44,17 @@
   <circle cx="12" cy="10" r="3" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" />
   <path d="m14 12.5 1 5.5-3-1-3 1 1-5.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file badge 2'
+@prop ...restProps
+-->

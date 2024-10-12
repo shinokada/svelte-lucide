@@ -48,3 +48,17 @@
   <path d="M6 13H2" /> <path d="M6.53 9C4.6 8.8 3 7.1 3 5" /> <path d="m8 2 1.88 1.88" />
   <path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'bug play'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <line x1="9" x2="9" y1="4" y2="20" /> <path d="M4 7c0-1.7 1.3-3 3-3h13" />
   <path d="M18 20c-1.7 0-3-1.3-3-3V4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'pi'
+@prop ...restProps
+-->

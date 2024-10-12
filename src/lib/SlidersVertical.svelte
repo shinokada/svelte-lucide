@@ -46,3 +46,17 @@
   <line x1="2" x2="6" y1="14" y2="14" /> <line x1="10" x2="14" y1="8" y2="8" />
   <line x1="18" x2="22" y1="16" y2="16" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'sliders vertical'
+@prop ...restProps
+-->

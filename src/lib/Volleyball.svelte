@@ -45,3 +45,17 @@
   <path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10" />
   <path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5" /> <circle cx="12" cy="12" r="10" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'volleyball'
+@prop ...restProps
+-->

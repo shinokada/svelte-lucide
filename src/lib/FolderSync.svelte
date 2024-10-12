@@ -45,3 +45,17 @@
   /> <path d="M12 10v4h4" /> <path d="m12 14 1.535-1.605a5 5 0 0 1 8 1.5" />
   <path d="M22 22v-4h-4" /> <path d="m22 18-1.535 1.605a5 5 0 0 1-8-1.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'folder sync'
+@prop ...restProps
+-->

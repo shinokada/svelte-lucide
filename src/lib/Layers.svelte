@@ -45,3 +45,17 @@
   /> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" />
   <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'layers'
+@prop ...restProps
+-->

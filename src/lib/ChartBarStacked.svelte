@@ -44,3 +44,17 @@
   <rect x="7" y="13" width="9" height="4" rx="1" />
   <rect x="7" y="5" width="12" height="4" rx="1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'chart bar stacked'
+@prop ...restProps
+-->

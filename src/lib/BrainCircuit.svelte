@@ -48,3 +48,17 @@
   <circle cx="18" cy="3" r=".5" /> <circle cx="20" cy="21" r=".5" />
   <circle cx="20" cy="8" r=".5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brain circuit'
+@prop ...restProps
+-->

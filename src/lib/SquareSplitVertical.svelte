@@ -43,3 +43,17 @@
   <path d="M5 8V5c0-1 1-2 2-2h10c1 0 2 1 2 2v3" />
   <path d="M19 16v3c0 1-1 2-2 2H7c-1 0-2-1-2-2v-3" /> <line x1="4" x2="20" y1="12" y2="12" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'square split vertical'
+@prop ...restProps
+-->

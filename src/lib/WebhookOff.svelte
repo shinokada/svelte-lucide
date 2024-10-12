@@ -45,3 +45,17 @@
   <path d="M20.3 20.3a4 4 0 0 1-2.3.7" /> <path d="M18.6 13a4 4 0 0 1 3.357 3.414" />
   <path d="m12 6 .6 1" /> <path d="m2 2 20 20" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'webhook off'
+@prop ...restProps
+-->

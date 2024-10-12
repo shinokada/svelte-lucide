@@ -42,3 +42,17 @@
   {/if}
   <polyline points="16 18 22 12 16 6" /> <polyline points="8 6 2 12 8 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'code'
+@prop ...restProps
+-->

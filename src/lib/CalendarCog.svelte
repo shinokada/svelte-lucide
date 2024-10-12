@@ -47,3 +47,17 @@
   <path d="m21.7 16.5-.9.4" /> <path d="m21.7 19.5-.9-.4" /> <path d="M3 10h18" />
   <path d="M8 2v4" /> <circle cx="18" cy="18" r="3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'calendar cog'
+@prop ...restProps
+-->

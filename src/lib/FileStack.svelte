@@ -45,3 +45,17 @@
   <path d="M7 8v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H15" />
   <path d="M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file stack'
+@prop ...restProps
+-->

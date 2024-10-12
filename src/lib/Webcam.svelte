@@ -43,3 +43,17 @@
   <circle cx="12" cy="10" r="8" /> <circle cx="12" cy="10" r="3" /> <path d="M7 22h10" />
   <path d="M12 22v-4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'webcam'
+@prop ...restProps
+-->

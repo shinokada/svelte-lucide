@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 2.0.0-next.7
+
+### Patch Changes
+
+- types: update types ([`1fe4cf55ea5e6d9cce325f473bcb964d79c90d0d`](https://github.com/shinokada/svelte-lucide/commit/1fe4cf55ea5e6d9cce325f473bcb964d79c90d0d))
+
 ## 2.0.0-next.6
 
 ### Patch Changes

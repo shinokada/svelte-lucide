@@ -43,3 +43,17 @@
   <path d="M5 16v2" /> <path d="M19 16v2" /> <rect width="20" height="8" x="2" y="8" rx="2" />
   <path d="M18 12h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-lucide.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'radio receiver'
+@prop ...restProps
+-->
