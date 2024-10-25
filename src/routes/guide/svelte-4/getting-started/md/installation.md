@@ -1,3 +1,3 @@
-npm create svelte@latest my-project
-cd my-project
-pnpm i -D svelte-lucide
+npm create svelte@latest myapp
+cd myapp
+pnpm i -D svelte-lucide@v1-latest
