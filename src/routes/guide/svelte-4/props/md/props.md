@@ -1,0 +1,5 @@
+- size: string = ctx.size || '24';
+- role: string = ctx.role || 'img';
+- color: string = ctx.color || 'currentColor';
+- ariaLabel: string = '<icon file name>';
+- strokeWidth = ctx.strokeWidth || '2';

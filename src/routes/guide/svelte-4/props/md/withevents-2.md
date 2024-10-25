@@ -1,0 +1,1 @@
+<Album tabindex="0" withEvents />

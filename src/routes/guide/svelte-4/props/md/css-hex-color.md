@@ -1,0 +1,1 @@
+<Album color="#ff0000" size="20" />
