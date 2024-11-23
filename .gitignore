@@ -7,10 +7,7 @@ node_modules
 .env.*
 !.env.example
 .vercel
-<<<<<<< HEAD
-/test-results
-=======
 src/routes/testdir
 /dist
 /test-results
->>>>>>> svelte-5-runes
+/.vercel
