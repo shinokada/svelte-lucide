@@ -8,4 +8,8 @@ const extra: ListType[] = [
     href: '/icons'
   }
 ];
-export const newSidebarList: ListType[] = [...sidebarList, ...extra];
+
+export const newSidebarList: ListType[] = [
+	...(Array.isArray(sidebarList) ? sidebarList : []),
+	...extra
+];
