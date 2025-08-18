@@ -1,17 +1,26 @@
 <script lang="ts">
   import { HighlightCompo, Code, H2 } from 'runes-webkit';
-  import { GitHubSponsor, type GitHubSponsorPropsType,  NpmVersion, type NpmVersionPropsType, License, type LicensePropsType, NpmDownload, type NpmDownloadPropsType } from 'svelte-shields';
+  import {
+    GitHubSponsor,
+    type GitHubSponsorPropsType,
+    NpmVersion,
+    type NpmVersionPropsType,
+    License,
+    type LicensePropsType,
+    NpmDownload,
+    type NpmDownloadPropsType
+  } from 'svelte-shields';
 
   const sponsor: GitHubSponsorPropsType = {
     user: 'shinokada',
-    logo:'github',
+    logo: 'github',
     color: 'red',
     link: ['https://github.com/sponsors/shinokada', 'https://github.com/sponsors/shinokada']
   };
   const npmversion: NpmVersionPropsType = {
     packageName: 'svelte-lucide',
     color: 'red',
-    logo:'svelte',
+    logo: 'svelte',
     link: [
       'https://www.npmjs.com/package/svelte-lucide',
       'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'
@@ -41,7 +50,7 @@
 <h1>Getting Started - Svelte Lucide v2</h1>
 
 <div class="my-8 flex gap-2">
-    <GitHubSponsor {...sponsor} />
+  <GitHubSponsor {...sponsor} />
   <NpmVersion {...npmversion} />
   <License {...license} />
   <NpmDownload {...downloads} />

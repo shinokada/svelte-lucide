@@ -6,20 +6,19 @@
 @source "../node_modules/runes-webkit/dist";
 
 @theme {
-	--z-index-100: 100;
+  --z-index-100: 100;
 
-	--color-primary-50: #fdf2f8;
-	--color-primary-100: #fce7f3;
-	--color-primary-200: #fbcfe8;
-	--color-primary-300: #f9a8d4;
-	--color-primary-400: #f472b6;
-	--color-primary-500: #ec4899;
-	--color-primary-600: #db2777;
-	--color-primary-700: #be185d;
-	--color-primary-800: #9d174d;
-	--color-primary-900: #831843;
+  --color-primary-50: #fdf2f8;
+  --color-primary-100: #fce7f3;
+  --color-primary-200: #fbcfe8;
+  --color-primary-300: #f9a8d4;
+  --color-primary-400: #f472b6;
+  --color-primary-500: #ec4899;
+  --color-primary-600: #db2777;
+  --color-primary-700: #be185d;
+  --color-primary-800: #9d174d;
+  --color-primary-900: #831843;
 }
-
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -54,7 +53,7 @@ table {
 }
 
 h1 {
-  @apply my-8 text-3xl text-primary-800 dark:text-primary-400;
+  @apply text-primary-800 dark:text-primary-400 my-8 text-3xl;
 }
 
 h2 {
@@ -76,7 +75,6 @@ code {
 #mainContent > pre {
   @apply mx-auto my-4 w-full overflow-auto rounded-xl border border-gray-200 bg-gray-50 bg-gradient-to-r p-2 text-sm text-gray-600 sm:p-6 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400;
 }
-
 
 .dark-bg-theme {
   @apply dark:bg-slate-900;

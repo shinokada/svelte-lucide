@@ -1,16 +1,25 @@
 <script lang="ts">
   import { HighlightCompo, H2 } from 'runes-webkit';
-  import { GitHubSponsor, type GitHubSponsorPropsType,  NpmVersion, type NpmVersionPropsType, License, type LicensePropsType, NpmDownload, type NpmDownloadPropsType } from 'svelte-shields';
+  import {
+    GitHubSponsor,
+    type GitHubSponsorPropsType,
+    NpmVersion,
+    type NpmVersionPropsType,
+    License,
+    type LicensePropsType,
+    NpmDownload,
+    type NpmDownloadPropsType
+  } from 'svelte-shields';
 
   const sponsor: GitHubSponsorPropsType = {
     user: 'shinokada',
-    logo:'github',
+    logo: 'github',
     link: ['https://github.com/sponsors/shinokada', 'https://github.com/sponsors/shinokada']
   };
   const npmversion: NpmVersionPropsType = {
     packageName: 'svelte-lucide',
-    tag:'v1-latest',
-    logo:'svelte',
+    tag: 'v1-latest',
+    logo: 'svelte',
     link: [
       'https://www.npmjs.com/package/svelte-lucide',
       'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'

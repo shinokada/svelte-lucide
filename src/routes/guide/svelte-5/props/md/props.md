@@ -4,5 +4,5 @@
 - strokeWidth = ctx.strokeWidth || '2'
 - title
 - desc
-- ariaLabel =  "volume 2" 
+- ariaLabel = "volume 2"
 - class, id, name, role, and all other props from SVGAttributes

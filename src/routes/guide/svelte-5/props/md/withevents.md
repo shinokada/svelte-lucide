@@ -1,1 +1,1 @@
-<Album withEvents onclick={handleClick}/> 
+<Album withEvents onclick={handleClick}/>

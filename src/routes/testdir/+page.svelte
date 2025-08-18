@@ -1,6 +1,6 @@
 <script lang="ts">
   import { AlarmClock } from '$lib';
-  import MyIcon from './MyIcon.svelte'
+  import MyIcon from './MyIcon.svelte';
 </script>
 
 <div class="p-16">
