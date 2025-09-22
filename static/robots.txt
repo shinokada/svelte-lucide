@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://svelte-lucide.codewithshin.com/sitemap.xml
