@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'upload',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,8 +43,8 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /> <polyline points="17 8 12 3 7 8" />
-  <line x1="12" x2="12" y1="3" y2="15" />
+  <path d="M12 3v12" /> <path d="m17 8-5-5-5 5" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
 </svg>
 
 <!--
@@ -54,6 +57,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'upload'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

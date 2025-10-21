@@ -1,1 +1,1 @@
-<Album size="40" />
+<Cog size="40" />

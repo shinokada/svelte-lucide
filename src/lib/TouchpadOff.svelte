@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'touchpad off',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,8 +43,8 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16" /> <path d="M2 14h12" /> <path d="M22 14h-2" />
-  <path d="M12 20v-6" /> <path d="m2 2 20 20" /> <path d="M22 16V6a2 2 0 0 0-2-2H10" />
+  <path d="M12 20v-6" /> <path d="M19.656 14H22" /> <path d="M2 14h12" /> <path d="m2 2 20 20" />
+  <path d="M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2" /> <path d="M9.656 4H20a2 2 0 0 1 2 2v10.344" />
 </svg>
 
 <!--
@@ -54,6 +57,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'touchpad off'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

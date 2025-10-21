@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'sun snow',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,9 +43,10 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M10 9a3 3 0 1 0 0 6" /> <path d="M2 12h1" /> <path d="M14 21V3" /> <path d="M10 4V3" />
-  <path d="M10 21v-1" /> <path d="m3.64 18.36.7-.7" /> <path d="m4.34 6.34-.7-.7" />
-  <path d="M14 12h8" /> <path d="m17 4-3 3" /> <path d="m14 17 3 3" /> <path d="m21 15-3-3 3-3" />
+  <path d="M10 21v-1" /> <path d="M10 4V3" /> <path d="M10 9a3 3 0 0 0 0 6" />
+  <path d="m14 20 1.25-2.5L18 18" /> <path d="m14 4 1.25 2.5L18 6" />
+  <path d="m17 21-3-6 1.5-3H22" /> <path d="m17 3-3 6 1.5 3" /> <path d="M2 12h1" />
+  <path d="m20 10-1.5 2 1.5 2" /> <path d="m3.64 18.36.7-.7" /> <path d="m4.34 6.34-.7-.7" />
 </svg>
 
 <!--
@@ -55,6 +59,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'sun snow'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

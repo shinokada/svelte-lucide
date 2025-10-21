@@ -1,6 +1,6 @@
 import type { MetaProps } from 'runes-meta-tags';
-const title = 'Props - Svelte Lucide v2';
-const description = 'How to use Svelte Lucide v2 props';
+const title = 'Props - Svelte Lucide v3';
+const description = 'How to use Svelte Lucide v3 props';
 const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-lucide';
 
 export const load = () => {

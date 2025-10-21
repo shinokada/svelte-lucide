@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'circle parking off',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,8 +43,9 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <circle cx="12" cy="12" r="10" /> <path d="m5 5 14 14" /> <path d="M13 13a3 3 0 1 0 0-6H9v2" />
-  <path d="M9 17v-2.34" />
+  <path d="M12.656 7H13a3 3 0 0 1 2.984 3.307" /> <path d="M13 13H9" />
+  <path d="M19.071 19.071A1 1 0 0 1 4.93 4.93" /> <path d="m2 2 20 20" />
+  <path d="M8.357 2.687a10 10 0 0 1 12.956 12.956" /> <path d="M9 17V9" />
 </svg>
 
 <!--
@@ -54,6 +58,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'circle parking off'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

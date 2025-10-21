@@ -1,1 +1,1 @@
-<Album class="position-absolute top-0 px-1" />
+<Cog class="position-absolute top-0 px-1" />

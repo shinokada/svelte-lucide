@@ -20,4 +20,5 @@ export interface Props extends BaseProps {
   title?: TitleType;
   desc?: DescType;
   ariaLabel?: string;
+  focusable?: 'true' | 'false' | 'auto';
 }

@@ -2,7 +2,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import devtoolsJson from "vite-plugin-devtools-json";
+import devtoolsJson from 'vite-plugin-devtools-json';
 import pkg from './package.json' with { type: 'json' };
 import sveltePackage from './node_modules/svelte/package.json' with { type: 'json' };
 import svelteKitPackage from './node_modules/@sveltejs/kit/package.json' with { type: 'json' };
@@ -15,6 +15,7 @@ import tailwindcssPackage from './node_modules/tailwindcss/package.json' with { 
 export default defineConfig({
   plugins: [sveltekit(), tailwindcss(), devtoolsJson()],
   define: {
+    __ICONVERSION__: JSON.stringify(pkg.contributors[0].iconVersion),
     __NAME__: JSON.stringify(pkg.name),
     __DESCRIPTION__: JSON.stringify(pkg.description),
     __VERSION__: JSON.stringify(pkg.version),

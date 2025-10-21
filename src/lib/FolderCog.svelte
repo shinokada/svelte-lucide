@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'folder cog',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,12 +43,13 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <circle cx="18" cy="18" r="3" />
   <path
-    d="M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v3.3"
-  /> <path d="m21.7 19.4-.9-.3" /> <path d="m15.2 16.9-.9-.3" /> <path d="m16.6 21.7.3-.9" />
-  <path d="m19.1 15.2.3-.9" /> <path d="m19.6 21.7-.4-1" /> <path d="m16.8 15.3-.4-1" />
-  <path d="m14.3 19.6 1-.4" /> <path d="m20.7 16.8 1-.4" />
+    d="M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.98a2 2 0 0 1 1.69.9l.66 1.2A2 2 0 0 0 12 6h8a2 2 0 0 1 2 2v3.3"
+  /> <path d="m14.305 19.53.923-.382" /> <path d="m15.228 16.852-.923-.383" />
+  <path d="m16.852 15.228-.383-.923" /> <path d="m16.852 20.772-.383.924" />
+  <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" />
+  <path d="m20.772 16.852.924-.383" /> <path d="m20.772 19.148.924.383" />
+  <circle cx="18" cy="18" r="3" />
 </svg>
 
 <!--
@@ -58,6 +62,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'folder cog'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

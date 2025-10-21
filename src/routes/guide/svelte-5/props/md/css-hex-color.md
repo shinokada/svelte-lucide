@@ -1,1 +1,1 @@
-<Album color="#ff0000" />
+<Cog color="#ff0000" />

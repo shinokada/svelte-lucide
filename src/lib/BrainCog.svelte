@@ -11,11 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'brain cog',
+    focusable = 'false',
+    ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
   const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
@@ -30,7 +31,9 @@
   stroke-width={strokeWidth}
   stroke-linecap="round"
   stroke-linejoin="round"
-  aria-label={ariaLabel}
+  {focusable}
+  aria-label={title?.id ? undefined : ariaLabel}
+  aria-labelledby={title?.id || undefined}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
 >
@@ -40,14 +43,17 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
+  <path d="m10.852 14.772-.383.923" /> <path d="m10.852 9.228-.383-.923" />
+  <path d="m13.148 14.772.382.924" /> <path d="m13.531 8.305-.383.923" />
+  <path d="m14.772 10.852.923-.383" /> <path d="m14.772 13.148.923.383" />
   <path
-    d="M12 5a3 3 0 1 0-5.997.142 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588 4 4 0 0 0 7.636 2.106 3.2 3.2 0 0 0 .164-.546c.028-.13.306-.13.335 0a3.2 3.2 0 0 0 .163.546 4 4 0 0 0 7.636-2.106 4 4 0 0 0 .556-6.588 4 4 0 0 0-2.526-5.77A3 3 0 1 0 12 5"
-  /> <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" /> <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
-  <path d="M3.477 10.896a4 4 0 0 1 .585-.396" /> <path d="M19.938 10.5a4 4 0 0 1 .585.396" />
-  <path d="M6 18a4 4 0 0 1-1.967-.516" /> <path d="M19.967 17.484A4 4 0 0 1 18 18" />
-  <circle cx="12" cy="12" r="3" /> <path d="m15.7 10.4-.9.4" /> <path d="m9.2 13.2-.9.4" />
-  <path d="m13.6 15.7-.4-.9" /> <path d="m10.8 9.2-.4-.9" /> <path d="m15.7 13.5-.9-.4" />
-  <path d="m9.2 10.9-.9-.4" /> <path d="m10.5 15.7.4-.9" /> <path d="m13.1 9.2.4-.9" />
+    d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771"
+  /> <path d="M17.998 5.125a4 4 0 0 1 2.525 5.771" />
+  <path d="M19.505 10.294a4 4 0 0 1-1.5 7.706" />
+  <path d="M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516" />
+  <path d="M4.5 10.291A4 4 0 0 0 6 18" /> <path d="M6.002 5.125a3 3 0 0 0 .4 1.375" />
+  <path d="m9.228 10.852-.923-.383" /> <path d="m9.228 13.148-.923.383" />
+  <circle cx="12" cy="12" r="3" />
 </svg>
 
 <!--
@@ -60,6 +66,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop ariaLabel = 'brain cog'
+@prop focusable = 'false'
+@prop ariaLabel
 @prop ...restProps
 -->

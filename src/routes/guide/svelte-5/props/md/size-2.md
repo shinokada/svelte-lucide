@@ -1,1 +1,1 @@
-<Album class="h-24 w-24 text-blue-700 mr-4" />
+<Cog class="h-24 w-24 text-blue-700 mr-4" />

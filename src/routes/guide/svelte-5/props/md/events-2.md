@@ -1,1 +1,0 @@
-<Album withEvents onclick="{handleClick}" />

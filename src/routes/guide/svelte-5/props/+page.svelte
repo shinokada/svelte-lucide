@@ -1,6 +1,6 @@
 <script lang="ts">
   import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
-  import { Album } from '$lib';
+  import { Cog } from '$lib';
   import { A, P } from 'flowbite-svelte';
   const modules = import.meta.glob('./md/*.md', {
     query: '?raw',
@@ -9,7 +9,7 @@
   });
 </script>
 
-<h1>Props - Svelte Lucide v2</h1>
+<h1>Props - Svelte Lucide v3</h1>
 
 <H2>Props</H2>
 
@@ -72,28 +72,54 @@
 
 <H2>A11y</H2>
 
+<H3>Decorative Icons</H3>
+
 <p>
-  All icons have aria-label. For example <Code>AlignVerticalJustifyStart</Code> has <Code
-    >aria-label="align vertical justify start"</Code
-  >. Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.
+  By default, icons have no <Code>aria-label</Code>. This is intentional - when icons are used next
+  to text or as decorative elements, they don't need labels as screen readers will ignore them.
+</p>
+
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-decorative.md'] as string} />
+
+<H3>Standalone Icons</H3>
+
+<p>
+  When icons are used without accompanying text (e.g., icon-only buttons), you should provide an
+  accessible label using the <Code>ariaLabel</Code> prop:
 </p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string} />
 
+<H3>Rich Descriptions</H3>
+
 <p>
-  Use <Code>title</Code>, <Code>desc</Code>, and <Code>ariaLabel</Code> props to make your icons accessible.
+  For complex icons that need detailed descriptions, use <Code>title</Code> and <Code>desc</Code> props.
+  The <Code>title</Code> provides a short label, while <Code>desc</Code> offers a longer description:
 </p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
 
 <CodeWrapper>
-  <Album
-    title={{ id: 'my-title', title: 'Red album' }}
-    desc={{ id: 'my-descrip', desc: 'The shape of a red album' }}
-    ariaLabel="red album"
-    color="red"
+  <Cog
+    title={{ id: 'my-title', title: 'Setting' }}
+    desc={{ id: 'my-descrip', desc: 'Check your setting' }}
+    color="green"
   />
 </CodeWrapper>
+
+<p class="mt-4">
+  <strong>Note:</strong> When using <Code>title</Code>, you don't need <Code>ariaLabel</Code> as the
+  title will be used automatically via <Code>aria-labelledby</Code>.
+</p>
+
+<H3>Focusable</H3>
+
+<p>
+  Icons are not keyboard-focusable by default (<Code>focusable="false"</Code>). If you need to
+  change this behavior, use the <Code>focusable</Code> prop:
+</p>
+
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-focusable.md'] as string} />
 
 <H2>Passing down other attributes</H2>
 <P>
@@ -104,7 +130,7 @@
   >.
 </P>
 <CodeWrapper>
-  <Album
+  <Cog
     id="my-svg"
     transform="rotate(45)"
     class="hover:cursor-pointer dark:text-white"

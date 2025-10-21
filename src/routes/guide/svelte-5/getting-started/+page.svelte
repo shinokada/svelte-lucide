@@ -47,7 +47,7 @@
   });
 </script>
 
-<h1>Getting Started - Svelte Lucide v2</h1>
+<h1>Getting Started - Svelte Lucide v3</h1>
 
 <div class="my-8 flex gap-2">
   <GitHubSponsor {...sponsor} />
