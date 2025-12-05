@@ -4,6 +4,6 @@
 - strokeWidth = ctx.strokeWidth || '2'
 - title
 - desc
-- focusable = 'false'
+- focusable = ctx.focusable || 'false'
 - ariaLabel,
 - ...restProps
