@@ -11,13 +11,12 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    focusable = 'false',
+    focusable = ctx.focusable || 'false',
     ariaLabel,
     ...restProps
   }: Props = $props();
 
-  let ariaDescribedby = $derived(`${title?.id || ''} ${desc?.id || ''}`.trim());
-  const hasDescription = $derived(!!(title?.id || desc?.id));
+  const ariaDescribedby = $derived([title?.id, desc?.id].filter(Boolean).join(' ') || undefined);
 </script>
 
 <svg
@@ -32,9 +31,9 @@
   stroke-linecap="round"
   stroke-linejoin="round"
   {focusable}
-  aria-label={title?.id ? undefined : ariaLabel}
+  aria-label={ariaLabel || undefined}
   aria-labelledby={title?.id || undefined}
-  aria-describedby={hasDescription ? ariaDescribedby : undefined}
+  aria-describedby={ariaDescribedby}
   viewBox="0 0 24 24"
 >
   {#if title?.id && title.title}
@@ -43,7 +42,7 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M7.2 14.8a2 2 0 0 1 2 2" /> <circle cx="18.5" cy="8.5" r="3.5" />
+  <path d="M7.001 15.085A1.5 1.5 0 0 1 9 16.5" /> <circle cx="18.5" cy="8.5" r="3.5" />
   <circle cx="7.5" cy="16.5" r="5.5" /> <circle cx="7.5" cy="4.5" r="2.5" />
 </svg>
 
@@ -57,7 +56,7 @@
 @prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop focusable = 'false'
+@prop focusable = ctx.focusable || 'false'
 @prop ariaLabel
 @prop ...restProps
 -->

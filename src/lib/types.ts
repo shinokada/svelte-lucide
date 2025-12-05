@@ -14,11 +14,11 @@ export interface BaseProps extends SVGAttributes<SVGElement> {
   role?: string;
   color?: string;
   strokeWidth?: string;
+  focusable?: 'true' | 'false' | 'auto';
 }
 
 export interface Props extends BaseProps {
   title?: TitleType;
   desc?: DescType;
   ariaLabel?: string;
-  focusable?: 'true' | 'false' | 'auto';
 }
