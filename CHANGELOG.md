@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 3.0.1
+
+### Patch Changes
+
+- fix: change let to const and refactor
+
 ## 3.0.0
 
 ### Major Changes
