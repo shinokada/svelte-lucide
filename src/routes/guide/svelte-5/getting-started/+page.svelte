@@ -38,7 +38,7 @@
   };
   const downloads: NpmDownloadPropsType = {
     packageName: 'svelte-lucide',
-    link: ['https://www.npmjs.com/package/svelte-lucide']
+    link: ['https://www.npmjs.com/package/svelte-lucide', 'https://svelte-lucide.codewithshin.com/']
   };
 
   const modules = import.meta.glob('./md/*.md', {
