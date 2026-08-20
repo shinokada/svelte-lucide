@@ -11,7 +11,7 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    focusable = ctx.focusable || 'false',
+    focusable = (ctx.focusable as Props['focusable']) || 'false',
     ariaLabel,
     ...restProps
   }: Props = $props();
@@ -42,8 +42,12 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M8.34 8.34 2 9.27l5 4.87L5.82 21 12 17.77 18.18 21l-.59-3.43" />
-  <path d="M18.42 12.76 22 9.27l-6.91-1L12 2l-1.44 2.91" /> <line x1="2" x2="22" y1="2" y2="22" />
+  <path
+    d="m10.344 4.688 1.181-2.393a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.237 3.152"
+  />
+  <path
+    d="m17.945 17.945.43 2.505a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a8 8 0 0 0 .4-.099"
+  /> <path d="m2 2 20 20" />
 </svg>
 
 <!--
@@ -53,10 +57,10 @@
 @prop size = ctx.size || '24'
 @prop role = ctx.role || 'img'
 @prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop focusable = ctx.focusable || 'false'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop focusable = (ctx.focusable as Props['focusable']) || 'false',
 @prop ariaLabel
 @prop ...restProps
 -->

@@ -11,7 +11,7 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    focusable = ctx.focusable || 'false',
+    focusable = (ctx.focusable as Props['focusable']) || 'false',
     ariaLabel,
     ...restProps
   }: Props = $props();
@@ -42,13 +42,13 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path
-    d="M13.85 22H18a2 2 0 0 0 2-2V8a2 2 0 0 0-.586-1.414l-4-4A2 2 0 0 0 14 2H6a2 2 0 0 0-2 2v6.6"
-  /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m3.305 19.53.923-.382" />
-  <path d="m4.228 16.852-.924-.383" /> <path d="m5.852 15.228-.383-.923" />
-  <path d="m5.852 20.772-.383.924" /> <path d="m8.148 15.228.383-.923" />
-  <path d="m8.53 21.696-.382-.924" /> <path d="m9.773 16.852.922-.383" />
-  <path d="m9.773 19.148.922.383" /> <circle cx="7" cy="18" r="3" />
+  <path d="M15 8a1 1 0 0 1-1-1V2a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8z" />
+  <path d="M20 8v12a2 2 0 0 1-2 2h-4.182" /> <path d="m3.305 19.53.923-.382" />
+  <path d="M4 10.592V4a2 2 0 0 1 2-2h8" /> <path d="m4.228 16.852-.924-.383" />
+  <path d="m5.852 15.228-.383-.923" /> <path d="m5.852 20.772-.383.924" />
+  <path d="m8.148 15.228.383-.923" /> <path d="m8.53 21.696-.382-.924" />
+  <path d="m9.773 16.852.922-.383" /> <path d="m9.773 19.148.922.383" />
+  <circle cx="7" cy="18" r="3" />
 </svg>
 
 <!--
@@ -58,10 +58,10 @@
 @prop size = ctx.size || '24'
 @prop role = ctx.role || 'img'
 @prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop focusable = ctx.focusable || 'false'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop focusable = (ctx.focusable as Props['focusable']) || 'false',
 @prop ariaLabel
 @prop ...restProps
 -->

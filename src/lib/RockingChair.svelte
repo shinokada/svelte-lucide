@@ -11,7 +11,7 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    focusable = ctx.focusable || 'false',
+    focusable = (ctx.focusable as Props['focusable']) || 'false',
     ariaLabel,
     ...restProps
   }: Props = $props();
@@ -42,8 +42,8 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <polyline points="3.5 2 6.5 12.5 18 12.5" /> <line x1="9.5" x2="5.5" y1="12.5" y2="20" />
-  <line x1="15" x2="18.5" y1="12.5" y2="20" /> <path d="M2.75 18a13 13 0 0 0 18.5 0" />
+  <path d="m15 13 3.708 7.416" /> <path d="M3 19a15 15 0 0 0 18 0" />
+  <path d="m3 2 3.21 9.633A2 2 0 0 0 8.109 13H18" /> <path d="m9 13-3.708 7.416" />
 </svg>
 
 <!--
@@ -53,10 +53,10 @@
 @prop size = ctx.size || '24'
 @prop role = ctx.role || 'img'
 @prop color = ctx.color || 'currentColor'
-@prop strokeWidth = ctx.strokeWidth || '2'
 @prop title
 @prop desc
-@prop focusable = ctx.focusable || 'false'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop focusable = (ctx.focusable as Props['focusable']) || 'false',
 @prop ariaLabel
 @prop ...restProps
 -->

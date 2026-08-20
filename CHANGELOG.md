@@ -1,5 +1,11 @@
 # svelte-lucide
 
+## 3.1.0
+
+### Minor Changes
+
+- feat: lucide@1.33.0
+
 ## 3.0.1
 
 ### Patch Changes
